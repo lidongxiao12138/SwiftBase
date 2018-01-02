@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.6.0)
+  - GrowingTextView (0.5.4)
+  - JQProgressHUD (2.5.5)
+  - Kingfisher (4.6.1)
+  - KYCircularProgress (1.0.1)
+  - MJRefresh (3.1.15.1)
+  - RxCocoa (4.1.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.0)
+  - SnapKit (4.0.0)
+  - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - GrowingTextView
+  - JQProgressHUD
+  - Kingfisher
+  - KYCircularProgress
+  - MJRefresh
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  GrowingTextView: '0615429affef558cbbb610aa6f9baf19b027fdbe'
+  JQProgressHUD: 128d60acbb31bfc3aa284ab10d6e12218f513fa3
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  KYCircularProgress: b782af0a68dd2032a4a523e722ec8d571c285cf2
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  RxCocoa: cc1fec49cdc8fabe645964de7c51c099a36c2aa8
+  RxSwift: 4219941c1244c88002901bd87a69d3aea9ae71f0
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: e9a4485597957e1169e9d17836348382966f1806
+
+COCOAPODS: 1.2.1

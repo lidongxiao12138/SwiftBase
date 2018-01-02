@@ -1,0 +1,6 @@
+framework module Pods_LDX_SwiftBase {
+  umbrella header "Pods-LDX_SwiftBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
