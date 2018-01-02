@@ -9,9 +9,17 @@
 import UIKit
 
 class HomeModel: NSObject {
-    var car_number : String?
+    var title : String?
+    var image : String?
+    var province : String?
+    var city : String?
+    var enroll_count : String?
+    var money_min : String?
+    var money_max : String?
+    var subsidy : String?
     
-//    init(dict:[String:AnyObject]) {
+
+//    init(dict:[String:Any]) {
 //        super.init()
 //        setValuesForKeys(dict)
 //    }

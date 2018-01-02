@@ -77,3 +77,16 @@ let kSignName = "fd4002886ad2b079"
 //首页
 let kPointUrl = "/Api/Index/index"//首页
 
+//MARK:获取字符串的宽度的封装
+func getLabWidth(labelStr:String,font:UIFont,height:CGFloat) -> CGFloat {
+    
+    let statusLabelText: NSString = labelStr as NSString
+    
+    let size = CGSize(width: 900, height: height)
+    
+    let dic = NSDictionary(object: font, forKey: NSAttributedStringKey.font as NSCopying)
+    
+    let strSize = statusLabelText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [NSAttributedStringKey : Any], context:nil).size
+    
+    return strSize.width
+}

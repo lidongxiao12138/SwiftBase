@@ -13,6 +13,9 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet weak var Lab2: UILabel!
     @IBOutlet weak var Lab3: UILabel!
     @IBOutlet weak var LabTitleName: UILabel!
+    @IBOutlet weak var LabAddress: UILabel!//地址
+    @IBOutlet weak var LabPeople: UILabel!//报名人数
+    @IBOutlet weak var LabMoney: UILabel!//钱数
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -49,7 +52,10 @@ class HomeTableViewCell: UITableViewCell {
     
     func configCellWithStatusModel(model:HomeModel!)
     {
-        self.LabTitleName.text = model.car_number
+        self.LabTitleName.text = model.title
+        self.LabAddress.text = "\(model.province ?? "")\(model.city ?? "")"
+        self.LabPeople.text = "\(model.enroll_count ?? "")人报名"
+        self.LabMoney.text = "\(model.money_min ?? "")~\(model.money_max ?? "")"
     }
     
 }

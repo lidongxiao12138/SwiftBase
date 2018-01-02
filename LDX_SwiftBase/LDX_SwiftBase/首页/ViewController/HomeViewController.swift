@@ -68,17 +68,15 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             case true:
         
                 let jsonStr = JSON.init(response.result.value as Any)
-                if let items = jsonStr["data"]["announce"].array {
+                if let items = jsonStr["data"]["hot_position"].array {
                     //遍历数组得到每一个字典模型
                     for dictt in items{
-//                        let user = JSONKey.valueForKey(dictt) as! [AnyObject]
                         let homemodel = HomeModel()
-                        homemodel.car_number = dictt["name"].string ?? ""
+                        homemodel.title = dictt["title"].string ?? ""
                         self.dataArr.append(homemodel)
-                        
                         print(dictt["name"].string as Any)
                     }
-                    
+            
                     self.hometableView.reloadData()
                 }
                 print("获取数据成功")

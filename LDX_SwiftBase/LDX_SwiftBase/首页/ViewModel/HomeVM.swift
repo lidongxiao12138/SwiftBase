@@ -24,15 +24,15 @@ class HomeVC {
         print(UrlStr)
 
         NetworkTool.resquset(type: .POST, urlString: UrlStr, paramters: params) { (response) in
-            let jsonStr = JSON.init(response)
-            if let items = jsonStr["data"]["announce"].array{
-                for dic in items {
-                    let homeModel = HomeModel()
-                    homeModel.car_number = dic["name"].string ?? ""
-                    self.modelArr.append(homeModel)
-                }
-            }
-            print(self.modelArr)
+//            let jsonStr = JSON.init(response)
+//            if let items = jsonStr["data"]["announce"].array{
+//                for dic in items {
+//                    let homeModel = HomeModel()
+//                    homeModel.car_number = dic["name"].string ?? ""
+//                    self.modelArr.append(homeModel)
+//                }
+//            }
+//            print(self.modelArr)
         }
     }
 }

@@ -133,6 +133,9 @@
                 <outlet property="Lab1" destination="ZS7-bB-R5X" id="DSW-Mt-87G"/>
                 <outlet property="Lab2" destination="UcN-cO-MQR" id="QYj-jG-3jg"/>
                 <outlet property="Lab3" destination="NCT-Vn-Rwk" id="11e-bK-R26"/>
+                <outlet property="LabAddress" destination="nSE-pl-6yK" id="WEi-Ql-fLx"/>
+                <outlet property="LabMoney" destination="ltv-ug-pOZ" id="Xa9-Z0-lR4"/>
+                <outlet property="LabPeople" destination="4na-P1-icv" id="whi-h1-S3v"/>
                 <outlet property="LabTitleName" destination="Gw5-VF-30J" id="bJT-5n-K4q"/>
             </connections>
             <point key="canvasLocation" x="20" y="-79"/>
