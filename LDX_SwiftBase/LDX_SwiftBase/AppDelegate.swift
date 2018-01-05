@@ -16,14 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = UIColor.white
+        window!.backgroundColor = UIColor.white
         let rootViewController = MainTabBarViewController()
         rootViewController.delegate = self
-        window?.rootViewController = rootViewController
-        window?.makeKeyAndVisible()
+        window!.rootViewController = rootViewController
+        window!.makeKeyAndVisible()
 
+        /**
+         适配iOS11
+         **/
+        adaptationIOS_11()
+        
         // Override point for customization after application launch.
         return true
+    }
+    
+    //MARK: 适配iOS11
+    private func adaptationIOS_11()->Void{
+        if #available(iOS 11.0, *) {
+            UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
+            UITableView.appearance().contentInsetAdjustmentBehavior = .never
+            UICollectionView.appearance().contentInsetAdjustmentBehavior = .never
+            UITableView.appearance().estimatedRowHeight = 0
+            UITableView.appearance().estimatedSectionFooterHeight = 0
+            UITableView.appearance().estimatedSectionHeaderHeight = 0
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

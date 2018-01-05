@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409860B1FFF5F7700858BF2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040986081FFF5F7700858BF2 /* WebView.swift */; };
+		0409860C1FFF5F7700858BF2 /* WKJSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = 040986091FFF5F7700858BF2 /* WKJSPOST.html */; };
+		0409860D1FFF5F7700858BF2 /* WkwebViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409860A1FFF5F7700858BF2 /* WkwebViewConfig.swift */; };
 		040AF5651FF5F58B0038C0B8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040AF5661FF5F58B0038C0B8 /* Alamofire.framework */; };
 		040AF56C1FF613F20038C0B8 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AF56B1FF613F20038C0B8 /* HomeVM.swift */; };
 		040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8311FECFCB800F5E021 /* HomeViewController.swift */; };
+		0413C5731FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413C56E1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m */; };
+		0413C5741FFE1C6A007E19BD /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5701FFE1C6A007E19BD /* TYCyclePagerView.m */; };
+		0413C5751FFE1C6A007E19BD /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5721FFE1C6A007E19BD /* TYPageControl.m */; };
+		0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */; };
 		04142FF81FF0D2ED00E72DDD /* LDXFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04142FF71FF0D2ED00E72DDD /* LDXFile.swift */; };
 		04142FFE1FF0E37900E72DDD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */; };
 		04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04142FFD1FF0E37900E72DDD /* HomeTableViewCell.xib */; };
@@ -28,6 +35,8 @@
 		042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8371FECFD0500F5E021 /* MeViewController.swift */; };
 		0452EA911FF49BE6008230EB /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EA901FF49BE6008230EB /* NetworkTool.swift */; };
 		04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC91D61FF4EF5D00902F0F /* HomeModel.swift */; };
+		04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE56661FFCC33600A59434 /* HomeHeadView.swift */; };
+		04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE56681FFCC34400A59434 /* HomeHeadView.xib */; };
 		491C16FFF77A4188B8277CBB /* Pods_LDX_SwiftBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,9 +71,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		040986081FFF5F7700858BF2 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		040986091FFF5F7700858BF2 /* WKJSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKJSPOST.html; sourceTree = "<group>"; };
+		0409860A1FFF5F7700858BF2 /* WkwebViewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WkwebViewConfig.swift; sourceTree = "<group>"; };
 		040AF5601FF5F54C0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040AF5661FF5F58B0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040AF56B1FF613F20038C0B8 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		0413C56D1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		0413C56E1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		0413C56F1FFE1C6A007E19BD /* TYCyclePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerView.h; sourceTree = "<group>"; };
+		0413C5701FFE1C6A007E19BD /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
+		0413C5711FFE1C6A007E19BD /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
+		0413C5721FFE1C6A007E19BD /* TYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPageControl.m; sourceTree = "<group>"; };
+		0413C5761FFE1E0E007E19BD /* LDXFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
+		0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCyclePagerViewCell.swift; sourceTree = "<group>"; };
 		04142FF71FF0D2ED00E72DDD /* LDXFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXFile.swift; sourceTree = "<group>"; };
 		04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		04142FFD1FF0E37900E72DDD /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
@@ -90,6 +110,8 @@
 		042DF8371FECFD0500F5E021 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		0452EA901FF49BE6008230EB /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		04EC91D61FF4EF5D00902F0F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		04FE56661FFCC33600A59434 /* HomeHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeadView.swift; sourceTree = "<group>"; };
+		04FE56681FFCC34400A59434 /* HomeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeadView.xib; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
 		7B873151EEE83A9F0303CDA1 /* Pods-LDX_SwiftBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.debug.xcconfig"; sourceTree = "<group>"; };
 		DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDX_SwiftBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +144,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040986051FFF5F2B00858BF2 /* WebView[H5页面] */ = {
+			isa = PBXGroup;
+			children = (
+				040986061FFF5F5F00858BF2 /* ViewController */,
+			);
+			path = "WebView[H5页面]";
+			sourceTree = "<group>";
+		};
+		040986061FFF5F5F00858BF2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		040986071FFF5F7700858BF2 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				040986081FFF5F7700858BF2 /* WebView.swift */,
+				040986091FFF5F7700858BF2 /* WKJSPOST.html */,
+				0409860A1FFF5F7700858BF2 /* WkwebViewConfig.swift */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		0409860E1FFF5F8800858BF2 /* Extension[扩展类] */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Extension[扩展类]";
+			sourceTree = "<group>";
+		};
+		0413C56C1FFE1C6A007E19BD /* TYCyclePager[轮播Page] */ = {
+			isa = PBXGroup;
+			children = (
+				0413C56D1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.h */,
+				0413C56E1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m */,
+				0413C56F1FFE1C6A007E19BD /* TYCyclePagerView.h */,
+				0413C5701FFE1C6A007E19BD /* TYCyclePagerView.m */,
+				0413C5711FFE1C6A007E19BD /* TYPageControl.h */,
+				0413C5721FFE1C6A007E19BD /* TYPageControl.m */,
+			);
+			path = "TYCyclePager[轮播Page]";
+			sourceTree = "<group>";
+		};
 		04142FF91FF0E33E00E72DDD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +200,11 @@
 		04142FFA1FF0E34B00E72DDD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */,
 				04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */,
 				04142FFD1FF0E37900E72DDD /* HomeTableViewCell.xib */,
+				04FE56661FFCC33600A59434 /* HomeHeadView.swift */,
+				04FE56681FFCC34400A59434 /* HomeHeadView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,21 +217,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		041430001FF117A000E72DDD /* Other */ = {
+		041430001FF117A000E72DDD /* Other[第三方] */ = {
 			isa = PBXGroup;
 			children = (
-				0452EA8F1FF49BB3008230EB /* Network */,
-				041E48BC1FF37A72008248D5 /* 通用提示 */,
+				040986071FFF5F7700858BF2 /* WKWebView */,
+				0413C56C1FFE1C6A007E19BD /* TYCyclePager[轮播Page] */,
+				0452EA8F1FF49BB3008230EB /* Network[网络请求] */,
+				041E48BC1FF37A72008248D5 /* swiftNotice[提示] */,
 			);
-			path = Other;
+			path = "Other[第三方]";
 			sourceTree = "<group>";
 		};
-		041E48BC1FF37A72008248D5 /* 通用提示 */ = {
+		041E48BC1FF37A72008248D5 /* swiftNotice[提示] */ = {
 			isa = PBXGroup;
 			children = (
 				041E48BD1FF37A86008248D5 /* SwiftNotice.swift */,
 			);
-			path = "通用提示";
+			path = "swiftNotice[提示]";
 			sourceTree = "<group>";
 		};
 		042DF7EB1FECF7BD00F5E021 = {
@@ -189,11 +261,13 @@
 		042DF7F61FECF7BE00F5E021 /* LDX_SwiftBase */ = {
 			isa = PBXGroup;
 			children = (
-				041430001FF117A000E72DDD /* Other */,
-				042DF8301FECFC8F00F5E021 /* 我的 */,
-				042DF82F1FECFC8500F5E021 /* TabBarThree */,
-				042DF82E1FECFC5A00F5E021 /* TabBarTow */,
-				042DF82D1FECFC4A00F5E021 /* 首页 */,
+				040986051FFF5F2B00858BF2 /* WebView[H5页面] */,
+				0409860E1FFF5F8800858BF2 /* Extension[扩展类] */,
+				041430001FF117A000E72DDD /* Other[第三方] */,
+				042DF8301FECFC8F00F5E021 /* MeVC[我的] */,
+				042DF82F1FECFC8500F5E021 /* TabThir[第三个] */,
+				042DF82E1FECFC5A00F5E021 /* TabSec[第二个] */,
+				042DF82D1FECFC4A00F5E021 /* Home[首页] */,
 				042DF8251FECF7EE00F5E021 /* Main */,
 				042DF7F71FECF7BE00F5E021 /* AppDelegate.swift */,
 				042DF7F91FECF7BE00F5E021 /* ViewController.swift */,
@@ -202,6 +276,7 @@
 				042DF8001FECF7BE00F5E021 /* LaunchScreen.storyboard */,
 				042DF8031FECF7BE00F5E021 /* Info.plist */,
 				04142FF71FF0D2ED00E72DDD /* LDXFile.swift */,
+				0413C5761FFE1E0E007E19BD /* LDXFile.h */,
 			);
 			path = LDX_SwiftBase;
 			sourceTree = "<group>";
@@ -241,7 +316,7 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		042DF82D1FECFC4A00F5E021 /* 首页 */ = {
+		042DF82D1FECFC4A00F5E021 /* Home[首页] */ = {
 			isa = PBXGroup;
 			children = (
 				04EC91D31FF4EF2E00902F0F /* ViewModel */,
@@ -249,39 +324,39 @@
 				04142FFA1FF0E34B00E72DDD /* View */,
 				04142FF91FF0E33E00E72DDD /* ViewController */,
 			);
-			path = "首页";
+			path = "Home[首页]";
 			sourceTree = "<group>";
 		};
-		042DF82E1FECFC5A00F5E021 /* TabBarTow */ = {
+		042DF82E1FECFC5A00F5E021 /* TabSec[第二个] */ = {
 			isa = PBXGroup;
 			children = (
 				042DF8331FECFCE800F5E021 /* TabBarSecViewController.swift */,
 			);
-			path = TabBarTow;
+			path = "TabSec[第二个]";
 			sourceTree = "<group>";
 		};
-		042DF82F1FECFC8500F5E021 /* TabBarThree */ = {
+		042DF82F1FECFC8500F5E021 /* TabThir[第三个] */ = {
 			isa = PBXGroup;
 			children = (
 				042DF8351FECFCFB00F5E021 /* TabBarThirViewController.swift */,
 			);
-			path = TabBarThree;
+			path = "TabThir[第三个]";
 			sourceTree = "<group>";
 		};
-		042DF8301FECFC8F00F5E021 /* 我的 */ = {
+		042DF8301FECFC8F00F5E021 /* MeVC[我的] */ = {
 			isa = PBXGroup;
 			children = (
 				042DF8371FECFD0500F5E021 /* MeViewController.swift */,
 			);
-			path = "我的";
+			path = "MeVC[我的]";
 			sourceTree = "<group>";
 		};
-		0452EA8F1FF49BB3008230EB /* Network */ = {
+		0452EA8F1FF49BB3008230EB /* Network[网络请求] */ = {
 			isa = PBXGroup;
 			children = (
 				0452EA901FF49BE6008230EB /* NetworkTool.swift */,
 			);
-			path = Network;
+			path = "Network[网络请求]";
 			sourceTree = "<group>";
 		};
 		04EC91D31FF4EF2E00902F0F /* ViewModel */ = {
@@ -425,7 +500,9 @@
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
 				042DF7FF1FECF7BE00F5E021 /* Assets.xcassets in Resources */,
 				04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */,
+				04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */,
 				042DF7FD1FECF7BE00F5E021 /* Main.storyboard in Resources */,
+				0409860C1FFF5F7700858BF2 /* WKJSPOST.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +575,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
+				0409860B1FFF5F7700858BF2 /* WebView.swift in Sources */,
+				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
@@ -509,9 +589,13 @@
 				041E48BE1FF37A87008248D5 /* SwiftNotice.swift in Sources */,
 				04142FFE1FF0E37900E72DDD /* HomeTableViewCell.swift in Sources */,
 				040AF56C1FF613F20038C0B8 /* HomeVM.swift in Sources */,
+				0413C5741FFE1C6A007E19BD /* TYCyclePagerView.m in Sources */,
+				0413C5751FFE1C6A007E19BD /* TYPageControl.m in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
+				0413C5731FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m in Sources */,
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
+				0409860D1FFF5F7700858BF2 /* WkwebViewConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,11 +765,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/mac/Desktop/LDX_SwiftBase/LDX_SwiftBase/LDXFile.swift;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.LDX-SwiftBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -699,11 +784,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/mac/Desktop/LDX_SwiftBase/LDX_SwiftBase/LDXFile.swift;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.LDX-SwiftBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
