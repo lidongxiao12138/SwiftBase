@@ -7,14 +7,19 @@
 //
 
 import UIKit
-
+import IQKeyboardManagerSwift
+import Alamofire
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let manager = NetworkReachabilityManager(host: kIPAddress)
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        IQKeyboardManager.sharedManager().enable = true
+        IQKeyboardManager.sharedManager().enableAutoToolbar = false
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window!.backgroundColor = UIColor.white
         let rootViewController = MainTabBarViewController()
@@ -23,12 +28,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.makeKeyAndVisible()
 
         /**
+        检测网络状态
+        **/
+        NetworkReachManager()
+        
+        /**
          适配iOS11
          **/
         adaptationIOS_11()
         
         // Override point for customization after application launch.
         return true
+    }
+    
+    private func NetworkReachManager()
+    {
+        manager!.listener = { status in
+            switch status {
+            case .notReachable:
+            UNoticeBar(config: UNoticeBarConfig(title: "检测到您的网络不可使用")).show(duration: 2)
+                print("notReachable")
+            case .unknown:
+                UNoticeBar(config: UNoticeBarConfig(title: "网络错误")).show(duration: 2)
+                print("unknown")
+            case .reachable(.ethernetOrWiFi):
+            UNoticeBar(config: UNoticeBarConfig(title: "检测到您正在使用Wi-Fi")).show(duration: 2)
+                print("ethernetOrWiFi")
+            case .reachable(.wwan):
+            UNoticeBar(config: UNoticeBarConfig(title: "检测到您正在使用移动数据")).show(duration: 2)
+                print("wwan")
+                
+            }
+        }
+        manager!.startListening()
     }
     
     //MARK: 适配iOS11

@@ -17,4 +17,10 @@ pod 'MJRefresh’
 pod 'SVProgressHUD’
 pod 'RxSwift'
 pod 'RxCocoa'
+pod 'HMSegmentedControl'
+pod 'Then'
+pod 'Moya'
+pod 'Reusable'
+pod 'IQKeyboardManagerSwift'
+
 end

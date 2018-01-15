@@ -14,6 +14,10 @@ let SCREEN_WIDTH = UIScreen.main.bounds.size.width
 // 屏幕的高
 let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 
+// 设置比例
+let d_width = SCREEN_WIDTH/375
+let d_height = SCREEN_HEIGHT/667
+
 //判断iPhone4
 let IPHONE4_DEV:Bool! = (UIScreen.main.bounds.size.height == 480) ? true : false
 
@@ -42,8 +46,8 @@ func RGBCOLOR_HEX(h:Int) ->UIColor {
     return RGBColor(r: CGFloat(((h)>>16) & 0xFF), g:   CGFloat(((h)>>8) & 0xFF), b:  CGFloat((h) & 0xFF))
 }
 
-let LDXBaseNav  =  RGBColor(r: 37.0, g: 204.0, b: 90.0)
-let RLDXBaseNav  =  RGBColor(r: 37.0, g: 204.0, b: 90.0).cgColor
+let LDXBaseNav  =  RGBColor(r: 236.0, g: 189.0, b: 80.0)
+let RLDXBaseNav  = RGBColor(r: 236.0, g: 189.0, b: 80.0).cgColor
 
 
 /// 系统普通字体

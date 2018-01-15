@@ -7,15 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0409860B1FFF5F7700858BF2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040986081FFF5F7700858BF2 /* WebView.swift */; };
-		0409860C1FFF5F7700858BF2 /* WKJSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = 040986091FFF5F7700858BF2 /* WKJSPOST.html */; };
-		0409860D1FFF5F7700858BF2 /* WkwebViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409860A1FFF5F7700858BF2 /* WkwebViewConfig.swift */; };
 		040AF5651FF5F58B0038C0B8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040AF5661FF5F58B0038C0B8 /* Alamofire.framework */; };
 		040AF56C1FF613F20038C0B8 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AF56B1FF613F20038C0B8 /* HomeVM.swift */; };
 		040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8311FECFCB800F5E021 /* HomeViewController.swift */; };
-		0413C5731FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413C56E1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m */; };
-		0413C5741FFE1C6A007E19BD /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5701FFE1C6A007E19BD /* TYCyclePagerView.m */; };
-		0413C5751FFE1C6A007E19BD /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5721FFE1C6A007E19BD /* TYPageControl.m */; };
 		0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */; };
 		04142FF81FF0D2ED00E72DDD /* LDXFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04142FF71FF0D2ED00E72DDD /* LDXFile.swift */; };
 		04142FFE1FF0E37900E72DDD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */; };
@@ -33,7 +27,17 @@
 		042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8331FECFCE800F5E021 /* TabBarSecViewController.swift */; };
 		042DF8361FECFCFB00F5E021 /* TabBarThirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8351FECFCFB00F5E021 /* TabBarThirViewController.swift */; };
 		042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8371FECFD0500F5E021 /* MeViewController.swift */; };
+		044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BE5922005E8F500427691 /* UNoticeBar.swift */; };
+		044BE59B2005F8E300427691 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BE5992005F8E300427691 /* HomeCollectionViewCell.swift */; };
+		044BE59C2005F8E300427691 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044BE59A2005F8E300427691 /* HomeCollectionViewCell.xib */; };
 		0452EA911FF49BE6008230EB /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EA901FF49BE6008230EB /* NetworkTool.swift */; };
+		048F24EE2003738600097209 /* SQPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F24EB2003738500097209 /* SQPageControl.swift */; };
+		048F24EF2003738600097209 /* SQDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F24EC2003738600097209 /* SQDotView.swift */; };
+		048F24F02003738600097209 /* SQAutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F24ED2003738600097209 /* SQAutoScrollView.swift */; };
+		048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F24F12003745800097209 /* Extension+UIBarButtonItem.swift */; };
+		048F24F52003745900097209 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F24F22003745800097209 /* Extension+UIView.swift */; };
+		048F24F62003745900097209 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F24F32003745900097209 /* Extension+String.swift */; };
+		048F24F92003747100097209 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F24F72003747100097209 /* WebViewController.m */; };
 		04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC91D61FF4EF5D00902F0F /* HomeModel.swift */; };
 		04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE56661FFCC33600A59434 /* HomeHeadView.swift */; };
 		04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE56681FFCC34400A59434 /* HomeHeadView.xib */; };
@@ -71,19 +75,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		040986081FFF5F7700858BF2 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		040986091FFF5F7700858BF2 /* WKJSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKJSPOST.html; sourceTree = "<group>"; };
-		0409860A1FFF5F7700858BF2 /* WkwebViewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WkwebViewConfig.swift; sourceTree = "<group>"; };
 		040AF5601FF5F54C0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040AF5661FF5F58B0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040AF56B1FF613F20038C0B8 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
-		0413C56D1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
-		0413C56E1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
-		0413C56F1FFE1C6A007E19BD /* TYCyclePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerView.h; sourceTree = "<group>"; };
-		0413C5701FFE1C6A007E19BD /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
-		0413C5711FFE1C6A007E19BD /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
-		0413C5721FFE1C6A007E19BD /* TYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPageControl.m; sourceTree = "<group>"; };
-		0413C5761FFE1E0E007E19BD /* LDXFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
 		0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCyclePagerViewCell.swift; sourceTree = "<group>"; };
 		04142FF71FF0D2ED00E72DDD /* LDXFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXFile.swift; sourceTree = "<group>"; };
 		04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -108,11 +102,23 @@
 		042DF8331FECFCE800F5E021 /* TabBarSecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSecViewController.swift; sourceTree = "<group>"; };
 		042DF8351FECFCFB00F5E021 /* TabBarThirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarThirViewController.swift; sourceTree = "<group>"; };
 		042DF8371FECFD0500F5E021 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		044BE5922005E8F500427691 /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
+		044BE5992005F8E300427691 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		044BE59A2005F8E300427691 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		0452EA901FF49BE6008230EB /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		048F24EB2003738500097209 /* SQPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQPageControl.swift; sourceTree = "<group>"; };
+		048F24EC2003738600097209 /* SQDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQDotView.swift; sourceTree = "<group>"; };
+		048F24ED2003738600097209 /* SQAutoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQAutoScrollView.swift; sourceTree = "<group>"; };
+		048F24F12003745800097209 /* Extension+UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		048F24F22003745800097209 /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		048F24F32003745900097209 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		048F24F72003747100097209 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		048F24F82003747100097209 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		04EC91D61FF4EF5D00902F0F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		04FE56661FFCC33600A59434 /* HomeHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeadView.swift; sourceTree = "<group>"; };
 		04FE56681FFCC34400A59434 /* HomeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeadView.xib; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
+		438E29AA200C541E001506D3 /* LDXFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
 		7B873151EEE83A9F0303CDA1 /* Pods-LDX_SwiftBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.debug.xcconfig"; sourceTree = "<group>"; };
 		DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDX_SwiftBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -155,38 +161,20 @@
 		040986061FFF5F5F00858BF2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				048F24F82003747100097209 /* WebViewController.h */,
+				048F24F72003747100097209 /* WebViewController.m */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		040986071FFF5F7700858BF2 /* WKWebView */ = {
-			isa = PBXGroup;
-			children = (
-				040986081FFF5F7700858BF2 /* WebView.swift */,
-				040986091FFF5F7700858BF2 /* WKJSPOST.html */,
-				0409860A1FFF5F7700858BF2 /* WkwebViewConfig.swift */,
-			);
-			path = WKWebView;
 			sourceTree = "<group>";
 		};
 		0409860E1FFF5F8800858BF2 /* Extension[扩展类] */ = {
 			isa = PBXGroup;
 			children = (
+				048F24F32003745900097209 /* Extension+String.swift */,
+				048F24F12003745800097209 /* Extension+UIBarButtonItem.swift */,
+				048F24F22003745800097209 /* Extension+UIView.swift */,
 			);
 			path = "Extension[扩展类]";
-			sourceTree = "<group>";
-		};
-		0413C56C1FFE1C6A007E19BD /* TYCyclePager[轮播Page] */ = {
-			isa = PBXGroup;
-			children = (
-				0413C56D1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.h */,
-				0413C56E1FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m */,
-				0413C56F1FFE1C6A007E19BD /* TYCyclePagerView.h */,
-				0413C5701FFE1C6A007E19BD /* TYCyclePagerView.m */,
-				0413C5711FFE1C6A007E19BD /* TYPageControl.h */,
-				0413C5721FFE1C6A007E19BD /* TYPageControl.m */,
-			);
-			path = "TYCyclePager[轮播Page]";
 			sourceTree = "<group>";
 		};
 		04142FF91FF0E33E00E72DDD /* ViewController */ = {
@@ -205,6 +193,8 @@
 				04142FFD1FF0E37900E72DDD /* HomeTableViewCell.xib */,
 				04FE56661FFCC33600A59434 /* HomeHeadView.swift */,
 				04FE56681FFCC34400A59434 /* HomeHeadView.xib */,
+				044BE5992005F8E300427691 /* HomeCollectionViewCell.swift */,
+				044BE59A2005F8E300427691 /* HomeCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,8 +210,8 @@
 		041430001FF117A000E72DDD /* Other[第三方] */ = {
 			isa = PBXGroup;
 			children = (
-				040986071FFF5F7700858BF2 /* WKWebView */,
-				0413C56C1FFE1C6A007E19BD /* TYCyclePager[轮播Page] */,
+				044BE5912005E8F500427691 /* NoticeBar[在顶部提示] */,
+				048F24EA2003734A00097209 /* SQAutoScrollView[轮播图] */,
 				0452EA8F1FF49BB3008230EB /* Network[网络请求] */,
 				041E48BC1FF37A72008248D5 /* swiftNotice[提示] */,
 			);
@@ -276,7 +266,7 @@
 				042DF8001FECF7BE00F5E021 /* LaunchScreen.storyboard */,
 				042DF8031FECF7BE00F5E021 /* Info.plist */,
 				04142FF71FF0D2ED00E72DDD /* LDXFile.swift */,
-				0413C5761FFE1E0E007E19BD /* LDXFile.h */,
+				438E29AA200C541E001506D3 /* LDXFile.h */,
 			);
 			path = LDX_SwiftBase;
 			sourceTree = "<group>";
@@ -302,18 +292,18 @@
 		042DF8251FECF7EE00F5E021 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				042DF8261FECF81B00F5E021 /* Controller */,
+				042DF8261FECF81B00F5E021 /* BaseController */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		042DF8261FECF81B00F5E021 /* Controller */ = {
+		042DF8261FECF81B00F5E021 /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
 				042DF8271FECF88500F5E021 /* MainTabBarViewController.swift */,
 				042DF8291FECF8BA00F5E021 /* MainNavigationController.swift */,
 			);
-			path = Controller;
+			path = BaseController;
 			sourceTree = "<group>";
 		};
 		042DF82D1FECFC4A00F5E021 /* Home[首页] */ = {
@@ -351,12 +341,30 @@
 			path = "MeVC[我的]";
 			sourceTree = "<group>";
 		};
+		044BE5912005E8F500427691 /* NoticeBar[在顶部提示] */ = {
+			isa = PBXGroup;
+			children = (
+				044BE5922005E8F500427691 /* UNoticeBar.swift */,
+			);
+			path = "NoticeBar[在顶部提示]";
+			sourceTree = "<group>";
+		};
 		0452EA8F1FF49BB3008230EB /* Network[网络请求] */ = {
 			isa = PBXGroup;
 			children = (
 				0452EA901FF49BE6008230EB /* NetworkTool.swift */,
 			);
 			path = "Network[网络请求]";
+			sourceTree = "<group>";
+		};
+		048F24EA2003734A00097209 /* SQAutoScrollView[轮播图] */ = {
+			isa = PBXGroup;
+			children = (
+				048F24ED2003738600097209 /* SQAutoScrollView.swift */,
+				048F24EC2003738600097209 /* SQDotView.swift */,
+				048F24EB2003738500097209 /* SQPageControl.swift */,
+			);
+			path = "SQAutoScrollView[轮播图]";
 			sourceTree = "<group>";
 		};
 		04EC91D31FF4EF2E00902F0F /* ViewModel */ = {
@@ -498,11 +506,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
+				044BE59C2005F8E300427691 /* HomeCollectionViewCell.xib in Resources */,
 				042DF7FF1FECF7BE00F5E021 /* Assets.xcassets in Resources */,
 				04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */,
 				04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */,
 				042DF7FD1FECF7BE00F5E021 /* Main.storyboard in Resources */,
-				0409860C1FFF5F7700858BF2 /* WKJSPOST.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,13 +537,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDX_SwiftBase-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E859960A832973AAF909917C /* [CP] Copy Pods Resources */ = {
@@ -559,9 +570,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GrowingTextView/GrowingTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JQProgressHUD/JQProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/KYCircularProgress/KYCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrowingTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -576,26 +622,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
-				0409860B1FFF5F7700858BF2 /* WebView.swift in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
+				048F24F62003745900097209 /* Extension+String.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
 				042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */,
+				048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */,
 				0452EA911FF49BE6008230EB /* NetworkTool.swift in Sources */,
 				040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */,
 				04142FF81FF0D2ED00E72DDD /* LDXFile.swift in Sources */,
 				042DF8361FECFCFB00F5E021 /* TabBarThirViewController.swift in Sources */,
+				048F24F52003745900097209 /* Extension+UIView.swift in Sources */,
 				041E48BE1FF37A87008248D5 /* SwiftNotice.swift in Sources */,
+				048F24F92003747100097209 /* WebViewController.m in Sources */,
 				04142FFE1FF0E37900E72DDD /* HomeTableViewCell.swift in Sources */,
 				040AF56C1FF613F20038C0B8 /* HomeVM.swift in Sources */,
-				0413C5741FFE1C6A007E19BD /* TYCyclePagerView.m in Sources */,
-				0413C5751FFE1C6A007E19BD /* TYPageControl.m in Sources */,
+				048F24F02003738600097209 /* SQAutoScrollView.swift in Sources */,
+				048F24EE2003738600097209 /* SQPageControl.swift in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
+				044BE59B2005F8E300427691 /* HomeCollectionViewCell.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
-				0413C5731FFE1C6A007E19BD /* TYCyclePagerTransformLayout.m in Sources */,
+				048F24EF2003738600097209 /* SQDotView.swift in Sources */,
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
-				0409860D1FFF5F7700858BF2 /* WkwebViewConfig.swift in Sources */,
+				044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,7 +788,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -762,15 +812,19 @@
 			baseConfigurationReference = 7B873151EEE83A9F0303CDA1 /* Pods-LDX_SwiftBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				GCC_PREFIX_HEADER = "/Users/zhangxin-cherrypu/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h";
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.LDX-SwiftBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -781,15 +835,19 @@
 			baseConfigurationReference = 3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				GCC_PREFIX_HEADER = "/Users/zhangxin-cherrypu/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h";
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.LDX-SwiftBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
