@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		040AF5651FF5F58B0038C0B8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040AF5661FF5F58B0038C0B8 /* Alamofire.framework */; };
-		040AF56C1FF613F20038C0B8 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AF56B1FF613F20038C0B8 /* HomeVM.swift */; };
 		040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8311FECFCB800F5E021 /* HomeViewController.swift */; };
 		0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */; };
 		04142FF81FF0D2ED00E72DDD /* LDXFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04142FF71FF0D2ED00E72DDD /* LDXFile.swift */; };
@@ -41,6 +40,13 @@
 		04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC91D61FF4EF5D00902F0F /* HomeModel.swift */; };
 		04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE56661FFCC33600A59434 /* HomeHeadView.swift */; };
 		04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE56681FFCC34400A59434 /* HomeHeadView.xib */; };
+		438E29B6200C5A3D001506D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8311FECFCB800F5E021 /* HomeViewController.swift */; };
+		438E29BC200C8ECB001506D3 /* LPBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E29BA200C8ECB001506D3 /* LPBannerView.swift */; };
+		438E29BD200C8ECB001506D3 /* LPBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E29BB200C8ECB001506D3 /* LPBannerCell.swift */; };
+		43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0DFA0200C9DE600A8C3C0 /* UBaseCollectionViewCell.swift */; };
+		43C0DFA5200C9DE800A8C3C0 /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0DFA1200C9DE700A8C3C0 /* UBaseTableViewHeaderFooterView.swift */; };
+		43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0DFA2200C9DE700A8C3C0 /* UBaseCollectionReusableView.swift */; };
+		43C0DFA7200C9DE800A8C3C0 /* UBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0DFA3200C9DE800A8C3C0 /* UBaseTableViewCell.swift */; };
 		491C16FFF77A4188B8277CBB /* Pods_LDX_SwiftBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +83,6 @@
 /* Begin PBXFileReference section */
 		040AF5601FF5F54C0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040AF5661FF5F58B0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		040AF56B1FF613F20038C0B8 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCyclePagerViewCell.swift; sourceTree = "<group>"; };
 		04142FF71FF0D2ED00E72DDD /* LDXFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXFile.swift; sourceTree = "<group>"; };
 		04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -119,6 +124,12 @@
 		04FE56681FFCC34400A59434 /* HomeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeadView.xib; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
 		438E29AA200C541E001506D3 /* LDXFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
+		438E29BA200C8ECB001506D3 /* LPBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBannerView.swift; sourceTree = "<group>"; };
+		438E29BB200C8ECB001506D3 /* LPBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBannerCell.swift; sourceTree = "<group>"; };
+		43C0DFA0200C9DE600A8C3C0 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		43C0DFA1200C9DE700A8C3C0 /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		43C0DFA2200C9DE700A8C3C0 /* UBaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		43C0DFA3200C9DE800A8C3C0 /* UBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewCell.swift; sourceTree = "<group>"; };
 		7B873151EEE83A9F0303CDA1 /* Pods-LDX_SwiftBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.debug.xcconfig"; sourceTree = "<group>"; };
 		DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDX_SwiftBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -188,8 +199,8 @@
 		04142FFA1FF0E34B00E72DDD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */,
 				04142FFC1FF0E37900E72DDD /* HomeTableViewCell.swift */,
+				0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */,
 				04142FFD1FF0E37900E72DDD /* HomeTableViewCell.xib */,
 				04FE56661FFCC33600A59434 /* HomeHeadView.swift */,
 				04FE56681FFCC34400A59434 /* HomeHeadView.xib */,
@@ -210,6 +221,7 @@
 		041430001FF117A000E72DDD /* Other[第三方] */ = {
 			isa = PBXGroup;
 			children = (
+				438E29AF200C595A001506D3 /* LPBannerView[走马灯] */,
 				044BE5912005E8F500427691 /* NoticeBar[在顶部提示] */,
 				048F24EA2003734A00097209 /* SQAutoScrollView[轮播图] */,
 				0452EA8F1FF49BB3008230EB /* Network[网络请求] */,
@@ -292,6 +304,7 @@
 		042DF8251FECF7EE00F5E021 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				43C0DF9F200C9DD300A8C3C0 /* BaseView */,
 				042DF8261FECF81B00F5E021 /* BaseController */,
 			);
 			path = Main;
@@ -300,6 +313,7 @@
 		042DF8261FECF81B00F5E021 /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
+				43C0DFA1200C9DE700A8C3C0 /* UBaseTableViewHeaderFooterView.swift */,
 				042DF8271FECF88500F5E021 /* MainTabBarViewController.swift */,
 				042DF8291FECF8BA00F5E021 /* MainNavigationController.swift */,
 			);
@@ -309,7 +323,7 @@
 		042DF82D1FECFC4A00F5E021 /* Home[首页] */ = {
 			isa = PBXGroup;
 			children = (
-				04EC91D31FF4EF2E00902F0F /* ViewModel */,
+				435E4082200DAA36003B1044 /* 商品详情 */,
 				04142FFB1FF0E35100E72DDD /* Model */,
 				04142FFA1FF0E34B00E72DDD /* View */,
 				04142FF91FF0E33E00E72DDD /* ViewController */,
@@ -367,14 +381,6 @@
 			path = "SQAutoScrollView[轮播图]";
 			sourceTree = "<group>";
 		};
-		04EC91D31FF4EF2E00902F0F /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				040AF56B1FF613F20038C0B8 /* HomeVM.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		3BF8D250AE6B0F50858E0299 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +389,56 @@
 				DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		435E4082200DAA36003B1044 /* 商品详情 */ = {
+			isa = PBXGroup;
+			children = (
+				435E4085200DAA58003B1044 /* Model */,
+				435E4084200DAA50003B1044 /* View */,
+				435E4083200DAA46003B1044 /* ViewController */,
+			);
+			path = "商品详情";
+			sourceTree = "<group>";
+		};
+		435E4083200DAA46003B1044 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		435E4084200DAA50003B1044 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		435E4085200DAA58003B1044 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		438E29AF200C595A001506D3 /* LPBannerView[走马灯] */ = {
+			isa = PBXGroup;
+			children = (
+				438E29BA200C8ECB001506D3 /* LPBannerView.swift */,
+				438E29BB200C8ECB001506D3 /* LPBannerCell.swift */,
+			);
+			path = "LPBannerView[走马灯]";
+			sourceTree = "<group>";
+		};
+		43C0DF9F200C9DD300A8C3C0 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				43C0DFA0200C9DE600A8C3C0 /* UBaseCollectionViewCell.swift */,
+				43C0DFA3200C9DE800A8C3C0 /* UBaseTableViewCell.swift */,
+				43C0DFA2200C9DE700A8C3C0 /* UBaseCollectionReusableView.swift */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		88EBDBC23BBC8B5252C0FC69 /* Pods */ = {
@@ -584,6 +640,7 @@
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -604,6 +661,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -622,11 +680,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
+				438E29BC200C8ECB001506D3 /* LPBannerView.swift in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
 				048F24F62003745900097209 /* Extension+String.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
+				43C0DFA7200C9DE800A8C3C0 /* UBaseTableViewCell.swift in Sources */,
+				438E29BD200C8ECB001506D3 /* LPBannerCell.swift in Sources */,
 				042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */,
 				048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */,
 				0452EA911FF49BE6008230EB /* NetworkTool.swift in Sources */,
@@ -637,15 +698,17 @@
 				041E48BE1FF37A87008248D5 /* SwiftNotice.swift in Sources */,
 				048F24F92003747100097209 /* WebViewController.m in Sources */,
 				04142FFE1FF0E37900E72DDD /* HomeTableViewCell.swift in Sources */,
-				040AF56C1FF613F20038C0B8 /* HomeVM.swift in Sources */,
 				048F24F02003738600097209 /* SQAutoScrollView.swift in Sources */,
 				048F24EE2003738600097209 /* SQPageControl.swift in Sources */,
+				43C0DFA5200C9DE800A8C3C0 /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
 				044BE59B2005F8E300427691 /* HomeCollectionViewCell.swift in Sources */,
+				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
 				048F24EF2003738600097209 /* SQDotView.swift in Sources */,
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
 				044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */,
+				43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +725,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DF8181FECF7BE00F5E021 /* LDX_SwiftBaseUITests.swift in Sources */,
+				438E29B6200C5A3D001506D3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,7 +888,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhangxin-cherrypu/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -847,7 +911,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhangxin-cherrypu/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

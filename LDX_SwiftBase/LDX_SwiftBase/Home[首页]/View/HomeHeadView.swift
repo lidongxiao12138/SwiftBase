@@ -8,27 +8,40 @@
 
 import UIKit
 
-class HomeHeadView: UICollectionReusableView {
-    @IBOutlet weak var ViewImageRoll: UIView!
+class HomeHeadView: UBaseCollectionReusableView {
+    @IBOutlet weak var ViewImageRoll: UIView!//滚动图片
     
-    @IBOutlet weak var viewLabRoll: UIView!
+    @IBOutlet weak var viewLabRoll: UIView!//滚动视图
     
-    static func homeView() -> HomeHeadView? {
-        let nibView = Bundle.main.loadNibNamed("HomeHeadView", owner: nil, options: nil)
-        if let view = nibView?.first as? HomeHeadView {
-            
-            
-            return view
-        }
-        return nil
+    @IBOutlet weak var ButRecMer1: UIButton!//商家1
+   
+    @IBOutlet weak var ButRecMer2: UIButton!//商家2
     
+    @IBOutlet weak var ButRecMer3: UIButton!
+    //商家3
+    
+    @IBOutlet weak var ButMore: UIButton!//更多
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        load_init()
     }
-    /*
+
+    func load_init(){
+
+    }
+
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
+        Ridus(Rview: ButRecMer1, Ridus: 3)
+        Ridus(Rview: ButRecMer2, Ridus: 3)
+        Ridus(Rview: ButRecMer3, Ridus: 3)
         // Drawing code
     }
-    */
-
 }
+
+
+
+ 
+

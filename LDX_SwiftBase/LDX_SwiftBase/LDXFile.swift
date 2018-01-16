@@ -42,6 +42,17 @@ func RGBColor(r :CGFloat ,g:CGFloat,b:CGFloat) ->UIColor
     return UIColor(red: (r/255), green: (g/255), blue: (b/255), alpha: 1)
 }
 
+func Ridus(Rview : UIView, Ridus: CGFloat) {
+    Rview.layer.cornerRadius = Ridus
+    Rview.layer.masksToBounds = true
+}
+
+func Ridus(Rview : UIView, Ridus: CGFloat, borwidth: CGFloat, color: CGColor) {
+    Rview.layer.cornerRadius = Ridus
+    Rview.layer.masksToBounds = true
+    Rview.layer.borderWidth = borwidth
+    Rview.layer.borderColor = color
+}
 func RGBCOLOR_HEX(h:Int) ->UIColor {
     return RGBColor(r: CGFloat(((h)>>16) & 0xFF), g:   CGFloat(((h)>>8) & 0xFF), b:  CGFloat((h) & 0xFF))
 }

@@ -22,5 +22,7 @@ pod 'Then'
 pod 'Moya'
 pod 'Reusable'
 pod 'IQKeyboardManagerSwift'
+pod 'SDWebImage'
+
 
 end

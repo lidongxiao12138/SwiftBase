@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,15 +13,57 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeCollectionViewCell" customModule="LDX_SwiftBase" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="173" height="245"/>
+            <rect key="frame" x="0.0" y="0.0" width="175" height="245"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="173" height="245"/>
+                <rect key="frame" x="0.0" y="0.0" width="175" height="245"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2222" translatesAutoresizingMaskIntoConstraints="NO" id="JRz-ta-L26">
+                        <rect key="frame" x="0.0" y="0.0" width="175" height="170"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="170" id="fsd-BP-CnN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="抱枕为什么是鞋子的照片呢？沙发座椅，买买买" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpS-ZW-3he">
+                        <rect key="frame" x="0.0" y="175" width="175" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="ywN-JP-a79"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥36.00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ja-hY-ErB">
+                        <rect key="frame" x="0.0" y="219" width="175" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.049691020333036739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
             </view>
-            <color key="backgroundColor" red="0.1450980392" green="0.80000000000000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3Ja-hY-ErB" secondAttribute="trailing" id="0TE-C8-jC5"/>
+                <constraint firstAttribute="trailing" secondItem="hpS-ZW-3he" secondAttribute="trailing" id="1vO-MH-DpL"/>
+                <constraint firstItem="3Ja-hY-ErB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3ed-ae-WrF"/>
+                <constraint firstItem="hpS-ZW-3he" firstAttribute="top" secondItem="JRz-ta-L26" secondAttribute="bottom" constant="5" id="E30-f6-PZW"/>
+                <constraint firstItem="JRz-ta-L26" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="e8L-Cn-9hM"/>
+                <constraint firstAttribute="trailing" secondItem="JRz-ta-L26" secondAttribute="trailing" id="kXz-NU-Fwv"/>
+                <constraint firstItem="hpS-ZW-3he" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="r81-7r-uAL"/>
+                <constraint firstItem="JRz-ta-L26" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rYg-Kk-UnJ"/>
+                <constraint firstAttribute="bottom" secondItem="3Ja-hY-ErB" secondAttribute="bottom" constant="10" id="wgD-Z3-Jqf"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <point key="canvasLocation" x="-50" y="-10"/>
+            <connections>
+                <outlet property="ImageTitleView" destination="JRz-ta-L26" id="eL2-zC-IHf"/>
+                <outlet property="LabMoney" destination="3Ja-hY-ErB" id="ZSz-nb-eQ6"/>
+                <outlet property="LabNameMer" destination="hpS-ZW-3he" id="qjq-Dd-odp"/>
+            </connections>
+            <point key="canvasLocation" x="-50.5" y="-10.5"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="2222" width="442" height="650"/>
+    </resources>
 </document>
