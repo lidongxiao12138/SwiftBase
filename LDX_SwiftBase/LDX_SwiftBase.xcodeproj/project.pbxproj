@@ -40,6 +40,10 @@
 		04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC91D61FF4EF5D00902F0F /* HomeModel.swift */; };
 		04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE56661FFCC33600A59434 /* HomeHeadView.swift */; };
 		04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE56681FFCC34400A59434 /* HomeHeadView.xib */; };
+		435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E408B200DAB36003B1044 /* MerDetailViewController.swift */; };
+		435E408E200DD834003B1044 /* TransitionSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E408D200DD834003B1044 /* TransitionSegmentView.swift */; };
+		435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E4090200DF1AC003B1044 /* DetailSegmentView.swift */; };
+		435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435E4092200DF1B5003B1044 /* DetailSegmentView.xib */; };
 		438E29B6200C5A3D001506D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8311FECFCB800F5E021 /* HomeViewController.swift */; };
 		438E29BC200C8ECB001506D3 /* LPBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E29BA200C8ECB001506D3 /* LPBannerView.swift */; };
 		438E29BD200C8ECB001506D3 /* LPBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E29BB200C8ECB001506D3 /* LPBannerCell.swift */; };
@@ -123,6 +127,10 @@
 		04FE56661FFCC33600A59434 /* HomeHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeadView.swift; sourceTree = "<group>"; };
 		04FE56681FFCC34400A59434 /* HomeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeadView.xib; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
+		435E408B200DAB36003B1044 /* MerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerDetailViewController.swift; sourceTree = "<group>"; };
+		435E408D200DD834003B1044 /* TransitionSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionSegmentView.swift; sourceTree = "<group>"; };
+		435E4090200DF1AC003B1044 /* DetailSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSegmentView.swift; sourceTree = "<group>"; };
+		435E4092200DF1B5003B1044 /* DetailSegmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailSegmentView.xib; sourceTree = "<group>"; };
 		438E29AA200C541E001506D3 /* LDXFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
 		438E29BA200C8ECB001506D3 /* LPBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBannerView.swift; sourceTree = "<group>"; };
 		438E29BB200C8ECB001506D3 /* LPBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBannerCell.swift; sourceTree = "<group>"; };
@@ -221,6 +229,7 @@
 		041430001FF117A000E72DDD /* Other[第三方] */ = {
 			isa = PBXGroup;
 			children = (
+				435E408F200DE3F6003B1044 /* SegmentView[导航条] */,
 				438E29AF200C595A001506D3 /* LPBannerView[走马灯] */,
 				044BE5912005E8F500427691 /* NoticeBar[在顶部提示] */,
 				048F24EA2003734A00097209 /* SQAutoScrollView[轮播图] */,
@@ -313,7 +322,6 @@
 		042DF8261FECF81B00F5E021 /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
-				43C0DFA1200C9DE700A8C3C0 /* UBaseTableViewHeaderFooterView.swift */,
 				042DF8271FECF88500F5E021 /* MainTabBarViewController.swift */,
 				042DF8291FECF8BA00F5E021 /* MainNavigationController.swift */,
 			);
@@ -404,6 +412,7 @@
 		435E4083200DAA46003B1044 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				435E408B200DAB36003B1044 /* MerDetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -411,6 +420,8 @@
 		435E4084200DAA50003B1044 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				435E4090200DF1AC003B1044 /* DetailSegmentView.swift */,
+				435E4092200DF1B5003B1044 /* DetailSegmentView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -420,6 +431,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		435E408F200DE3F6003B1044 /* SegmentView[导航条] */ = {
+			isa = PBXGroup;
+			children = (
+				435E408D200DD834003B1044 /* TransitionSegmentView.swift */,
+			);
+			path = "SegmentView[导航条]";
 			sourceTree = "<group>";
 		};
 		438E29AF200C595A001506D3 /* LPBannerView[走马灯] */ = {
@@ -437,6 +456,7 @@
 				43C0DFA0200C9DE600A8C3C0 /* UBaseCollectionViewCell.swift */,
 				43C0DFA3200C9DE800A8C3C0 /* UBaseTableViewCell.swift */,
 				43C0DFA2200C9DE700A8C3C0 /* UBaseCollectionReusableView.swift */,
+				43C0DFA1200C9DE700A8C3C0 /* UBaseTableViewHeaderFooterView.swift */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -562,6 +582,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
+				435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */,
 				044BE59C2005F8E300427691 /* HomeCollectionViewCell.xib in Resources */,
 				042DF7FF1FECF7BE00F5E021 /* Assets.xcassets in Resources */,
 				04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */,
@@ -694,6 +715,7 @@
 				040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */,
 				04142FF81FF0D2ED00E72DDD /* LDXFile.swift in Sources */,
 				042DF8361FECFCFB00F5E021 /* TabBarThirViewController.swift in Sources */,
+				435E408E200DD834003B1044 /* TransitionSegmentView.swift in Sources */,
 				048F24F52003745900097209 /* Extension+UIView.swift in Sources */,
 				041E48BE1FF37A87008248D5 /* SwiftNotice.swift in Sources */,
 				048F24F92003747100097209 /* WebViewController.m in Sources */,
@@ -702,12 +724,14 @@
 				048F24EE2003738600097209 /* SQPageControl.swift in Sources */,
 				43C0DFA5200C9DE800A8C3C0 /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
+				435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */,
 				044BE59B2005F8E300427691 /* HomeCollectionViewCell.swift in Sources */,
 				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
 				048F24EF2003738600097209 /* SQDotView.swift in Sources */,
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
 				044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */,
+				435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */,
 				43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

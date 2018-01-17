@@ -58,6 +58,14 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     
         return cell
     }
+    //点击事件
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let merDetail = MerDetailViewController()
+        self.navigationController?.pushViewController(merDetail, animated: true)
+        
+        print(indexPath)
+    }
     //这个是设定header和footer的方法，根据kind不同进行不同的判断即可
 
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
@@ -205,8 +213,7 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        
-
+        self.navigationController?.navigationBar.isHidden = false
     }
     
     override func viewDidLoad() {
@@ -214,6 +221,7 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
         
         //加载数据接口
         requsethome()
+
         
         self.view.addSubview(self.homeCollection)
         navigationItem.titleView = nil;
@@ -224,6 +232,8 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
         
         // Do any additional setup after loading the view.
     }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

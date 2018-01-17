@@ -37,8 +37,16 @@ class HomeHeadView: UBaseCollectionReusableView {
         Ridus(Rview: ButRecMer1, Ridus: 3)
         Ridus(Rview: ButRecMer2, Ridus: 3)
         Ridus(Rview: ButRecMer3, Ridus: 3)
+       
+        ButMore.addTarget(self, action: #selector(ButMoreClick), for: .touchUpInside)
         // Drawing code
     }
+    
+    @objc func ButMoreClick(){
+        let webView = WebViewController()
+        self.viewController()?.navigationController?.pushViewController(webView, animated: true)
+    }
+    
 }
 
 

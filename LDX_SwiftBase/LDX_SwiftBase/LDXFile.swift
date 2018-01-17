@@ -79,7 +79,7 @@ let kNavFont = gof_SystemFontWithSize(18);
 let kTitleFont = gof_SystemFontWithSize(18);
 
 /// 正文字号
-let kBodyFont = gof_SystemFontWithSize(16);
+let kBodyFont = gof_SystemFontWithSize(13);
 
 /// 辅助字号
 let kAssistFont = gof_SystemFontWithSize(14);
