@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -58,15 +57,14 @@
             <constraints>
                 <constraint firstItem="OfC-AE-tXC" firstAttribute="centerY" secondItem="L6c-my-sCG" secondAttribute="centerY" id="6VB-Bf-AcX"/>
                 <constraint firstItem="sKa-Zr-hb6" firstAttribute="centerX" secondItem="8EJ-N5-6np" secondAttribute="centerX" id="LQY-5f-kph"/>
-                <constraint firstItem="L6c-my-sCG" firstAttribute="centerY" secondItem="3JO-Oj-nNd" secondAttribute="centerY" id="ayn-qa-4C8"/>
+                <constraint firstItem="L6c-my-sCG" firstAttribute="centerY" secondItem="qIN-Ti-6Xc" secondAttribute="centerY" id="ayn-qa-4C8"/>
                 <constraint firstItem="sKa-Zr-hb6" firstAttribute="centerY" secondItem="8EJ-N5-6np" secondAttribute="centerY" id="cFY-IX-QSI"/>
-                <constraint firstItem="L6c-my-sCG" firstAttribute="centerX" secondItem="3JO-Oj-nNd" secondAttribute="centerX" id="nSD-OE-qFy"/>
+                <constraint firstItem="L6c-my-sCG" firstAttribute="centerX" secondItem="qIN-Ti-6Xc" secondAttribute="centerX" id="nSD-OE-qFy"/>
                 <constraint firstItem="L6c-my-sCG" firstAttribute="leading" secondItem="8EJ-N5-6np" secondAttribute="trailing" constant="55" id="shp-2v-2ST"/>
                 <constraint firstItem="OfC-AE-tXC" firstAttribute="leading" secondItem="L6c-my-sCG" secondAttribute="trailing" constant="55" id="swZ-t9-sJR"/>
                 <constraint firstItem="8EJ-N5-6np" firstAttribute="centerY" secondItem="L6c-my-sCG" secondAttribute="centerY" id="xiH-gs-tNt"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="3JO-Oj-nNd"/>
             <connections>
                 <outlet property="ButComment" destination="L6c-my-sCG" id="9MW-5u-MaT"/>
                 <outlet property="ButDetail" destination="OfC-AE-tXC" id="caJ-4l-BOH"/>
