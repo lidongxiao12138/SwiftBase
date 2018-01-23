@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EvaCenViewController" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="评价" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXu-bZ-zyi">
+                    <rect key="frame" x="10" y="11" width="33" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（好评率50%）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IZ-Oa-1hR">
+                    <rect key="frame" x="43" y="11" width="113.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.92549019610000005" green="0.74117647060000003" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMe-N8-jgg">
+                    <rect key="frame" x="270" y="7" width="84" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="共1500条评论">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_detail_more" translatesAutoresizingMaskIntoConstraints="NO" id="Mgd-rZ-pvn">
+                    <rect key="frame" x="357" y="14.5" width="12" height="12"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-JS-EKQ">
+                    <rect key="frame" x="14" y="38.5" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="9GG-To-7dd"/>
+                        <constraint firstAttribute="width" constant="25" id="eon-5t-3dL"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肥肥的龙猫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r54-hp-wUh">
+                    <rect key="frame" x="51" y="43" width="66.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:13:39" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1w-au-8Yz">
+                    <rect key="frame" x="317" y="43" width="52" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-11-11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nP3-LS-prp">
+                    <rect key="frame" x="243.5" y="43" width="65.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="产品包装里里外外很到位，这次天猫国际买的几单，发货都好快。赞一个。还没有喝，口感不好评价，希望好喝" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFl-Pj-U0G">
+                    <rect key="frame" x="14" y="71" width="330" height="26.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="330" id="cIF-4e-1Jh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2JN-FC-HCM">
+                    <rect key="frame" x="0.0" y="110" width="375" height="10"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="hZA-YF-Hsh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Mgd-rZ-pvn" secondAttribute="trailing" constant="6" id="2fb-2m-FSQ"/>
+                <constraint firstItem="BXu-bZ-zyi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="11" id="37Q-n8-vON"/>
+                <constraint firstItem="8IZ-Oa-1hR" firstAttribute="centerY" secondItem="BXu-bZ-zyi" secondAttribute="centerY" id="Dqk-MK-2PX"/>
+                <constraint firstAttribute="bottom" secondItem="2JN-FC-HCM" secondAttribute="bottom" id="ELK-Xq-Jbw"/>
+                <constraint firstItem="Wgu-JS-EKQ" firstAttribute="centerX" secondItem="BXu-bZ-zyi" secondAttribute="centerX" id="KVM-Q1-1gs"/>
+                <constraint firstItem="YFl-Pj-U0G" firstAttribute="top" secondItem="Wgu-JS-EKQ" secondAttribute="bottom" constant="8" id="MBM-Nv-8ZL"/>
+                <constraint firstItem="2JN-FC-HCM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MEt-fS-U4t"/>
+                <constraint firstItem="nP3-LS-prp" firstAttribute="centerY" secondItem="S1w-au-8Yz" secondAttribute="centerY" id="NTz-UG-S0b"/>
+                <constraint firstItem="YFl-Pj-U0G" firstAttribute="leading" secondItem="Wgu-JS-EKQ" secondAttribute="leading" id="Obh-vl-jbU"/>
+                <constraint firstItem="S1w-au-8Yz" firstAttribute="leading" secondItem="nP3-LS-prp" secondAttribute="trailing" constant="8" id="RI2-Rm-gkv"/>
+                <constraint firstItem="r54-hp-wUh" firstAttribute="centerY" secondItem="Wgu-JS-EKQ" secondAttribute="centerY" id="SIn-WY-nDD"/>
+                <constraint firstItem="Wgu-JS-EKQ" firstAttribute="top" secondItem="BXu-bZ-zyi" secondAttribute="bottom" constant="8" id="T4a-AE-i8j"/>
+                <constraint firstAttribute="trailing" secondItem="2JN-FC-HCM" secondAttribute="trailing" id="Vwf-IE-9Zr"/>
+                <constraint firstItem="BXu-bZ-zyi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="XSa-C2-qoK"/>
+                <constraint firstItem="Mgd-rZ-pvn" firstAttribute="leading" secondItem="IMe-N8-jgg" secondAttribute="trailing" constant="3" id="YLB-gx-mIX"/>
+                <constraint firstItem="8IZ-Oa-1hR" firstAttribute="leading" secondItem="BXu-bZ-zyi" secondAttribute="trailing" id="bH8-JK-Wni"/>
+                <constraint firstItem="S1w-au-8Yz" firstAttribute="centerY" secondItem="r54-hp-wUh" secondAttribute="centerY" id="jQb-1n-7Op"/>
+                <constraint firstItem="Mgd-rZ-pvn" firstAttribute="centerY" secondItem="IMe-N8-jgg" secondAttribute="centerY" id="mUK-VG-yZk"/>
+                <constraint firstItem="IMe-N8-jgg" firstAttribute="centerY" secondItem="8IZ-Oa-1hR" secondAttribute="centerY" id="saq-6Y-f9y"/>
+                <constraint firstItem="r54-hp-wUh" firstAttribute="leading" secondItem="Wgu-JS-EKQ" secondAttribute="trailing" constant="12" id="uMG-Ee-iKo"/>
+                <constraint firstItem="S1w-au-8Yz" firstAttribute="trailing" secondItem="Mgd-rZ-pvn" secondAttribute="trailing" id="v7y-A7-U9G"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-698.5" y="71.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="appleLogo" width="49" height="49"/>
+        <image name="home_detail_more" width="12" height="12"/>
+    </resources>
+</document>

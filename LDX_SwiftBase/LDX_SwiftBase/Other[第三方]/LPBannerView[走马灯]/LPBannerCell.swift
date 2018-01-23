@@ -17,7 +17,7 @@ class LPBannerCell: UICollectionViewCell {
     /// 属性是否已配置
     public var isConfigured = false
     /// 轮播文字label高度
-    public var titleLabelHeight: CGFloat = 35
+    public var titleLabelHeight: CGFloat = 20
     /// 标题文字
     public var title = String() {
         didSet {
@@ -36,7 +36,7 @@ class LPBannerCell: UICollectionViewCell {
         }
     }
     /// 轮播文字label字体大小
-    public var titleLabelTextFont = UIFont.systemFont(ofSize: 15) {
+    public var titleLabelTextFont = UIFont.systemFont(ofSize: 12) {
         didSet {
             titleLabel.font = titleLabelTextFont
         }

@@ -86,11 +86,11 @@ public class LPBannerView: UIView, UICollectionViewDataSource, UICollectionViewD
     /// 轮播文字label字体颜色，默认白色
     public var titleLabelTextColor = UIColor.white
     /// 轮播文字label字体大小，默认15
-    public var titleLabelTextFont = UIFont.systemFont(ofSize: 15)
+    public var titleLabelTextFont = UIFont.systemFont(ofSize: 12)
     /// 轮播文字label背景颜色，默认黑色半透明
     public var titleLabelBackgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.5)
     /// 轮播文字label高度，默认35
-    public var titleLabelHeight: CGFloat = 35
+    public var titleLabelHeight: CGFloat = 20
     /// 轮播文字label对齐方式，默认居左
     public var titleLabelTextAlignment: NSTextAlignment = .left
     

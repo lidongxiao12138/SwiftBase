@@ -34,9 +34,6 @@
                     <state key="normal" title="商品">
                         <color key="titleColor" red="0.92549019610000005" green="0.74117647060000003" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <connections>
-                        <action selector="ButGoodClick:" destination="qIN-Ti-6Xc" eventType="touchDragInside" id="FEN-17-kE0"/>
-                    </connections>
                 </button>
                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6c-my-sCG">
                     <rect key="frame" x="110" y="8" width="30" height="28"/>

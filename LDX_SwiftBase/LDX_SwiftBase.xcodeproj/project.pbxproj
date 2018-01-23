@@ -53,6 +53,11 @@
 		99746C092016D2D800B02DBB /* LPBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99746C072016D2D800B02DBB /* LPBannerCell.swift */; };
 		99746C112016DE6F00B02DBB /* MerUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99746C102016DE6F00B02DBB /* MerUPView.swift */; };
 		99746C142016DEA900B02DBB /* MerUPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99746C132016DEA900B02DBB /* MerUPView.xib */; };
+		99746C1B20171D2100B02DBB /* EvaCenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99746C1920171D2100B02DBB /* EvaCenViewController.swift */; };
+		99746C1C20171D2100B02DBB /* EvaCenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99746C1A20171D2100B02DBB /* EvaCenViewController.xib */; };
+		99746C1E201725A900B02DBB /* TabDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99746C1D201725A900B02DBB /* TabDetailView.swift */; };
+		99746C22201725C000B02DBB /* TabDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99746C21201725C000B02DBB /* TabDetailView.xib */; };
+		99746C2420172D9F00B02DBB /* DetDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99746C2320172D9F00B02DBB /* DetDownViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +146,11 @@
 		99746C072016D2D800B02DBB /* LPBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBannerCell.swift; sourceTree = "<group>"; };
 		99746C102016DE6F00B02DBB /* MerUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerUPView.swift; sourceTree = "<group>"; };
 		99746C132016DEA900B02DBB /* MerUPView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MerUPView.xib; sourceTree = "<group>"; };
+		99746C1920171D2100B02DBB /* EvaCenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaCenViewController.swift; sourceTree = "<group>"; };
+		99746C1A20171D2100B02DBB /* EvaCenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EvaCenViewController.xib; sourceTree = "<group>"; };
+		99746C1D201725A900B02DBB /* TabDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetailView.swift; sourceTree = "<group>"; };
+		99746C21201725C000B02DBB /* TabDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabDetailView.xib; sourceTree = "<group>"; };
+		99746C2320172D9F00B02DBB /* DetDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetDownViewController.swift; sourceTree = "<group>"; };
 		DB89F1AFEED9F1E2A4CEAF28 /* Pods_LDX_SwiftBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDX_SwiftBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -426,6 +436,8 @@
 			children = (
 				435E4090200DF1AC003B1044 /* DetailSegmentView.swift */,
 				435E4092200DF1B5003B1044 /* DetailSegmentView.xib */,
+				99746C1D201725A900B02DBB /* TabDetailView.swift */,
+				99746C21201725C000B02DBB /* TabDetailView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -477,6 +489,7 @@
 		99746C0B2016D58800B02DBB /* 详情[评价] */ = {
 			isa = PBXGroup;
 			children = (
+				99746C1820171CAE00B02DBB /* ViewController */,
 			);
 			path = "详情[评价]";
 			sourceTree = "<group>";
@@ -484,6 +497,7 @@
 		99746C0C2016D5A000B02DBB /* 详情[详情] */ = {
 			isa = PBXGroup;
 			children = (
+				99746C2320172D9F00B02DBB /* DetDownViewController.swift */,
 			);
 			path = "详情[详情]";
 			sourceTree = "<group>";
@@ -495,6 +509,15 @@
 				99746C132016DEA900B02DBB /* MerUPView.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		99746C1820171CAE00B02DBB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99746C1920171D2100B02DBB /* EvaCenViewController.swift */,
+				99746C1A20171D2100B02DBB /* EvaCenViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -610,10 +633,12 @@
 			files = (
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
 				435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */,
+				99746C1C20171D2100B02DBB /* EvaCenViewController.xib in Resources */,
 				99746C142016DEA900B02DBB /* MerUPView.xib in Resources */,
 				044BE59C2005F8E300427691 /* HomeCollectionViewCell.xib in Resources */,
 				042DF7FF1FECF7BE00F5E021 /* Assets.xcassets in Resources */,
 				04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */,
+				99746C22201725C000B02DBB /* TabDetailView.xib in Resources */,
 				04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */,
 				042DF7FD1FECF7BE00F5E021 /* Main.storyboard in Resources */,
 			);
@@ -734,6 +759,7 @@
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
 				048F24F62003745900097209 /* Extension+String.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
+				99746C2420172D9F00B02DBB /* DetDownViewController.swift in Sources */,
 				43C0DFA7200C9DE800A8C3C0 /* UBaseTableViewCell.swift in Sources */,
 				042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */,
 				048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */,
@@ -758,7 +784,9 @@
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
 				99746C112016DE6F00B02DBB /* MerUPView.swift in Sources */,
 				044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */,
+				99746C1B20171D2100B02DBB /* EvaCenViewController.swift in Sources */,
 				435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */,
+				99746C1E201725A900B02DBB /* TabDetailView.swift in Sources */,
 				43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */,
 				99746C092016D2D800B02DBB /* LPBannerCell.swift in Sources */,
 			);
