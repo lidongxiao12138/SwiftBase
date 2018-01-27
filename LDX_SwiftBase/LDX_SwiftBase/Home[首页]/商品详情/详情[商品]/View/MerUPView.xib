@@ -302,6 +302,9 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ImageRolling" destination="HvX-90-3tQ" id="oql-dT-SLK"/>
+            </connections>
             <point key="canvasLocation" x="-9.5" y="23.5"/>
         </view>
     </objects>

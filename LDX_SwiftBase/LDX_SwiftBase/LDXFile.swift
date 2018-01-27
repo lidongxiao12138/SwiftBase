@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+
+
 // 屏幕的宽
 let SCREEN_WIDTH = UIScreen.main.bounds.size.width
 
@@ -59,6 +61,7 @@ func RGBCOLOR_HEX(h:Int) ->UIColor {
 
 let LDXBaseNav  =  RGBColor(r: 236.0, g: 189.0, b: 80.0)
 let RLDXBaseNav  = RGBColor(r: 236.0, g: 189.0, b: 80.0).cgColor
+let LDXBackColor  = RGBColor(r: 221.0, g: 221.0, b: 221.0).cgColor
 
 
 /// 系统普通字体
@@ -105,3 +108,92 @@ func getLabWidth(labelStr:String,font:UIFont,height:CGFloat) -> CGFloat {
     
     return strSize.width
 }
+
+//使用
+//let md5String = someString.md5()
+
+//MARK: ==========MD5加密方法=========
+//MD5加密方法：
+func md5String(str:String) -> String{
+    let cStr = str.cString(using: String.Encoding.utf8);
+    let buffer = UnsafeMutablePointer<UInt8>.allocate(capacity: 16)
+    CC_MD5(cStr!,(CC_LONG)(strlen(cStr!)), buffer)
+    let md5String = NSMutableString();
+    for i in 0 ..< 16{
+        md5String.appendFormat("%02x", buffer[i])
+    }
+    free(buffer)
+    return md5String as String
+}
+//func md5(_ input: String) -> String {
+//    let cStr = input.utf8CString
+//    let digest = [UInt8](repeating: 0, count: Int(CC_MD5_DIGEST_LENGTH))
+//    CC_MD5(cStr, strlen(cStr), digest)
+//    // This is the md5 call
+//    var output: String = "" /* TODO: .reserveCapacity(CC_MD5_DIGEST_LENGTH * 2) */
+//    for i in 0..<CC_MD5_DIGEST_LENGTH {
+//        output += String(format: "%02x", digest[i])
+//    }
+//    return output
+//}
+
+//MARK: ==========正则表达式=========
+//1.验证邮箱
+
+//func validateEmail(email: String) -> Bool {
+//    let emailString = "[A-Z0-9a-z._% -] @[A-Za-z0-9.-] \\.[A-Za-z]{2,4}"
+//    let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailString)
+//    return emailPredicate.evaluate(with: email)
+//}
+
+    //2.验证手机号
+
+    func validatePhonoNum(phono: String) -> Bool {
+        //手机号以13,15,17,18开头，八个 \d 数字字符
+        let phoneString = "^((13[0-9])|(15[^4,\\D]) |(17[0,0-9])|(18[0,0-9]))\\d{8}$"
+        let phonePredicate = NSPredicate(format: "SELF MATCHES %@", phoneString)
+        return phonePredicate.evaluate(with: phono)
+    }
+//
+//
+//    //3.验证车牌号
+//    class func validateCarNum(car: String) -> Bool {
+//        var carString = "^[A-Za-z]{1}[A-Za-z_0-9]{5}$"
+//        var carPredicate = NSPredicate(format: "SELF MATCHES %@", carString)
+//        return carPredicate.evaluateWithObject(car)
+//    }
+//
+//    //4.验证用户名
+//    class func validateUserName(name: String) -> Bool {
+//        var userNameRegex = "^[A-Za-z0-9]{6,20}+$"
+//        var userNamePredicate = NSPredicate(format: "SELF MATCHES %@", userNameRegex)
+//        var peopleName = userNamePredicate.evaluateWithObject(name)
+//        return peopleName
+//    }
+//
+    //5.验证密码
+    func validatePassword(passWord: String) -> Bool {
+        let passWordRegex = "^[a-zA-Z0-9]{6,20}+$"
+        let passWordPredicate = NSPredicate(format: "SELF MATCHES%@", passWordRegex)
+        return passWordPredicate.evaluate(with: passWord)
+    }
+//
+//    //6.验证昵称
+//    class func validateNickname(nickname: String) -> Bool {
+//        var nicknameRegex = "^[\u{4e00}-\u{9fa5}]{4,8}$"
+//        var passWordPredicate = NSPredicate(format: "SELF MATCHES%@", nicknameRegex)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

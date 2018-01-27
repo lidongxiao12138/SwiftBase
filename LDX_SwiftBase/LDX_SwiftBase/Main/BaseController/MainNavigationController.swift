@@ -24,7 +24,6 @@ class MainNavigationController: UINavigationController {
             let button = UIButton(type: .custom)
 //            button.setTitle("返回", for: .normal)
             button.setImage(UIImage(named:"navigationButtonReturn"), for: .normal)
-//            button.setImage(UIImage(named:"navigationButtonReturnClick"), for: .highlighted)
             button.addTarget(self, action: #selector(back), for: .touchUpInside)
             button.setTitleColor( .darkGray, for: .normal)
             button.setTitleColor( .red, for: .highlighted)

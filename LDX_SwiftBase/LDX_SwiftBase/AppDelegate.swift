@@ -36,6 +36,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          适配iOS11
          **/
         adaptationIOS_11()
+        /**
+         引导页
+         **/
+        LaunchIntroductionView.shared(withImages: ["ltimg", "ltimg1", "ltimg2"])
+
         
         // Override point for customization after application launch.
         return true

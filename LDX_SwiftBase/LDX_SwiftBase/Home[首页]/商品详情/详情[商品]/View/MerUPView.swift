@@ -9,7 +9,9 @@
 import UIKit
 
 class MerUPView: UIView {
-
+    @IBOutlet weak var ImageRolling: UIView!
+    
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

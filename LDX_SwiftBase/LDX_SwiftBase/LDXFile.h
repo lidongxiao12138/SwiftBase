@@ -10,4 +10,7 @@
 #define LDXFile_h
 
 #import "WebViewController.h"
+#import "LaunchIntroductionView.h"
+#import <CommonCrypto/CommonDigest.h>
+
 #endif /* LDXFile_h */

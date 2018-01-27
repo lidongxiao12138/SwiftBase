@@ -22,6 +22,9 @@ class HomeHeadView: UBaseCollectionReusableView {
     
     @IBOutlet weak var ButMore: UIButton!//更多
     
+    @IBOutlet weak var ButBorDis: UIButton!//领取优惠
+    
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         load_init()
@@ -39,6 +42,9 @@ class HomeHeadView: UBaseCollectionReusableView {
         Ridus(Rview: ButRecMer3, Ridus: 3)
        
         ButMore.addTarget(self, action: #selector(ButMoreClick), for: .touchUpInside)
+        
+        ButBorDis.addTarget(self, action: #selector(ButBorDisClick), for: .touchUpInside)
+        
         // Drawing code
     }
     
@@ -47,6 +53,10 @@ class HomeHeadView: UBaseCollectionReusableView {
         self.viewController()?.navigationController?.pushViewController(webView, animated: true)
     }
     
+    @objc func ButBorDisClick(){
+        let borDis = BroDisViewController()
+        self.viewController()?.navigationController?.pushViewController(borDis, animated: true)
+    }
 }
 
 

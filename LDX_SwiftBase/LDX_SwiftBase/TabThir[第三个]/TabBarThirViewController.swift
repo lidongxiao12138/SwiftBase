@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarThirViewController: UIViewController {
+class TabBarThirViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

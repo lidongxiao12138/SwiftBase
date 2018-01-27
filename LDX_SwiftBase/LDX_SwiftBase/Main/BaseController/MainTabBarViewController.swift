@@ -38,7 +38,7 @@ extension MainTabBarViewController {
         /// 分类
         let classVC = TabBarSecViewController()
         addChildViewController(classVC,
-                               title: "分类",
+                               title: "邻里信息",
                                image: UIImage(named: "tab_1_2_nor"),
                                selectedImage: UIImage(named: "tab_1_2_pre"))
         
@@ -46,7 +46,7 @@ extension MainTabBarViewController {
         /// 书架
         let bookVC = TabBarThirViewController()
         addChildViewController(bookVC,
-                               title: "书架",
+                               title: "购物车",
                                image: UIImage(named: "tab_1_3_nor"),
                                selectedImage: UIImage(named: "tab_1_3_pre"))
         

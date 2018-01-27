@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D91B63201C482B004B93D0 /* MeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D91B61201C482B004B93D0 /* MeCollectionViewCell.swift */; };
+		00D91B64201C482B004B93D0 /* MeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D91B62201C482B004B93D0 /* MeCollectionViewCell.xib */; };
+		00D91B6B201C68F1004B93D0 /* BroDisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D91B69201C68F1004B93D0 /* BroDisViewController.swift */; };
+		00D91B6C201C68F1004B93D0 /* BroDisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D91B6A201C68F1004B93D0 /* BroDisViewController.xib */; };
+		00D91B6E201C696E004B93D0 /* HeadTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D91B6D201C696E004B93D0 /* HeadTextView.swift */; };
+		00D91B70201C697F004B93D0 /* HeadTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D91B6F201C697F004B93D0 /* HeadTextView.xib */; };
+		00F5500220198EB000CD1FDF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5500020198EB000CD1FDF /* LoginViewController.swift */; };
+		00F5500320198EB000CD1FDF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F5500120198EB000CD1FDF /* LoginViewController.xib */; };
+		00F550052019BC0B00CD1FDF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F550042019BC0B00CD1FDF /* BaseViewController.swift */; };
+		00FB5505201ACB6B00646485 /* LaunchIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5504201ACB6B00646485 /* LaunchIntroductionView.m */; };
+		00FB550A201AD1D900646485 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5508201AD1D900646485 /* RegistViewController.swift */; };
+		00FB550B201AD1D900646485 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FB5509201AD1D900646485 /* RegistViewController.xib */; };
+		00FB550D201B152100646485 /* Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB550C201B152100646485 /* Regular.swift */; };
+		00FB5512201B2A5400646485 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5510201B2A5400646485 /* ForgetPasswordViewController.swift */; };
+		00FB5513201B2A5400646485 /* ForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FB5511201B2A5400646485 /* ForgetPasswordViewController.xib */; };
+		00FB551C201B471500646485 /* MeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FB551B201B471500646485 /* MeHeadView.swift */; };
+		00FB551E201B472000646485 /* MeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FB551D201B472000646485 /* MeHeadView.xib */; };
 		040AF5651FF5F58B0038C0B8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040AF5661FF5F58B0038C0B8 /* Alamofire.framework */; };
 		040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8311FECFCB800F5E021 /* HomeViewController.swift */; };
 		0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */; };
@@ -91,6 +108,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00D91B61201C482B004B93D0 /* MeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeCollectionViewCell.swift; sourceTree = "<group>"; };
+		00D91B62201C482B004B93D0 /* MeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeCollectionViewCell.xib; sourceTree = "<group>"; };
+		00D91B69201C68F1004B93D0 /* BroDisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroDisViewController.swift; sourceTree = "<group>"; };
+		00D91B6A201C68F1004B93D0 /* BroDisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BroDisViewController.xib; sourceTree = "<group>"; };
+		00D91B6D201C696E004B93D0 /* HeadTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadTextView.swift; sourceTree = "<group>"; };
+		00D91B6F201C697F004B93D0 /* HeadTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadTextView.xib; sourceTree = "<group>"; };
+		00F5500020198EB000CD1FDF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00F5500120198EB000CD1FDF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		00F550042019BC0B00CD1FDF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		00FB5503201ACB6A00646485 /* LaunchIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchIntroductionView.h; sourceTree = "<group>"; };
+		00FB5504201ACB6B00646485 /* LaunchIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchIntroductionView.m; sourceTree = "<group>"; };
+		00FB5508201AD1D900646485 /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		00FB5509201AD1D900646485 /* RegistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		00FB550C201B152100646485 /* Regular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regular.swift; sourceTree = "<group>"; };
+		00FB5510201B2A5400646485 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		00FB5511201B2A5400646485 /* ForgetPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		00FB551B201B471500646485 /* MeHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeHeadView.swift; sourceTree = "<group>"; };
+		00FB551D201B472000646485 /* MeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeHeadView.xib; sourceTree = "<group>"; };
 		040AF5601FF5F54C0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040AF5661FF5F58B0038C0B8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413C5791FFE22C5007E19BD /* TYCyclePagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCyclePagerViewCell.swift; sourceTree = "<group>"; };
@@ -181,6 +216,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D91B65201C6807004B93D0 /* 领卷优惠 */ = {
+			isa = PBXGroup;
+			children = (
+				00D91B68201C68A3004B93D0 /* Model */,
+				00D91B67201C689D004B93D0 /* View */,
+				00D91B66201C6895004B93D0 /* ViewController */,
+			);
+			path = "领卷优惠";
+			sourceTree = "<group>";
+		};
+		00D91B66201C6895004B93D0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00D91B69201C68F1004B93D0 /* BroDisViewController.swift */,
+				00D91B6A201C68F1004B93D0 /* BroDisViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00D91B67201C689D004B93D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00D91B6D201C696E004B93D0 /* HeadTextView.swift */,
+				00D91B6F201C697F004B93D0 /* HeadTextView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00D91B68201C68A3004B93D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00F54FFD20198E5000CD1FDF /* Login[登陆、注册] */ = {
+			isa = PBXGroup;
+			children = (
+				00FB550E201B297900646485 /* ForgetPassword */,
+				00FB5506201AD15600646485 /* Register */,
+				00F54FFE20198E7A00CD1FDF /* Login */,
+			);
+			path = "Login[登陆、注册]";
+			sourceTree = "<group>";
+		};
+		00F54FFE20198E7A00CD1FDF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				00F54FFF20198E9000CD1FDF /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		00F54FFF20198E9000CD1FDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00F5500020198EB000CD1FDF /* LoginViewController.swift */,
+				00F5500120198EB000CD1FDF /* LoginViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00FB5502201ACB4D00646485 /* LaunchView[引导页] */ = {
+			isa = PBXGroup;
+			children = (
+				00FB5503201ACB6A00646485 /* LaunchIntroductionView.h */,
+				00FB5504201ACB6B00646485 /* LaunchIntroductionView.m */,
+			);
+			path = "LaunchView[引导页]";
+			sourceTree = "<group>";
+		};
+		00FB5506201AD15600646485 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				00FB5507201AD16100646485 /* ViewController */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		00FB5507201AD16100646485 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00FB5508201AD1D900646485 /* RegistViewController.swift */,
+				00FB5509201AD1D900646485 /* RegistViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00FB550E201B297900646485 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				00FB550F201B298E00646485 /* ViewController */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		00FB550F201B298E00646485 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00FB5510201B2A5400646485 /* ForgetPasswordViewController.swift */,
+				00FB5511201B2A5400646485 /* ForgetPasswordViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00FB5514201B357500646485 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				042DF8371FECFD0500F5E021 /* MeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00FB5515201B358200646485 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00FB551B201B471500646485 /* MeHeadView.swift */,
+				00FB551D201B472000646485 /* MeHeadView.xib */,
+				00D91B61201C482B004B93D0 /* MeCollectionViewCell.swift */,
+				00D91B62201C482B004B93D0 /* MeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00FB5516201B358800646485 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		040986051FFF5F2B00858BF2 /* WebView[H5页面] */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +370,7 @@
 				048F24F32003745900097209 /* Extension+String.swift */,
 				048F24F12003745800097209 /* Extension+UIBarButtonItem.swift */,
 				048F24F22003745800097209 /* Extension+UIView.swift */,
+				00FB550C201B152100646485 /* Regular.swift */,
 			);
 			path = "Extension[扩展类]";
 			sourceTree = "<group>";
@@ -241,6 +408,7 @@
 		041430001FF117A000E72DDD /* Other[第三方] */ = {
 			isa = PBXGroup;
 			children = (
+				00FB5502201ACB4D00646485 /* LaunchView[引导页] */,
 				99746C052016D28000B02DBB /* LPBannerView[走马灯] */,
 				044BE5912005E8F500427691 /* NoticeBar[在顶部提示] */,
 				048F24EA2003734A00097209 /* SQAutoScrollView[轮播图] */,
@@ -290,6 +458,7 @@
 				042DF82F1FECFC8500F5E021 /* TabThir[第三个] */,
 				042DF82E1FECFC5A00F5E021 /* TabSec[第二个] */,
 				042DF82D1FECFC4A00F5E021 /* Home[首页] */,
+				00F54FFD20198E5000CD1FDF /* Login[登陆、注册] */,
 				042DF8251FECF7EE00F5E021 /* Main */,
 				042DF7F71FECF7BE00F5E021 /* AppDelegate.swift */,
 				042DF7F91FECF7BE00F5E021 /* ViewController.swift */,
@@ -335,6 +504,7 @@
 			children = (
 				042DF8271FECF88500F5E021 /* MainTabBarViewController.swift */,
 				042DF8291FECF8BA00F5E021 /* MainNavigationController.swift */,
+				00F550042019BC0B00CD1FDF /* BaseViewController.swift */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -342,6 +512,7 @@
 		042DF82D1FECFC4A00F5E021 /* Home[首页] */ = {
 			isa = PBXGroup;
 			children = (
+				00D91B65201C6807004B93D0 /* 领卷优惠 */,
 				435E4082200DAA36003B1044 /* 商品详情 */,
 				04142FFB1FF0E35100E72DDD /* Model */,
 				04142FFA1FF0E34B00E72DDD /* View */,
@@ -369,7 +540,9 @@
 		042DF8301FECFC8F00F5E021 /* MeVC[我的] */ = {
 			isa = PBXGroup;
 			children = (
-				042DF8371FECFD0500F5E021 /* MeViewController.swift */,
+				00FB5516201B358800646485 /* Model */,
+				00FB5515201B358200646485 /* View */,
+				00FB5514201B357500646485 /* ViewController */,
 			);
 			path = "MeVC[我的]";
 			sourceTree = "<group>";
@@ -633,13 +806,20 @@
 			files = (
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
 				435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */,
+				00F5500320198EB000CD1FDF /* LoginViewController.xib in Resources */,
 				99746C1C20171D2100B02DBB /* EvaCenViewController.xib in Resources */,
 				99746C142016DEA900B02DBB /* MerUPView.xib in Resources */,
 				044BE59C2005F8E300427691 /* HomeCollectionViewCell.xib in Resources */,
 				042DF7FF1FECF7BE00F5E021 /* Assets.xcassets in Resources */,
+				00FB5513201B2A5400646485 /* ForgetPasswordViewController.xib in Resources */,
 				04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */,
+				00D91B64201C482B004B93D0 /* MeCollectionViewCell.xib in Resources */,
 				99746C22201725C000B02DBB /* TabDetailView.xib in Resources */,
+				00D91B6C201C68F1004B93D0 /* BroDisViewController.xib in Resources */,
+				00D91B70201C697F004B93D0 /* HeadTextView.xib in Resources */,
 				04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */,
+				00FB550B201AD1D900646485 /* RegistViewController.xib in Resources */,
+				00FB551E201B472000646485 /* MeHeadView.xib in Resources */,
 				042DF7FD1FECF7BE00F5E021 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -755,14 +935,18 @@
 			files = (
 				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
+				00FB550D201B152100646485 /* Regular.swift in Sources */,
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
+				00FB5512201B2A5400646485 /* ForgetPasswordViewController.swift in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
 				048F24F62003745900097209 /* Extension+String.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
+				00D91B6B201C68F1004B93D0 /* BroDisViewController.swift in Sources */,
 				99746C2420172D9F00B02DBB /* DetDownViewController.swift in Sources */,
 				43C0DFA7200C9DE800A8C3C0 /* UBaseTableViewCell.swift in Sources */,
 				042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */,
 				048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */,
+				00FB550A201AD1D900646485 /* RegistViewController.swift in Sources */,
 				0452EA911FF49BE6008230EB /* NetworkTool.swift in Sources */,
 				040AF56E1FF631D30038C0B8 /* HomeViewController.swift in Sources */,
 				04142FF81FF0D2ED00E72DDD /* LDXFile.swift in Sources */,
@@ -776,19 +960,25 @@
 				43C0DFA5200C9DE800A8C3C0 /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
 				435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */,
+				00F550052019BC0B00CD1FDF /* BaseViewController.swift in Sources */,
 				99746C082016D2D800B02DBB /* LPBannerView.swift in Sources */,
+				00F5500220198EB000CD1FDF /* LoginViewController.swift in Sources */,
 				044BE59B2005F8E300427691 /* HomeCollectionViewCell.swift in Sources */,
+				00FB551C201B471500646485 /* MeHeadView.swift in Sources */,
 				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
 				048F24EF2003738600097209 /* SQDotView.swift in Sources */,
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
 				99746C112016DE6F00B02DBB /* MerUPView.swift in Sources */,
+				00D91B6E201C696E004B93D0 /* HeadTextView.swift in Sources */,
 				044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */,
 				99746C1B20171D2100B02DBB /* EvaCenViewController.swift in Sources */,
+				00D91B63201C482B004B93D0 /* MeCollectionViewCell.swift in Sources */,
 				435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */,
 				99746C1E201725A900B02DBB /* TabDetailView.swift in Sources */,
 				43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */,
 				99746C092016D2D800B02DBB /* LPBannerCell.swift in Sources */,
+				00FB5505201ACB6B00646485 /* LaunchIntroductionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -960,7 +1150,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/lidongxiao/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				GCC_PREFIX_HEADER = /Users/edz/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -968,7 +1158,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/lidongxiao/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -983,7 +1173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6DYUEXYS7C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/lidongxiao/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				GCC_PREFIX_HEADER = /Users/edz/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -991,7 +1181,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/lidongxiao/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Downloads/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

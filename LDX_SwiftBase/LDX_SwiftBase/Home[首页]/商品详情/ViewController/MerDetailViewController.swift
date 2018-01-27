@@ -8,12 +8,22 @@
 
 import UIKit
 import HMSegmentedControl
+import Alamofire
+import MJRefresh//下拉刷新
+import JQProgressHUD//小菊花
+import SwiftyJSON
+
 class MerDetailViewController: UIViewController,UIScrollViewDelegate {
 
+    var imageArr = [HomeModel]()
+    
     //MAEK:=========== 进入程序 =============
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = false
+        //加载头部视图
+        self.navigationController?.navigationBar.addSubview(self.detailSegment)
+        
     }
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
@@ -23,11 +33,13 @@ class MerDetailViewController: UIViewController,UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = ""
-        //加载头部视图
-        self.navigationController?.navigationBar.addSubview(self.detailSegment)
+        
         //加载尾部视图
         self.tabdetailView.frame = CGRect(x: 0, y: SCREEN_HEIGHT-48, width: SCREEN_WIDTH, height: 48)
         self.view.addSubview(self.tabdetailView)
+        //加载Image数据
+        requsetImageHome()
+        
         
         //加载滚动视图
         self.view.addSubview(self.detailscrollerView)
@@ -89,8 +101,8 @@ class MerDetailViewController: UIViewController,UIScrollViewDelegate {
 
                 if IPHONE6p_DEV
                 {
-                    self.merupView.frame = CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 720+64)
-                    vc.view.frame = CGRect(x:0,y:64,width:(scroller.bounds.width),height:self.merupView.frame.size.height+64)
+                    self.merupView.frame = CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 720)
+                    vc.view.frame = CGRect(x:0,y:64,width:(scroller.bounds.width),height:self.merupView.frame.size.height)
                 }else
                 {
                     self.merupView.frame = CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 735)
@@ -115,7 +127,7 @@ class MerDetailViewController: UIViewController,UIScrollViewDelegate {
                 vc.view.addSubview(evaVC.view)
             }
             if index == 2 {
-                vc.view.frame = CGRect(x:0,y:SCREEN_HEIGHT+200+64,width:(scroller.bounds.width),height:SCREEN_HEIGHT)
+                vc.view.frame = CGRect(x:0,y:SCREEN_HEIGHT+120+64,width:(scroller.bounds.width),height:SCREEN_HEIGHT)
             }
             
             let temp1 = Float(arc4random()%255)/255
@@ -137,6 +149,69 @@ class MerDetailViewController: UIViewController,UIScrollViewDelegate {
         return scroller
     }()
     
+    //MARK: =============网络请求===============
+    func requsetImageHome()
+    {
+        
+        JQProgressHUDTool.jq_showNormalHUD()
+        
+        let params:Dictionary = ["sign" : kSignName]
+        let UrlStr = kIPAddress+kPointUrl
+        print(UrlStr)
+        Alamofire.request(UrlStr, method: .post, parameters: params).responseJSON { (response) in
+            switch response.result.isSuccess {
+            case true:
+                
+                let jsonStr = JSON.init(response.result.value as Any)
+                    if let banner = jsonStr["data"]["banner"].array {
+                        for dic in banner
+                        {
+                            let homemodel = HomeModel()
+                            homemodel.image = dic["image"].string ?? ""
+                            homemodel.url = dic["url"].string ?? ""
+                            self.imageArr.append(homemodel)
+                        }
+                        
+                    }
+                    //MARK:=========== 加载轮播图 ==============
+                    self.loadCycleView()
+            case false:
+                //MARK:=========== 取消小菊花 ==============
+                JQProgressHUDTool.jq_hideHUD()
+                JQProgressHUDTool.jq_showNormalHUD(msg:"网络错误")
+                print(response.result.error as Any)
+                print("获取数据成功")
+
+            }
+            JQProgressHUDTool.jq_hideHUD()
+        }
+    }
+    //    MARK:=========== 轮播图 ==============
+    func loadCycleView() {
+        var urlArr = [String]()
+        for homeMo in self.imageArr
+        {
+            urlArr.append(homeMo.image!)
+            print(homeMo.image!)
+        }
+        let cycleView = SQAutoScrollView(frame: CGRect.init(x: 0, y: 0, width: SCREEN_WIDTH, height: 375), urls: urlArr , didItemCallBack: { (view, index) in
+            var homeMo = HomeModel.init()
+            homeMo = self.imageArr[index]
+            
+            let webview = WebViewController()
+            self.navigationController?.pushViewController(webview, animated: true)
+            
+            print(homeMo.url!)
+        })
+        cycleView.backgroundColor = .red
+        cycleView.pageControl?.pageIndicatorTintColor = .gray
+        cycleView.pageControl?.currentPageIndicatorTintColor = .white
+        
+        self.merupView.ImageRolling.addSubview(cycleView)
+        self.merupView.ImageRolling.insertSubview(cycleView, at: 0)
+    }
+    
+    //MARK: =============设置代理===============
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.y > self.merupView.frame.size.height-10 {
             self.detailSegment.ViewBackground.center.x = self.detailSegment.ButComment.center.x
@@ -158,6 +233,13 @@ class MerDetailViewController: UIViewController,UIScrollViewDelegate {
             self.detailSegment.ButDetail.setTitleColor(.black, for: .normal)
         }
     }
+    
+    
+    
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

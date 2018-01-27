@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarSecViewController: UIViewController {
+class TabBarSecViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

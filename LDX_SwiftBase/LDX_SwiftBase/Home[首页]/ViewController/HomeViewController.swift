@@ -7,12 +7,11 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
+import Alamofire//数据
+import SwiftyJSON//类型转译
 import MJRefresh//下拉刷新
 import JQProgressHUD//小菊花
-
-class HomeViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,LPBannerViewDelegate
+class HomeViewController: BaseViewController,UICollectionViewDelegate,UICollectionViewDataSource,LPBannerViewDelegate
 {
 
     let Cellid = "Cell"
@@ -26,12 +25,12 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     lazy var homeCollection: UICollectionView = {
         let layout = UICollectionViewFlowLayout.init()
         layout.itemSize = CGSize.init(width: 173*d_width ,height: 245)
-        layout.minimumLineSpacing = 15
+        layout.minimumLineSpacing = 15*d_width
         layout.minimumInteritemSpacing = 5
         layout.headerReferenceSize = self.homeheadView.size
 
-        layout.sectionInset = UIEdgeInsets.init(top: 0, left: 10, bottom: 0, right: 10)
-        let homecollection = UICollectionView(frame: CGRect.init(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT-64), collectionViewLayout: layout)
+        layout.sectionInset = UIEdgeInsets.init(top: 0, left: 10*d_width, bottom: 0, right: 10*d_width)
+        let homecollection = UICollectionView(frame: CGRect.init(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT-44), collectionViewLayout: layout)
         homecollection.delegate = self
         homecollection.dataSource = self
         homecollection.backgroundColor = .white
@@ -149,7 +148,6 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     //MARK:----------- 数据加载接口
     func requsethome()
     {
-        
         JQProgressHUDTool.jq_showNormalHUD()
         
         let params:Dictionary = ["sign" : kSignName]
@@ -226,7 +224,6 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
         self.view.addSubview(self.homeCollection)
         navigationItem.titleView = nil;
         navigationItem.title = "首页"
-
         
         
         
