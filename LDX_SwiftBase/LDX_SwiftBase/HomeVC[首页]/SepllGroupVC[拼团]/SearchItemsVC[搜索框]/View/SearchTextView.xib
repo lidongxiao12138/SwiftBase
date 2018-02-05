@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="GRU-UX-8vt" customClass="SearchTextView" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSY-a3-2PN">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="29"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="搜索商品" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Ywu-DO-K7T">
+                    <rect key="frame" x="37" y="0.0" width="243" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="ZFX-2l-h5r"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_nav_2_search" translatesAutoresizingMaskIntoConstraints="NO" id="YQN-UO-Q76">
+                    <rect key="frame" x="11" y="7" width="15" height="15"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Ywu-DO-K7T" firstAttribute="centerY" secondItem="YQN-UO-Q76" secondAttribute="centerY" id="DbX-F3-ofb"/>
+                <constraint firstAttribute="trailing" secondItem="Ywu-DO-K7T" secondAttribute="trailing" id="F9P-WA-RpQ"/>
+                <constraint firstItem="YQN-UO-Q76" firstAttribute="leading" secondItem="GRU-UX-8vt" secondAttribute="leading" constant="11" id="HZg-0e-IsU"/>
+                <constraint firstItem="VSY-a3-2PN" firstAttribute="top" secondItem="GRU-UX-8vt" secondAttribute="top" id="I23-Ot-lov"/>
+                <constraint firstAttribute="trailing" secondItem="VSY-a3-2PN" secondAttribute="trailing" id="LkZ-Ac-Mge"/>
+                <constraint firstItem="YQN-UO-Q76" firstAttribute="centerY" secondItem="GRU-UX-8vt" secondAttribute="centerY" id="NO4-0C-sNk"/>
+                <constraint firstItem="Ywu-DO-K7T" firstAttribute="leading" secondItem="YQN-UO-Q76" secondAttribute="trailing" constant="11" id="d9z-1n-pzN"/>
+                <constraint firstItem="VSY-a3-2PN" firstAttribute="leading" secondItem="GRU-UX-8vt" secondAttribute="leading" id="tRN-Lv-b3i"/>
+                <constraint firstAttribute="bottom" secondItem="VSY-a3-2PN" secondAttribute="bottom" id="wEo-Da-8F1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="87" y="83.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_nav_2_search" width="15" height="15"/>
+    </resources>
+</document>

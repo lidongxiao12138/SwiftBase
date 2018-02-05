@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SortingCollectionViewCell" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-LR-2Fa">
+                        <rect key="frame" x="4.5" y="5" width="61" height="61.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="取暖电器" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSD-gI-hmg">
+                        <rect key="frame" x="13" y="76.5" width="45" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="pU9-LR-2Fa" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="2Ak-uH-0Li"/>
+                <constraint firstItem="pU9-LR-2Fa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4.5" id="A2y-C8-hAH"/>
+                <constraint firstAttribute="trailing" secondItem="pU9-LR-2Fa" secondAttribute="trailing" constant="4.5" id="CAF-rf-EnV"/>
+                <constraint firstItem="lSD-gI-hmg" firstAttribute="top" secondItem="pU9-LR-2Fa" secondAttribute="bottom" constant="10" id="Esz-fj-Xwj"/>
+                <constraint firstItem="lSD-gI-hmg" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="J2Q-hs-hEV"/>
+                <constraint firstItem="pU9-LR-2Fa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="iHX-WL-8Ck"/>
+                <constraint firstAttribute="bottom" secondItem="lSD-gI-hmg" secondAttribute="bottom" id="qEu-V5-Deo"/>
+            </constraints>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="timg" width="500" height="519"/>
+    </resources>
+</document>

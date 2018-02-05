@@ -167,6 +167,9 @@ public class LPBannerView: UIView, UICollectionViewDataSource, UICollectionViewD
         }
         
         pageControl?.frame = CGRect(x: pageControlX, y: pageControlY, width: pageControlSize.width, height: pageControlSize.height)
+        
+        //MARK: ==========隐藏page=========
+        pageControl?.isHidden = true
         self.backgroundImageView.frame = self.bounds
     }
     

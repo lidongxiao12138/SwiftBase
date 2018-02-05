@@ -25,6 +25,7 @@ PODS:
     - SDWebImage/Core (= 4.2.3)
   - SDWebImage/Core (4.2.3)
   - SnapKit (4.0.0)
+  - Spring (1.0.5)
   - SVProgressHUD (2.2.2)
   - SwiftyJSON (4.0.0)
   - Then (2.3.0)
@@ -44,6 +45,7 @@ DEPENDENCIES:
   - RxSwift
   - SDWebImage
   - SnapKit
+  - Spring
   - SVProgressHUD
   - SwiftyJSON
   - Then
@@ -64,10 +66,11 @@ SPEC CHECKSUMS:
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
 
-PODFILE CHECKSUM: 8f7c0b715ec044ed14f04c89af71875aad7aa633
+PODFILE CHECKSUM: c37ab303219eb929a3e7863425d00f9d984d6157
 
 COCOAPODS: 1.4.0

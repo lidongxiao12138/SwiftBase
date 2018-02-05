@@ -63,8 +63,8 @@ class LoginViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "登录"
-        ViewRaidusBorWidth(View: ViewPhone, Radius: 3, BorWidth: 1, Color: LDXBackColor)
-        ViewRaidusBorWidth(View: ViewPassword, Radius: 3, BorWidth: 1, Color: LDXBackColor)
+        ViewRaidusBorWidth(View: ViewPhone, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
+        ViewRaidusBorWidth(View: ViewPassword, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         
         //添加左侧返回
         CreatNavLeft()

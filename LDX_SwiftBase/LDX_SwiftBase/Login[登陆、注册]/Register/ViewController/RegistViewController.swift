@@ -137,13 +137,13 @@ class RegistViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "注册"
 
-        ViewRaidusBorWidth(View: ViewPhone, Radius: 3, BorWidth: 1, Color: LDXBackColor)
+        ViewRaidusBorWidth(View: ViewPhone, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         
-        ViewRaidusBorWidth(View: ViewCode, Radius: 3, BorWidth: 1, Color: LDXBackColor)
+        ViewRaidusBorWidth(View: ViewCode, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         
-        ViewRaidusBorWidth(View: ViewPassword, Radius: 3, BorWidth: 1, Color: LDXBackColor)
+        ViewRaidusBorWidth(View: ViewPassword, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         
-        ViewRaidusBorWidth(View: ViewArea, Radius: 3, BorWidth: 1, Color: LDXBackColor)
+        ViewRaidusBorWidth(View: ViewArea, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         
         
         

@@ -16,6 +16,8 @@ class MainNavigationController: UINavigationController {
         navigationBar.barTintColor = LDXBaseNav
 //        navigationBar.barTintColor = UIColor(red: 37/255, green: 204/255, blue: 90/255, alpha: 1)
         navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        //开启手势
+        setUpPopGesTrue()
         // Do any additional setup after loading the view.
     }
     
@@ -23,7 +25,7 @@ class MainNavigationController: UINavigationController {
         if childViewControllers.count > 0 {
             let button = UIButton(type: .custom)
 //            button.setTitle("返回", for: .normal)
-            button.setImage(UIImage(named:"navigationButtonReturn"), for: .normal)
+            button.setImage(UIImage(named:"nav_1_back"), for: .normal)
             button.addTarget(self, action: #selector(back), for: .touchUpInside)
             button.setTitleColor( .darkGray, for: .normal)
             button.setTitleColor( .red, for: .highlighted)

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="USh-V9-Lqs" customClass="DetailShowView" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7A-Vk-0E6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqK-i5-cSk">
+                    <rect key="frame" x="0.0" y="269" width="375" height="398"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14p-m7-i4B">
+                            <rect key="frame" x="321" y="8" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="398" id="J6c-Nt-3gc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="A7A-Vk-0E6" firstAttribute="leading" secondItem="USh-V9-Lqs" secondAttribute="leading" id="5dK-Zm-e3J"/>
+                <constraint firstAttribute="bottom" secondItem="A7A-Vk-0E6" secondAttribute="bottom" id="6HJ-Xq-gKC"/>
+                <constraint firstAttribute="trailing" secondItem="gqK-i5-cSk" secondAttribute="trailing" id="7cM-ll-Rhj"/>
+                <constraint firstItem="A7A-Vk-0E6" firstAttribute="top" secondItem="USh-V9-Lqs" secondAttribute="top" id="FiJ-0a-HeJ"/>
+                <constraint firstAttribute="trailing" secondItem="A7A-Vk-0E6" secondAttribute="trailing" id="drG-gZ-taY"/>
+                <constraint firstItem="gqK-i5-cSk" firstAttribute="leading" secondItem="USh-V9-Lqs" secondAttribute="leading" id="jRI-l6-nya"/>
+                <constraint firstAttribute="bottom" secondItem="gqK-i5-cSk" secondAttribute="bottom" id="zKb-dD-YGw"/>
+            </constraints>
+            <point key="canvasLocation" x="62.5" y="73.5"/>
+        </view>
+    </objects>
+</document>

@@ -60,8 +60,11 @@ func RGBCOLOR_HEX(h:Int) ->UIColor {
 }
 
 let LDXBaseNav  =  RGBColor(r: 236.0, g: 189.0, b: 80.0)
+let LDXBackColor  = RGBColor(r: 221.0, g: 221.0, b: 221.0)
 let RLDXBaseNav  = RGBColor(r: 236.0, g: 189.0, b: 80.0).cgColor
-let LDXBackColor  = RGBColor(r: 221.0, g: 221.0, b: 221.0).cgColor
+let RLDXBackColor  = RGBColor(r: 221.0, g: 221.0, b: 221.0).cgColor
+let LDX245BackColor  = RGBColor(r: 245.0, g: 245.0, b: 245.0)
+let LDXQianYellowkColor  = RGBColor(r: 248.0, g: 229.0, b: 190.0)
 
 
 /// 系统普通字体

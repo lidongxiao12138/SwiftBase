@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.59999999999999998" contentMode="scaleToFill" id="8Bf-ae-ls3" customClass="NavCenterView" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHP-XE-LWH">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="29"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_nav_2_search" translatesAutoresizingMaskIntoConstraints="NO" id="vsT-YL-rPm">
+                    <rect key="frame" x="11" y="7" width="15" height="15"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索商品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypB-sB-Gyk">
+                    <rect key="frame" x="37" y="6" width="57.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ypB-sB-Gyk" firstAttribute="centerY" secondItem="iHP-XE-LWH" secondAttribute="centerY" id="6ca-ho-JaL"/>
+                <constraint firstItem="vsT-YL-rPm" firstAttribute="leading" secondItem="8Bf-ae-ls3" secondAttribute="leading" constant="11" id="Byw-qV-DRL"/>
+                <constraint firstItem="iHP-XE-LWH" firstAttribute="leading" secondItem="8Bf-ae-ls3" secondAttribute="leading" id="PZE-BM-PgX"/>
+                <constraint firstItem="iHP-XE-LWH" firstAttribute="top" secondItem="8Bf-ae-ls3" secondAttribute="top" id="V7N-iE-FFF"/>
+                <constraint firstItem="ypB-sB-Gyk" firstAttribute="leading" secondItem="vsT-YL-rPm" secondAttribute="trailing" constant="11" id="dyp-u1-82h"/>
+                <constraint firstItem="vsT-YL-rPm" firstAttribute="centerY" secondItem="iHP-XE-LWH" secondAttribute="centerY" id="nlC-Aj-lEe"/>
+                <constraint firstAttribute="bottom" secondItem="iHP-XE-LWH" secondAttribute="bottom" id="uIx-aT-y1s"/>
+                <constraint firstAttribute="trailing" secondItem="iHP-XE-LWH" secondAttribute="trailing" id="woW-lA-gQX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="ButNav" destination="iHP-XE-LWH" id="L9J-6y-PeY"/>
+                <outlet property="LabSearch" destination="ypB-sB-Gyk" id="1jh-CD-o9m"/>
+            </connections>
+            <point key="canvasLocation" x="-269" y="-23.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_nav_2_search" width="15" height="15"/>
+    </resources>
+</document>

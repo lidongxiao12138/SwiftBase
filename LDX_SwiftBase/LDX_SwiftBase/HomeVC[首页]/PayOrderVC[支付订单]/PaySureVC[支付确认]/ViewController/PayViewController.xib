@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PayViewController" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pay_image_success" translatesAutoresizingMaskIntoConstraints="NO" id="khf-uP-KE9">
+                    <rect key="frame" x="132" y="109" width="110" height="110"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enn-1f-BuH">
+                    <rect key="frame" x="154.5" y="238" width="65.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5I-Hp-aCa">
+                    <rect key="frame" x="43" y="303.5" width="129" height="44"/>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.74117647060000003" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="4ku-Kd-kUk"/>
+                    </constraints>
+                    <state key="normal" title="再逛逛">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RH-os-5NO">
+                    <rect key="frame" x="202" y="303.5" width="129" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="qeZ-yO-4fs"/>
+                    </constraints>
+                    <state key="normal" title="我的订单">
+                        <color key="titleColor" red="0.92549019610000005" green="0.74117647060000003" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9RH-os-5NO" firstAttribute="centerY" secondItem="s5I-Hp-aCa" secondAttribute="centerY" id="7mz-Ms-lJo"/>
+                <constraint firstAttribute="trailing" secondItem="9RH-os-5NO" secondAttribute="trailing" constant="44" id="A3F-RR-uMi"/>
+                <constraint firstItem="Enn-1f-BuH" firstAttribute="centerX" secondItem="khf-uP-KE9" secondAttribute="centerX" id="BHt-OI-hu8"/>
+                <constraint firstItem="9RH-os-5NO" firstAttribute="leading" secondItem="s5I-Hp-aCa" secondAttribute="trailing" constant="30" id="Pbm-bq-rID"/>
+                <constraint firstItem="khf-uP-KE9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="109" id="Qeq-6p-sx2"/>
+                <constraint firstItem="khf-uP-KE9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="izS-Pq-4vQ"/>
+                <constraint firstItem="9RH-os-5NO" firstAttribute="top" secondItem="Enn-1f-BuH" secondAttribute="bottom" constant="46" id="jKq-0V-l4o"/>
+                <constraint firstItem="9RH-os-5NO" firstAttribute="width" secondItem="s5I-Hp-aCa" secondAttribute="width" id="oKY-iV-64C"/>
+                <constraint firstItem="Enn-1f-BuH" firstAttribute="top" secondItem="khf-uP-KE9" secondAttribute="bottom" constant="19" id="phq-Gn-UtD"/>
+                <constraint firstItem="s5I-Hp-aCa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="43" id="sJn-UG-Pzk"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Pay_image_success" width="110" height="110"/>
+    </resources>
+</document>
