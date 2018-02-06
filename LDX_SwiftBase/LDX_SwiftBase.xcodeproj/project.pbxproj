@@ -40,6 +40,14 @@
 		00B3B4252022EDDE00531A09 /* BuyShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3B4242022EDDE00531A09 /* BuyShowView.swift */; };
 		00B3B4272022EDEC00531A09 /* BuyShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B3B4262022EDEC00531A09 /* BuyShowView.xib */; };
 		00B3B42A2022FC7900531A09 /* FillOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3B4292022FC7900531A09 /* FillOrderViewController.swift */; };
+		00B8AA8620295B0800A58D28 /* ShoppingBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA8520295B0800A58D28 /* ShoppingBottomView.swift */; };
+		00B8AA8820295B1500A58D28 /* ShoppingBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA8720295B1500A58D28 /* ShoppingBottomView.xib */; };
+		00B8AA8B20297EF200A58D28 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA8A20297EF200A58D28 /* EditorView.swift */; };
+		00B8AA8D20297EFD00A58D28 /* EditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA8C20297EFD00A58D28 /* EditorView.xib */; };
+		00B8AA90202983B200A58D28 /* CouponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA8F202983B200A58D28 /* CouponsView.swift */; };
+		00B8AA92202983BB00A58D28 /* CouponsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA91202983BB00A58D28 /* CouponsView.xib */; };
+		00B8AA952029854000A58D28 /* CouponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA932029854000A58D28 /* CouponsTableViewCell.swift */; };
+		00B8AA962029854000A58D28 /* CouponsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA942029854000A58D28 /* CouponsTableViewCell.xib */; };
 		00BE6E782028024D0077198D /* payView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E772028024D0077198D /* payView.swift */; };
 		00BE6E7A202802580077198D /* payView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00BE6E79202802580077198D /* payView.xib */; };
 		00BE6E7D202827F10077198D /* GoStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E7C202827F10077198D /* GoStoreViewController.swift */; };
@@ -195,6 +203,14 @@
 		00B3B4242022EDDE00531A09 /* BuyShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyShowView.swift; sourceTree = "<group>"; };
 		00B3B4262022EDEC00531A09 /* BuyShowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyShowView.xib; sourceTree = "<group>"; };
 		00B3B4292022FC7900531A09 /* FillOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillOrderViewController.swift; sourceTree = "<group>"; };
+		00B8AA8520295B0800A58D28 /* ShoppingBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBottomView.swift; sourceTree = "<group>"; };
+		00B8AA8720295B1500A58D28 /* ShoppingBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingBottomView.xib; sourceTree = "<group>"; };
+		00B8AA8A20297EF200A58D28 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		00B8AA8C20297EFD00A58D28 /* EditorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorView.xib; sourceTree = "<group>"; };
+		00B8AA8F202983B200A58D28 /* CouponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsView.swift; sourceTree = "<group>"; };
+		00B8AA91202983BB00A58D28 /* CouponsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsView.xib; sourceTree = "<group>"; };
+		00B8AA932029854000A58D28 /* CouponsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsTableViewCell.swift; sourceTree = "<group>"; };
+		00B8AA942029854000A58D28 /* CouponsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsTableViewCell.xib; sourceTree = "<group>"; };
 		00BE6E772028024D0077198D /* payView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payView.swift; sourceTree = "<group>"; };
 		00BE6E79202802580077198D /* payView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = payView.xib; sourceTree = "<group>"; };
 		00BE6E7C202827F10077198D /* GoStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoStoreViewController.swift; sourceTree = "<group>"; };
@@ -545,6 +561,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		00B8AA8E2029836F00A58D28 /* CouponView[优惠券] */ = {
+			isa = PBXGroup;
+			children = (
+				00B8AA8F202983B200A58D28 /* CouponsView.swift */,
+				00B8AA91202983BB00A58D28 /* CouponsView.xib */,
+				00B8AA932029854000A58D28 /* CouponsTableViewCell.swift */,
+				00B8AA942029854000A58D28 /* CouponsTableViewCell.xib */,
+			);
+			path = "CouponView[优惠券]";
+			sourceTree = "<group>";
+		};
 		00BE6E7B202827C00077198D /* GoStoreVC[进入店铺] */ = {
 			isa = PBXGroup;
 			children = (
@@ -689,10 +716,15 @@
 		00FB53AC2028846D00B18D9D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00B8AA8E2029836F00A58D28 /* CouponView[优惠券] */,
 				00FB53AF202884EE00B18D9D /* ShoppSectionView.swift */,
 				00FB53B1202884F600B18D9D /* ShoppSectionView.xib */,
 				00FB53B32028873F00B18D9D /* ShoppingTableViewCell.swift */,
 				00FB53B42028873F00B18D9D /* ShoppingTableViewCell.xib */,
+				00B8AA8520295B0800A58D28 /* ShoppingBottomView.swift */,
+				00B8AA8720295B1500A58D28 /* ShoppingBottomView.xib */,
+				00B8AA8A20297EF200A58D28 /* EditorView.swift */,
+				00B8AA8C20297EFD00A58D28 /* EditorView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1234,8 +1266,10 @@
 			files = (
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
 				00BE6E7A202802580077198D /* payView.xib in Resources */,
+				00B8AA92202983BB00A58D28 /* CouponsView.xib in Resources */,
 				00B3B4272022EDEC00531A09 /* BuyShowView.xib in Resources */,
 				002E9A43202165700044F712 /* SortingCollectionViewCell.xib in Resources */,
+				00B8AA8D20297EFD00A58D28 /* EditorView.xib in Resources */,
 				00FB53612028525500B18D9D /* SearchTextView.xib in Resources */,
 				00FB53B62028873F00B18D9D /* ShoppingTableViewCell.xib in Resources */,
 				435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */,
@@ -1244,7 +1278,9 @@
 				002E9A4720216FF50044F712 /* HeadSectionView.xib in Resources */,
 				99746C142016DEA900B02DBB /* MerUPView.xib in Resources */,
 				002E9A5E2021C1E80044F712 /* BottomView.xib in Resources */,
+				00B8AA962029854000A58D28 /* CouponsTableViewCell.xib in Resources */,
 				044BE59C2005F8E300427691 /* HomeCollectionViewCell.xib in Resources */,
+				00B8AA8820295B1500A58D28 /* ShoppingBottomView.xib in Resources */,
 				002E9A572021B3E10044F712 /* SepRulesViewController.xib in Resources */,
 				001220FE201EFD4100DB4588 /* BorDisTableViewCell.xib in Resources */,
 				002E9A512021A5DA0044F712 /* SepllComViewController.xib in Resources */,
@@ -1394,6 +1430,7 @@
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
 				00FB5512201B2A5400646485 /* ForgetPasswordViewController.swift in Sources */,
 				00122101201F0DE300DB4588 /* ShinePieChart.swift in Sources */,
+				00B8AA8B20297EF200A58D28 /* EditorView.swift in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
 				00FB535B2028481200B18D9D /* SearchListView.m in Sources */,
 				00FB535F2028524A00B18D9D /* SearchTextView.swift in Sources */,
@@ -1429,6 +1466,7 @@
 				001220FD201EFD4100DB4588 /* BorDisTableViewCell.swift in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
 				435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */,
+				00B8AA952029854000A58D28 /* CouponsTableViewCell.swift in Sources */,
 				00B3B4252022EDDE00531A09 /* BuyShowView.swift in Sources */,
 				00F550052019BC0B00CD1FDF /* BaseViewController.swift in Sources */,
 				00122108201F248500DB4588 /* SepllGroupHeadView.swift in Sources */,
@@ -1437,6 +1475,7 @@
 				00BE6E9120283C520077198D /* MSSAutoresizeLabelFlowLayout.m in Sources */,
 				006C464F20245F1700D78DCB /* PayOrderViewController.swift in Sources */,
 				00BE6E9220283C520077198D /* MSSAutoresizeLabelFlow.m in Sources */,
+				00B8AA90202983B200A58D28 /* CouponsView.swift in Sources */,
 				00FB53B0202884EE00B18D9D /* ShoppSectionView.swift in Sources */,
 				006C465C20246BD000D78DCB /* PayViewController.swift in Sources */,
 				002E9A5A2021C1840044F712 /* BottomView.swift in Sources */,
@@ -1447,6 +1486,7 @@
 				00158D0620201BEF00B16C7A /* SortingViewController.swift in Sources */,
 				00FB551C201B471500646485 /* MeHeadView.swift in Sources */,
 				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
+				00B8AA8620295B0800A58D28 /* ShoppingBottomView.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
 				00FB53B52028873F00B18D9D /* ShoppingTableViewCell.swift in Sources */,
 				048F24EF2003738600097209 /* SQDotView.swift in Sources */,

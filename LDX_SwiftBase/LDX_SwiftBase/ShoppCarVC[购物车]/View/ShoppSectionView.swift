@@ -10,6 +10,14 @@ import UIKit
 
 class ShoppSectionView: UBaseTableViewHeaderFooterView {
 
+//    @IBOutlet weak var ButCoupons: UIButton!//优惠券
+    
+    
+    @IBAction func ButCouponsClick(_ sender: UIButton) {
+        //显示优惠券
+        couponsView.frame = CGRect(x: 0, y:0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - 100 - 64)
+        self.window?.addSubview(couponsView)
+    }
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -17,5 +25,11 @@ class ShoppSectionView: UBaseTableViewHeaderFooterView {
         // Drawing code
     }
     */
+    
+    //显示优惠券
+    fileprivate lazy var couponsView: CouponsView = {
+        let nibView = Bundle.main.loadNibNamed("CouponsView", owner: nil, options: nil)?.first
+        return nibView as! CouponsView
+    }()
 
 }

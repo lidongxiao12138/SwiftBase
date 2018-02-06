@@ -11,10 +11,11 @@ import UIKit
 class TabBarThirViewController: BaseViewController,UITableViewDataSource,UITableViewDelegate {
     let TabCellId = "SortingCellid"
     let SectionCellId = "SectionCellid"
+    var isEditor = false
 
     //MARK: ==========懒加载=========
     fileprivate lazy var ShoppingTabView: UITableView = {
-        let tabView = UITableView.init(frame: CGRect(x: 0, y: 64, width:SCREEN_WIDTH, height:SCREEN_HEIGHT-64 ), style: .plain)
+        let tabView = UITableView.init(frame: CGRect(x: 0, y: 64, width:SCREEN_WIDTH, height:SCREEN_HEIGHT-64 - 49 - 50 ), style: .plain)
         tabView.delegate = self
         tabView.dataSource = self
         tabView.sectionHeaderHeight = 44
@@ -23,8 +24,12 @@ class TabBarThirViewController: BaseViewController,UITableViewDataSource,UITable
         return tabView
     }()
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 3
     }
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return  2
+    }
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 105
     }
@@ -45,37 +50,78 @@ class TabBarThirViewController: BaseViewController,UITableViewDataSource,UITable
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
     }
-    
     func numberOfSections(in tableView: UITableView) -> Int {
+
         return 3
     }
     
-//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return self.shoppSectionview
-//    }
-    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        var view = self.shoppSectionview
-        view = ShoppingTabView.dequeueReusableHeaderFooterView(withIdentifier: SectionCellId) as! ShoppSectionView
-        return view
+        
+        let nibView = Bundle.main.loadNibNamed("ShoppSectionView", owner: nil, options: nil)?.first
+        return nibView as! ShoppSectionView
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 55
     }
-    
-    
-    //Sectionshopp
-    fileprivate lazy var shoppSectionview: ShoppSectionView = {
-        let nibView = Bundle.main.loadNibNamed("ShoppSectionView", owner: nil, options: nil)?.first
-        
-        return nibView as! ShoppSectionView
+    //购物底部
+    fileprivate lazy var shoppBottomView: ShoppingBottomView = {
+        let nibView = Bundle.main.loadNibNamed("ShoppingBottomView", owner: nil, options: nil)?.first
+        return nibView as! ShoppingBottomView
     }()
+    //编辑按钮
+    fileprivate lazy var editorView: EditorView = {
+        let nibView = Bundle.main.loadNibNamed("EditorView", owner: nil, options: nil)?.first
+        return nibView as! EditorView
+    }()
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        //编辑View
+        editorView.frame = CGRect(x: 0, y: 64, width: SCREEN_WIDTH, height: 44)
+        self.view.addSubview(editorView)
+        //tabView创建
+        ShoppingTabView.register(ShoppSectionView.self, forHeaderFooterViewReuseIdentifier: SectionCellId)
         self.view.addSubview(self.ShoppingTabView)
+        //添加购物车
+        shoppBottomView.frame = CGRect(x: 0, y: SCREEN_HEIGHT-49-50, width: SCREEN_WIDTH, height: 50)
+        self.view.addSubview(shoppBottomView)
+        
+        
+        
+       
+        
+        //添加右部编辑
+        CreatNavRight()
         // Do any additional setup after loading the view.
     }
 
+    func CreatNavRight(){
+        let but = UIButton.init(type: .custom)
+        but.titleLabel?.font = UIFont.systemFont(ofSize: 13)
+        but.setTitle("编辑", for: .normal)
+        but.addTarget(self, action: #selector(NavClick), for: .touchUpInside)
+        but.setTitleColor(.black, for: .normal)
+        but.contentVerticalAlignment = UIControlContentVerticalAlignment.center
+        but.contentHorizontalAlignment = UIControlContentHorizontalAlignment.right
+        but.sizeToFit()
+        let bar = UIBarButtonItem.init(customView: but)
+        navigationItem.rightBarButtonItem = bar
+    }
+    //按钮事件
+    @objc func NavClick(){
+        print("编辑按钮")
+        self.ShoppingTabView.origin = CGPoint(x: 0, y: 64 + 44)
+        if isEditor == false {
+            self.ShoppingTabView.origin = CGPoint(x: 0, y: 64 + 44)
+            isEditor = true
+        }else
+        {
+            self.ShoppingTabView.origin = CGPoint(x: 0, y: 64)
+            isEditor = false
+        }
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

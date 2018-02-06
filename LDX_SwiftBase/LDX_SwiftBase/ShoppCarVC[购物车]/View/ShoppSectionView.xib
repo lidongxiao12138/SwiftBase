@@ -15,6 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rk6-eZ-D1N">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuf-8X-dT6">
                     <rect key="frame" x="12" y="11" width="16" height="22"/>
                     <state key="normal" image="Pay_xuanze_nor"/>
@@ -39,6 +43,9 @@
                     <state key="normal" title="优惠券" image="Shopping_yhj">
                         <color key="titleColor" red="0.92549019610000005" green="0.74117647060000003" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="ButCouponsClick:" destination="-1" eventType="touchUpInside" id="MVs-5a-6kh"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_detail_more" translatesAutoresizingMaskIntoConstraints="NO" id="6G3-dJ-Uiq">
                     <rect key="frame" x="179" y="16.5" width="12" height="12"/>
@@ -48,7 +55,10 @@
             <constraints>
                 <constraint firstItem="9C3-P3-1ZT" firstAttribute="leading" secondItem="O8I-Th-ygh" secondAttribute="trailing" constant="12" id="14H-cP-mpJ"/>
                 <constraint firstItem="daO-fR-3pK" firstAttribute="centerY" secondItem="9C3-P3-1ZT" secondAttribute="centerY" id="2iL-GX-ts5"/>
+                <constraint firstAttribute="trailing" secondItem="rk6-eZ-D1N" secondAttribute="trailing" id="5JR-tO-W51"/>
                 <constraint firstItem="O8I-Th-ygh" firstAttribute="leading" secondItem="Nuf-8X-dT6" secondAttribute="trailing" constant="12" id="HlZ-Bn-CdB"/>
+                <constraint firstItem="rk6-eZ-D1N" firstAttribute="leading" secondItem="0XT-zY-dEl" secondAttribute="leading" id="JAD-l8-fK6"/>
+                <constraint firstItem="rk6-eZ-D1N" firstAttribute="top" secondItem="0XT-zY-dEl" secondAttribute="top" id="LWX-q9-tZ1"/>
                 <constraint firstItem="6G3-dJ-Uiq" firstAttribute="centerY" secondItem="9C3-P3-1ZT" secondAttribute="centerY" id="TS3-hM-Ew6"/>
                 <constraint firstItem="9C3-P3-1ZT" firstAttribute="centerY" secondItem="O8I-Th-ygh" secondAttribute="centerY" id="Te0-hz-vgL"/>
                 <constraint firstAttribute="trailing" secondItem="daO-fR-3pK" secondAttribute="trailing" constant="12" id="fUT-nB-OwZ"/>
@@ -56,6 +66,7 @@
                 <constraint firstItem="Nuf-8X-dT6" firstAttribute="centerY" secondItem="0XT-zY-dEl" secondAttribute="centerY" id="qAL-HG-ERP"/>
                 <constraint firstItem="6G3-dJ-Uiq" firstAttribute="leading" secondItem="9C3-P3-1ZT" secondAttribute="trailing" constant="5" id="qSG-U5-B3c"/>
                 <constraint firstItem="Nuf-8X-dT6" firstAttribute="leading" secondItem="0XT-zY-dEl" secondAttribute="leading" constant="12" id="rPV-Hr-99N"/>
+                <constraint firstAttribute="bottom" secondItem="rk6-eZ-D1N" secondAttribute="bottom" id="tt5-QS-2Wa"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="81.5" y="141"/>

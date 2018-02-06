@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oOF-LO-o29" customClass="CouponsView" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="522"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W5l-0g-GAk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="522"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kb-Mi-j5F">
+                    <rect key="frame" x="0.0" y="172" width="375" height="350"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店铺优惠券" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzC-Y5-euM">
+                            <rect key="frame" x="149" y="19" width="76.5" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFj-Dm-cmU">
+                            <rect key="frame" x="338" y="17" width="22" height="22"/>
+                            <state key="normal" image="home_close"/>
+                            <connections>
+                                <action selector="ButCloseClick:" destination="oOF-LO-o29" eventType="touchUpInside" id="bL8-wf-sjr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="yFj-Dm-cmU" secondAttribute="trailing" constant="15" id="H1D-re-10g"/>
+                        <constraint firstItem="vzC-Y5-euM" firstAttribute="centerX" secondItem="8kb-Mi-j5F" secondAttribute="centerX" id="NMR-7T-IzC"/>
+                        <constraint firstAttribute="height" constant="350" id="Tel-K4-Me9"/>
+                        <constraint firstItem="vzC-Y5-euM" firstAttribute="top" secondItem="8kb-Mi-j5F" secondAttribute="top" constant="19" id="wK7-GE-oNK"/>
+                        <constraint firstItem="yFj-Dm-cmU" firstAttribute="centerY" secondItem="vzC-Y5-euM" secondAttribute="centerY" id="y1I-r8-at4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="W5l-0g-GAk" firstAttribute="leading" secondItem="oOF-LO-o29" secondAttribute="leading" id="5NV-pf-uOu"/>
+                <constraint firstAttribute="bottom" secondItem="8kb-Mi-j5F" secondAttribute="bottom" id="8VF-fb-YMJ"/>
+                <constraint firstItem="W5l-0g-GAk" firstAttribute="top" secondItem="oOF-LO-o29" secondAttribute="top" id="Nh3-um-DZL"/>
+                <constraint firstAttribute="bottom" secondItem="W5l-0g-GAk" secondAttribute="bottom" id="YBV-3l-Gv5"/>
+                <constraint firstAttribute="trailing" secondItem="8kb-Mi-j5F" secondAttribute="trailing" id="l7h-Op-LXt"/>
+                <constraint firstItem="8kb-Mi-j5F" firstAttribute="leading" secondItem="oOF-LO-o29" secondAttribute="leading" id="mUI-0e-uhI"/>
+                <constraint firstAttribute="trailing" secondItem="W5l-0g-GAk" secondAttribute="trailing" id="nne-DZ-EUz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ButClose" destination="yFj-Dm-cmU" id="o72-7w-JtT"/>
+                <outlet property="ViewCouponsTab" destination="8kb-Mi-j5F" id="xdv-Hf-u5A"/>
+            </connections>
+            <point key="canvasLocation" x="79.5" y="81"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_close" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,20 +1,17 @@
 //
-//  ShoppingTableViewCell.swift
+//  CouponsTableViewCell.swift
 //  LDX_SwiftBase
 //
-//  Created by edz on 2018/2/5.
+//  Created by edz on 2018/2/6.
 //  Copyright © 2018年 LDX. All rights reserved.
 //
 
 import UIKit
 
-class ShoppingTableViewCell: UITableViewCell {
+class CouponsTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var ButImageShooping: UIButton!//商品
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        ViewRaidus(View: ButImageShooping, Radius: 5)
         // Initialization code
     }
 
