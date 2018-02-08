@@ -24,6 +24,7 @@ pod 'Reusable'
 pod 'IQKeyboardManagerSwift'
 pod 'SDWebImage'
 pod 'Spring'
+pod 'UITableView+FDTemplateLayoutCell'
 
 
 end

@@ -29,6 +29,7 @@ PODS:
   - SVProgressHUD (2.2.2)
   - SwiftyJSON (4.0.0)
   - Then (2.3.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
@@ -49,6 +50,7 @@ DEPENDENCIES:
   - SVProgressHUD
   - SwiftyJSON
   - Then
+  - UITableView+FDTemplateLayoutCell
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
@@ -70,7 +72,8 @@ SPEC CHECKSUMS:
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
-PODFILE CHECKSUM: c37ab303219eb929a3e7863425d00f9d984d6157
+PODFILE CHECKSUM: d1fe6c8344eb9b57f62958b962bfe6b48170572e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.1.1

@@ -9,12 +9,13 @@
 import Foundation
 import UIKit
 
-
 // 屏幕的宽
 let SCREEN_WIDTH = UIScreen.main.bounds.size.width
 
 // 屏幕的高
 let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
+
+let SCREEN_STATUS_BAR_HEIGHT = UIApplication.shared.statusBarFrame.height
 
 // 设置比例
 let d_width = SCREEN_WIDTH/375
@@ -36,6 +37,8 @@ let IPHONE6p_DEV:Bool! = (UIScreen.main.bounds.size.height > 667) ? true : false
 let IPAD_DEV:Bool! = (UIDevice.current.userInterfaceIdiom == .pad) ? true : false
 
 
+
+
 /*/Users/mac/Desktop/LDX_SwiftBase/LDX_SwiftBase/Main/Controller
  默认颜色
  */
@@ -43,6 +46,12 @@ func RGBColor(r :CGFloat ,g:CGFloat,b:CGFloat) ->UIColor
 {
     return UIColor(red: (r/255), green: (g/255), blue: (b/255), alpha: 1)
 }
+
+func RGBAColor(r :CGFloat ,g:CGFloat,b:CGFloat,a:CGFloat) ->UIColor
+{
+    return UIColor(red: (r/255), green: (g/255), blue: (b/255), alpha: a)
+}
+
 
 func Ridus(Rview : UIView, Ridus: CGFloat) {
     Rview.layer.cornerRadius = Ridus

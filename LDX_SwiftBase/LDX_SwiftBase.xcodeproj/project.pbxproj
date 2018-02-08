@@ -102,7 +102,6 @@
 		042DF8181FECF7BE00F5E021 /* LDX_SwiftBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8171FECF7BE00F5E021 /* LDX_SwiftBaseUITests.swift */; };
 		042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8271FECF88500F5E021 /* MainTabBarViewController.swift */; };
 		042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8291FECF8BA00F5E021 /* MainNavigationController.swift */; };
-		042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8331FECFCE800F5E021 /* TabBarSecViewController.swift */; };
 		042DF8361FECFCFB00F5E021 /* TabBarThirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8351FECFCFB00F5E021 /* TabBarThirViewController.swift */; };
 		042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DF8371FECFD0500F5E021 /* MeViewController.swift */; };
 		044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BE5922005E8F500427691 /* UNoticeBar.swift */; };
@@ -119,6 +118,19 @@
 		04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC91D61FF4EF5D00902F0F /* HomeModel.swift */; };
 		04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE56661FFCC33600A59434 /* HomeHeadView.swift */; };
 		04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE56681FFCC34400A59434 /* HomeHeadView.xib */; };
+		3860245D202A931C00325E87 /* TabBarSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860245C202A931C00325E87 /* TabBarSecViewController.swift */; };
+		3860245F202A93A800325E87 /* LDXForumTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860245E202A93A800325E87 /* LDXForumTopView.swift */; };
+		38602464202AA22F00325E87 /* UIFont+LayoutFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38602461202AA22E00325E87 /* UIFont+LayoutFit.m */; };
+		38602465202AA22F00325E87 /* UIView+LayoutFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38602463202AA22F00325E87 /* UIView+LayoutFit.m */; };
+		38602467202AD6CB00325E87 /* LDXForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602466202AD6CB00325E87 /* LDXForumTableViewCell.swift */; };
+		38602469202ADA6C00325E87 /* LDXForumImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602468202ADA6C00325E87 /* LDXForumImageContentView.swift */; };
+		3860246C202ADD5900325E87 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3860246A202ADD5800325E87 /* UIImage+Category.m */; };
+		3860246E202BECD200325E87 /* LDXForumCommentContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860246D202BECD100325E87 /* LDXForumCommentContentView.swift */; };
+		38602470202C032500325E87 /* LDXSendCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860246F202C032500325E87 /* LDXSendCommentView.swift */; };
+		3860247A202C3FF300325E87 /* LDXMyForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602479202C3FF300325E87 /* LDXMyForumViewController.swift */; };
+		3860247C202C42E300325E87 /* LDXSendForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860247B202C42E300325E87 /* LDXSendForumViewController.swift */; };
+		3860247F202C4B2000325E87 /* MBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3860247D202C4B1F00325E87 /* MBTextView.m */; };
+		38602481202C559500325E87 /* LDXSendForumTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602480202C559500325E87 /* LDXSendForumTypeView.swift */; };
 		435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E408B200DAB36003B1044 /* MerDetailViewController.swift */; };
 		435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E4090200DF1AC003B1044 /* DetailSegmentView.swift */; };
 		435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435E4092200DF1B5003B1044 /* DetailSegmentView.xib */; };
@@ -278,7 +290,6 @@
 		042DF8271FECF88500F5E021 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		042DF8291FECF8BA00F5E021 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		042DF8311FECFCB800F5E021 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		042DF8331FECFCE800F5E021 /* TabBarSecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSecViewController.swift; sourceTree = "<group>"; };
 		042DF8351FECFCFB00F5E021 /* TabBarThirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarThirViewController.swift; sourceTree = "<group>"; };
 		042DF8371FECFD0500F5E021 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		044BE5922005E8F500427691 /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
@@ -296,11 +307,28 @@
 		04EC91D61FF4EF5D00902F0F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		04FE56661FFCC33600A59434 /* HomeHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeadView.swift; sourceTree = "<group>"; };
 		04FE56681FFCC34400A59434 /* HomeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeadView.xib; sourceTree = "<group>"; };
+		386024592029B5D000325E87 /* LDXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
+		3860245C202A931C00325E87 /* TabBarSecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarSecViewController.swift; sourceTree = "<group>"; };
+		3860245E202A93A800325E87 /* LDXForumTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXForumTopView.swift; sourceTree = "<group>"; };
+		38602460202AA22D00325E87 /* UIFont+LayoutFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LayoutFit.h"; sourceTree = "<group>"; };
+		38602461202AA22E00325E87 /* UIFont+LayoutFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LayoutFit.m"; sourceTree = "<group>"; };
+		38602462202AA22E00325E87 /* UIView+LayoutFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutFit.h"; sourceTree = "<group>"; };
+		38602463202AA22F00325E87 /* UIView+LayoutFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutFit.m"; sourceTree = "<group>"; };
+		38602466202AD6CB00325E87 /* LDXForumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXForumTableViewCell.swift; sourceTree = "<group>"; };
+		38602468202ADA6C00325E87 /* LDXForumImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXForumImageContentView.swift; sourceTree = "<group>"; };
+		3860246A202ADD5800325E87 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		3860246B202ADD5900325E87 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		3860246D202BECD100325E87 /* LDXForumCommentContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXForumCommentContentView.swift; sourceTree = "<group>"; };
+		3860246F202C032500325E87 /* LDXSendCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendCommentView.swift; sourceTree = "<group>"; };
+		38602479202C3FF300325E87 /* LDXMyForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXMyForumViewController.swift; sourceTree = "<group>"; };
+		3860247B202C42E300325E87 /* LDXSendForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumViewController.swift; sourceTree = "<group>"; };
+		3860247D202C4B1F00325E87 /* MBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextView.m; sourceTree = "<group>"; };
+		3860247E202C4B2000325E87 /* MBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextView.h; sourceTree = "<group>"; };
+		38602480202C559500325E87 /* LDXSendForumTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumTypeView.swift; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
 		435E408B200DAB36003B1044 /* MerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerDetailViewController.swift; sourceTree = "<group>"; };
 		435E4090200DF1AC003B1044 /* DetailSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSegmentView.swift; sourceTree = "<group>"; };
 		435E4092200DF1B5003B1044 /* DetailSegmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailSegmentView.xib; sourceTree = "<group>"; };
-		438E29AA200C541E001506D3 /* LDXFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXFile.h; sourceTree = "<group>"; };
 		43C0DFA0200C9DE600A8C3C0 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		43C0DFA1200C9DE700A8C3C0 /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		43C0DFA2200C9DE700A8C3C0 /* UBaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionReusableView.swift; sourceTree = "<group>"; };
@@ -921,7 +949,13 @@
 				042DF8001FECF7BE00F5E021 /* LaunchScreen.storyboard */,
 				042DF8031FECF7BE00F5E021 /* Info.plist */,
 				04142FF71FF0D2ED00E72DDD /* LDXFile.swift */,
-				438E29AA200C541E001506D3 /* LDXFile.h */,
+				386024592029B5D000325E87 /* LDXFile.h */,
+				38602460202AA22D00325E87 /* UIFont+LayoutFit.h */,
+				38602461202AA22E00325E87 /* UIFont+LayoutFit.m */,
+				38602462202AA22E00325E87 /* UIView+LayoutFit.h */,
+				38602463202AA22F00325E87 /* UIView+LayoutFit.m */,
+				3860246B202ADD5900325E87 /* UIImage+Category.h */,
+				3860246A202ADD5800325E87 /* UIImage+Category.m */,
 			);
 			path = LDX_SwiftBase;
 			sourceTree = "<group>";
@@ -980,7 +1014,8 @@
 		042DF82E1FECFC5A00F5E021 /* TabSec[第二个] */ = {
 			isa = PBXGroup;
 			children = (
-				042DF8331FECFCE800F5E021 /* TabBarSecViewController.swift */,
+				3860245A202A931B00325E87 /* View */,
+				3860245B202A931C00325E87 /* VIewController */,
 			);
 			path = "TabSec[第二个]";
 			sourceTree = "<group>";
@@ -1028,6 +1063,31 @@
 				048F24EB2003738500097209 /* SQPageControl.swift */,
 			);
 			path = "SQAutoScrollView[轮播图]";
+			sourceTree = "<group>";
+		};
+		3860245A202A931B00325E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3860247E202C4B2000325E87 /* MBTextView.h */,
+				3860247D202C4B1F00325E87 /* MBTextView.m */,
+				3860245E202A93A800325E87 /* LDXForumTopView.swift */,
+				38602466202AD6CB00325E87 /* LDXForumTableViewCell.swift */,
+				38602468202ADA6C00325E87 /* LDXForumImageContentView.swift */,
+				3860246D202BECD100325E87 /* LDXForumCommentContentView.swift */,
+				3860246F202C032500325E87 /* LDXSendCommentView.swift */,
+				38602480202C559500325E87 /* LDXSendForumTypeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3860245B202A931C00325E87 /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				3860245C202A931C00325E87 /* TabBarSecViewController.swift */,
+				38602479202C3FF300325E87 /* LDXMyForumViewController.swift */,
+				3860247B202C42E300325E87 /* LDXSendForumViewController.swift */,
+			);
+			path = VIewController;
 			sourceTree = "<group>";
 		};
 		3BF8D250AE6B0F50858E0299 /* Frameworks */ = {
@@ -1219,13 +1279,14 @@
 		042DF7EC1FECF7BD00F5E021 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LDX;
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = LDX;
 				TargetAttributes = {
 					042DF7F31FECF7BE00F5E021 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					042DF8071FECF7BE00F5E021 = {
 						CreatedOnToolsVersion = 9.1;
@@ -1340,7 +1401,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E859960A832973AAF909917C /* [CP] Copy Pods Resources */ = {
@@ -1421,6 +1482,7 @@
 			files = (
 				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
 				00BE6E9520283D300077198D /* SearchItemsViewController.swift in Sources */,
+				38602464202AA22F00325E87 /* UIFont+LayoutFit.m in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				00FB550D201B152100646485 /* Regular.swift in Sources */,
 				00158CFF2020061600B16C7A /* NavCenterView.swift in Sources */,
@@ -1429,15 +1491,20 @@
 				002E9A4D20219F960044F712 /* SepllDetailViewController.swift in Sources */,
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
 				00FB5512201B2A5400646485 /* ForgetPasswordViewController.swift in Sources */,
+				38602470202C032500325E87 /* LDXSendCommentView.swift in Sources */,
 				00122101201F0DE300DB4588 /* ShinePieChart.swift in Sources */,
 				00B8AA8B20297EF200A58D28 /* EditorView.swift in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
+				3860245F202A93A800325E87 /* LDXForumTopView.swift in Sources */,
 				00FB535B2028481200B18D9D /* SearchListView.m in Sources */,
+				38602465202AA22F00325E87 /* UIView+LayoutFit.m in Sources */,
 				00FB535F2028524A00B18D9D /* SearchTextView.swift in Sources */,
+				38602467202AD6CB00325E87 /* LDXForumTableViewCell.swift in Sources */,
 				048F24F62003745900097209 /* Extension+String.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
 				00FF71D420244EC500744A7F /* fillorderView.swift in Sources */,
 				00D91B6B201C68F1004B93D0 /* BroDisViewController.swift in Sources */,
+				3860247A202C3FF300325E87 /* LDXMyForumViewController.swift in Sources */,
 				99746C2420172D9F00B02DBB /* DetDownViewController.swift in Sources */,
 				006C4655202469F500D78DCB /* PayNowBottomView.swift in Sources */,
 				43C0DFA7200C9DE800A8C3C0 /* UBaseTableViewCell.swift in Sources */,
@@ -1460,6 +1527,7 @@
 				00B3B42A2022FC7900531A09 /* FillOrderViewController.swift in Sources */,
 				048F24F02003738600097209 /* SQAutoScrollView.swift in Sources */,
 				00122106201F245500DB4588 /* SpellGroupViewController.swift in Sources */,
+				3860246E202BECD200325E87 /* LDXForumCommentContentView.swift in Sources */,
 				00FF71D820244FE600744A7F /* OrderBottomView.swift in Sources */,
 				048F24EE2003738600097209 /* SQPageControl.swift in Sources */,
 				43C0DFA5200C9DE800A8C3C0 /* UBaseTableViewHeaderFooterView.swift in Sources */,
@@ -1469,10 +1537,13 @@
 				00B8AA952029854000A58D28 /* CouponsTableViewCell.swift in Sources */,
 				00B3B4252022EDDE00531A09 /* BuyShowView.swift in Sources */,
 				00F550052019BC0B00CD1FDF /* BaseViewController.swift in Sources */,
+				3860247F202C4B2000325E87 /* MBTextView.m in Sources */,
 				00122108201F248500DB4588 /* SepllGroupHeadView.swift in Sources */,
+				3860245D202A931C00325E87 /* TabBarSecViewController.swift in Sources */,
 				002E9A562021B3E10044F712 /* SepRulesViewController.swift in Sources */,
 				99746C082016D2D800B02DBB /* LPBannerView.swift in Sources */,
 				00BE6E9120283C520077198D /* MSSAutoresizeLabelFlowLayout.m in Sources */,
+				3860246C202ADD5900325E87 /* UIImage+Category.m in Sources */,
 				006C464F20245F1700D78DCB /* PayOrderViewController.swift in Sources */,
 				00BE6E9220283C520077198D /* MSSAutoresizeLabelFlow.m in Sources */,
 				00B8AA90202983B200A58D28 /* CouponsView.swift in Sources */,
@@ -1486,11 +1557,12 @@
 				00158D0620201BEF00B16C7A /* SortingViewController.swift in Sources */,
 				00FB551C201B471500646485 /* MeHeadView.swift in Sources */,
 				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
+				38602481202C559500325E87 /* LDXSendForumTypeView.swift in Sources */,
 				00B8AA8620295B0800A58D28 /* ShoppingBottomView.swift in Sources */,
+				38602469202ADA6C00325E87 /* LDXForumImageContentView.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
 				00FB53B52028873F00B18D9D /* ShoppingTableViewCell.swift in Sources */,
 				048F24EF2003738600097209 /* SQDotView.swift in Sources */,
-				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
 				99746C112016DE6F00B02DBB /* MerUPView.swift in Sources */,
 				00BE6E9020283C520077198D /* MSSAutoresizeLabelFlowConfig.m in Sources */,
 				00D91B6E201C696E004B93D0 /* HeadTextView.swift in Sources */,
@@ -1502,6 +1574,7 @@
 				99746C1E201725A900B02DBB /* TabDetailView.swift in Sources */,
 				43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */,
 				99746C092016D2D800B02DBB /* LPBannerCell.swift in Sources */,
+				3860247C202C42E300325E87 /* LDXSendForumViewController.swift in Sources */,
 				00FB5505201ACB6B00646485 /* LaunchIntroductionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1608,7 +1681,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1659,6 +1732,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -1671,18 +1745,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6DYUEXYS7C;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TP8L5ZC52V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/edz/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LDX_SwiftBase/LDXFile.h";
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.LDX-SwiftBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				PROVISIONING_PROFILE = "bb12aed2-70be-4f3c-8c50-b751801a8d78";
+				PROVISIONING_PROFILE_SPECIFIER = anyAPPDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/LDX_SwiftBase/LDXFile.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1694,18 +1768,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6DYUEXYS7C;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TP8L5ZC52V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/edz/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LDX_SwiftBase/LDXFile.h";
 				INFOPLIST_FILE = LDX_SwiftBase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.LDX-SwiftBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/edz/Desktop/SwiftBase/LDX_SwiftBase/LDX_SwiftBase/LDXFile.h;
+				PROVISIONING_PROFILE = "bb12aed2-70be-4f3c-8c50-b751801a8d78";
+				PROVISIONING_PROFILE_SPECIFIER = anyAPPDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/LDX_SwiftBase/LDXFile.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
