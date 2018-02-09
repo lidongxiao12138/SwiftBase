@@ -131,6 +131,7 @@
 		3860247C202C42E300325E87 /* LDXSendForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3860247B202C42E300325E87 /* LDXSendForumViewController.swift */; };
 		3860247F202C4B2000325E87 /* MBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3860247D202C4B1F00325E87 /* MBTextView.m */; };
 		38602481202C559500325E87 /* LDXSendForumTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602480202C559500325E87 /* LDXSendForumTypeView.swift */; };
+		38843CDF202D40B8007F10C5 /* LDXSendForumSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */; };
 		435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E408B200DAB36003B1044 /* MerDetailViewController.swift */; };
 		435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E4090200DF1AC003B1044 /* DetailSegmentView.swift */; };
 		435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435E4092200DF1B5003B1044 /* DetailSegmentView.xib */; };
@@ -325,6 +326,7 @@
 		3860247D202C4B1F00325E87 /* MBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextView.m; sourceTree = "<group>"; };
 		3860247E202C4B2000325E87 /* MBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextView.h; sourceTree = "<group>"; };
 		38602480202C559500325E87 /* LDXSendForumTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumTypeView.swift; sourceTree = "<group>"; };
+		38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumSearchView.swift; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
 		435E408B200DAB36003B1044 /* MerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerDetailViewController.swift; sourceTree = "<group>"; };
 		435E4090200DF1AC003B1044 /* DetailSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSegmentView.swift; sourceTree = "<group>"; };
@@ -1076,6 +1078,7 @@
 				3860246D202BECD100325E87 /* LDXForumCommentContentView.swift */,
 				3860246F202C032500325E87 /* LDXSendCommentView.swift */,
 				38602480202C559500325E87 /* LDXSendForumTypeView.swift */,
+				38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1510,6 +1513,7 @@
 				43C0DFA7200C9DE800A8C3C0 /* UBaseTableViewCell.swift in Sources */,
 				042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */,
 				048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */,
+				38843CDF202D40B8007F10C5 /* LDXSendForumSearchView.swift in Sources */,
 				002E9A3E202155360044F712 /* SortingTableViewCell.swift in Sources */,
 				00BE6E812028281D0077198D /* GoStoreHeadView.swift in Sources */,
 				00BE6E7D202827F10077198D /* GoStoreViewController.swift in Sources */,

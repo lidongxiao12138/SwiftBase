@@ -50,7 +50,7 @@ class LDXMyForumViewController: BaseViewController,UITableViewDelegate,UITableVi
     
     @objc func handleKeyBoardWillHidden(notification:Notification) {
         self.sendCommentView.snp.remakeConstraints { (make) in
-            make.top.equalTo(self.view.snp.bottom)
+            make.bottom.equalTo(self.view.snp.bottom)
             make.left.equalTo(self.view)
             make.size.equalTo(CGSize(width:SCREEN_WIDTH,height:UIView.lf_size(fromIphone6: 44)))
         }

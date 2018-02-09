@@ -8,11 +8,14 @@
 
 import UIKit
 
-class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate {
+class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate,LDXSendForumSearchViewDelegate {
 
     private var imageContentView:UIView = UIView.init()
     private var addButton:UIButton = UIButton.init()
     private let imageWidth = (SCREEN_WIDTH-UIView.lf_size(fromIphone6: 56))/4
+    private var scrollView = UIScrollView.init()
+    private var searchView = LDXSendForumSearchView.init(frame: CGRect(x:0,y:0,width:0,height:0))
+    private var typeScrollView = UIScrollView.init()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,10 +57,15 @@ class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate {
     func setUpSendForumView() {
         let scrollView:UIScrollView = UIScrollView.init()
         scrollView.delegate = self
+        self.scrollView = scrollView
+        scrollView.delegate = self
+        scrollView.bounces = true
+        scrollView.isScrollEnabled = true
         self.view.addSubview(scrollView)
         
         scrollView.snp.makeConstraints { (make) in
-            make.edges.equalTo(self.view).inset(UIEdgeInsetsMake(SCREEN_STATUS_BAR_HEIGHT+44, 0, 0, 0))
+            make.left.right.bottom.equalTo(self.view)
+            make.top.equalTo(self.view).offset(UIView.lf_size(fromIphone6: SCREEN_STATUS_BAR_HEIGHT+44))
         }
         
         let textView = MBTextView.init()
@@ -91,6 +99,43 @@ class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate {
             make.top.left.bottom.equalTo(imageContentView)
             make.size.equalTo(CGSize(width:self.imageWidth,height:self.imageWidth))
         }
+        
+        let typeScrollView:UIScrollView = UIScrollView.init()
+        self.typeScrollView = typeScrollView
+        scrollView.addSubview(typeScrollView)
+        
+        typeScrollView.snp.makeConstraints { (make) in
+            make.top.equalTo(imageContentView.snp.bottom).offset(UIView.lf_size(fromIphone6: 15))
+            make.left.equalTo(scrollView)
+            make.size.equalTo(CGSize(width:SCREEN_WIDTH,height:UIView.lf_size(fromIphone6: 22)))
+        }
+        
+        let typeView:LDXSendForumTypeView = LDXSendForumTypeView.init(typeArray: ["闲聊","买卖","晒妹子","闲聊","买卖","晒妹子","闲聊","买卖","晒妹子","闲聊","买卖","晒妹子"], frame: CGRect(x:0,y:0,width:0,height:0))
+        typeScrollView.addSubview(typeView)
+        
+        typeView.snp.makeConstraints { (make) in
+            make.top.left.bottom.equalTo(typeScrollView)
+            make.right.equalTo(typeScrollView).offset(UIView.lf_size(fromIphone6: -12))
+        }
+        
+        let searchView:LDXSendForumSearchView = LDXSendForumSearchView.init(frame: CGRect(x:0,y:0,width:0,height:0))
+        searchView.delegate = self
+        self.searchView = searchView
+        scrollView.addSubview(searchView)
+        
+        searchView.snp.makeConstraints { (make) in
+            make.top.equalTo(typeScrollView.snp.bottom).offset(UIView.lf_size(fromIphone6: 15))
+            make.left.equalTo(scrollView).offset(UIView.lf_size(fromIphone6: 12))
+            make.size.equalTo(CGSize(width:SCREEN_WIDTH-UIView.lf_size(fromIphone6: 24),height:UIView.lf_size(fromIphone6: 157)))
+            make.bottom.equalTo(scrollView)
+        }
+    }
+    
+    func sendForumBeginEdit() {
+    }
+    
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        self.searchView.endEditing(true)
     }
     
     @objc func handleClickAddButton ()
