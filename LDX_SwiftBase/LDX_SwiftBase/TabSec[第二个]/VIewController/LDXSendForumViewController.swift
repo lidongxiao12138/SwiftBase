@@ -8,14 +8,15 @@
 
 import UIKit
 
-class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate,LDXSendForumSearchViewDelegate {
-
+class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate,LDXSendForumSearchViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,LDXSendExhibitionImageViewDelegate {
     private var imageContentView:UIView = UIView.init()
     private var addButton:UIButton = UIButton.init()
     private let imageWidth = (SCREEN_WIDTH-UIView.lf_size(fromIphone6: 56))/4
     private var scrollView = UIScrollView.init()
     private var searchView = LDXSendForumSearchView.init(frame: CGRect(x:0,y:0,width:0,height:0))
     private var typeScrollView = UIScrollView.init()
+    private let imagePickerController:UIImagePickerController = UIImagePickerController.init()
+    private var imageViewArray:NSMutableArray = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,6 +56,9 @@ class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate,LDXSen
     }
     
     func setUpSendForumView() {
+        self.imagePickerController.delegate = self
+        self.imagePickerController.navigationBar.isTranslucent = false;
+
         let scrollView:UIScrollView = UIScrollView.init()
         scrollView.delegate = self
         self.scrollView = scrollView
@@ -145,10 +149,10 @@ class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate,LDXSen
         actionSheetView.view.tintColor = RGBColor(r: 236, g: 189, b: 80)
         let cancelButton:UIAlertAction = UIAlertAction.init(title: "取消", style: .cancel, handler: nil)
         let camerlButton:UIAlertAction = UIAlertAction.init(title: "拍照", style: .default) { (action) in
-            
+            self.handleClickPhoto(sourceType: .camera)
         }
         let photoButton:UIAlertAction = UIAlertAction.init(title: "相册", style: .default) { (action) in
-            
+            self.handleClickPhoto(sourceType: .photoLibrary)
         }
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera) {
             actionSheetView.addAction(camerlButton)
@@ -156,5 +160,96 @@ class LDXSendForumViewController: BaseViewController,UIScrollViewDelegate,LDXSen
         actionSheetView.addAction(photoButton)
         actionSheetView.addAction(cancelButton)
         self.present(actionSheetView, animated: true, completion: nil)
+    }
+    
+    func handleClickPhoto(sourceType:UIImagePickerControllerSourceType)  {
+        let authorizationStatus:AVAuthorizationStatus = AVCaptureDevice.authorizationStatus(for: .video)
+        if authorizationStatus == AVAuthorizationStatus.denied || authorizationStatus == AVAuthorizationStatus.restricted {
+            let mainInfoDictionary:NSDictionary = Bundle.main.infoDictionary! as NSDictionary
+            let appName = mainInfoDictionary["CFBundleDisplayName"] as! String
+            let tipTextWhenNoPhotosAuthorization = ("请在设备的\"设置-隐私-相机\"选项中，允许"+appName+"访问你的相机")
+            
+            let alertView:UIAlertController = UIAlertController.init(title: nil, message: tipTextWhenNoPhotosAuthorization, preferredStyle: .alert)
+            let cancelButton:UIAlertAction = UIAlertAction.init(title: "确定", style: .cancel, handler: nil)
+            alertView.addAction(cancelButton)
+            
+            self.present(alertView, animated: true, completion: nil)
+            return
+        }
+        
+        self.imagePickerController.sourceType = sourceType
+        self.present(self.imagePickerController, animated: true, completion: nil)
+    }
+    
+    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        if navigationController.isKind(of: UIImagePickerController.self) {
+            navigationController.navigationBar.tintColor = RGBColor(r: 236, g: 189, b: 80)
+            navigationController.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:RGBColor(r: 236, g: 189, b: 80),NSAttributedStringKey.font:UIFont.lf_systemFont(ofSize: 18)]
+        }
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        picker.dismiss(animated: true) {
+            let originalImage:UIImage = info["UIImagePickerControllerOriginalImage"] as! UIImage
+            let imageView:LDXSendExhibitionImageView = LDXSendExhibitionImageView.init(image: originalImage, frame: CGRect(x:0,y:0,width:0,height:0))
+            imageView.delegate = self
+            self.imageContentView.addSubview(imageView)
+            
+            imageView.snp.makeConstraints({ (make) in
+                make.top.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat(self.imageViewArray.count/4)))
+                make.left.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat( self.imageViewArray.count%4)))
+                make.size.equalTo(CGSize(width:self.imageWidth,height:self.imageWidth))
+            })
+            
+            self.imageViewArray.add(imageView)
+            
+            if self.imageViewArray.count == 9 {
+                self.addButton.isHidden = true
+            }else {
+                self.addButton.isHidden = false
+            }
+            self.addButton.snp.remakeConstraints({ (make) in
+                make.top.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat(self.imageViewArray.count/4)))
+                make.left.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat(self.imageViewArray.count%4)))
+                make.size.equalTo(CGSize(width:self.imageWidth,height:self.imageWidth))
+                make.bottom.equalTo(self.imageContentView)
+            })
+        }
+    }
+    
+    func sendExhibitionImageViewClickDeleteButton(imageView: LDXSendExhibitionImageView) {
+        let index = self.imageViewArray.index(of: imageView)
+        self.imageViewArray .removeObject(at: index)
+        
+        if index == self.imageViewArray.count || self.imageViewArray.count == 0 {
+            self.addButton.snp.remakeConstraints({ (make) in
+                make.top.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat(self.imageViewArray.count/4)))
+                make.left.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat(self.imageViewArray.count%4)))
+                make.size.equalTo(CGSize(width:self.imageWidth,height:self.imageWidth))
+                make.bottom.equalTo(self.imageContentView)
+            })
+        }
+        imageView.removeFromSuperview()
+        
+        var i = 0
+        while i<self.imageViewArray.count {
+            let imageView:LDXSendExhibitionImageView = self.imageViewArray[i] as! LDXSendExhibitionImageView
+            imageView.snp.remakeConstraints({ (make) in
+                make.top.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat(i/4)))
+                make.left.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat( i%4)))
+                make.size.equalTo(CGSize(width:self.imageWidth,height:self.imageWidth))
+            })
+            
+            if i == (self.imageViewArray.count - 1) {
+                self.addButton.snp.remakeConstraints({ (make) in
+                    make.top.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat((i+1)/4)))
+                    make.left.equalTo(self.imageContentView).offset((self.imageWidth+UIView.lf_size(fromIphone6: 10))*(CGFloat((i+1)%4)))
+                    make.size.equalTo(CGSize(width:self.imageWidth,height:self.imageWidth))
+                    make.bottom.equalTo(self.imageContentView)
+                })
+            }
+            i += 1
+        }
+        self.addButton.isHidden = false
     }
 }

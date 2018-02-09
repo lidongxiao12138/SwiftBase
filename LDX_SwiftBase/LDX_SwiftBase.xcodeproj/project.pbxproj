@@ -132,6 +132,7 @@
 		3860247F202C4B2000325E87 /* MBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3860247D202C4B1F00325E87 /* MBTextView.m */; };
 		38602481202C559500325E87 /* LDXSendForumTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602480202C559500325E87 /* LDXSendForumTypeView.swift */; };
 		38843CDF202D40B8007F10C5 /* LDXSendForumSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */; };
+		38843CE1202D6844007F10C5 /* LDXSendExhibitionImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38843CE0202D6844007F10C5 /* LDXSendExhibitionImageView.swift */; };
 		435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E408B200DAB36003B1044 /* MerDetailViewController.swift */; };
 		435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E4090200DF1AC003B1044 /* DetailSegmentView.swift */; };
 		435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435E4092200DF1B5003B1044 /* DetailSegmentView.xib */; };
@@ -327,6 +328,7 @@
 		3860247E202C4B2000325E87 /* MBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextView.h; sourceTree = "<group>"; };
 		38602480202C559500325E87 /* LDXSendForumTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumTypeView.swift; sourceTree = "<group>"; };
 		38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumSearchView.swift; sourceTree = "<group>"; };
+		38843CE0202D6844007F10C5 /* LDXSendExhibitionImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendExhibitionImageView.swift; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
 		435E408B200DAB36003B1044 /* MerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerDetailViewController.swift; sourceTree = "<group>"; };
 		435E4090200DF1AC003B1044 /* DetailSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSegmentView.swift; sourceTree = "<group>"; };
@@ -1079,6 +1081,7 @@
 				3860246F202C032500325E87 /* LDXSendCommentView.swift */,
 				38602480202C559500325E87 /* LDXSendForumTypeView.swift */,
 				38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */,
+				38843CE0202D6844007F10C5 /* LDXSendExhibitionImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1485,6 +1488,7 @@
 			files = (
 				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
 				00BE6E9520283D300077198D /* SearchItemsViewController.swift in Sources */,
+				38843CE1202D6844007F10C5 /* LDXSendExhibitionImageView.swift in Sources */,
 				38602464202AA22F00325E87 /* UIFont+LayoutFit.m in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				00FB550D201B152100646485 /* Regular.swift in Sources */,
