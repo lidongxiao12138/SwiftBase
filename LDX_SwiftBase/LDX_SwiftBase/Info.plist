@@ -50,5 +50,9 @@
 	<string>请允许访问您的媒体资料库</string>
 	<key>CFBundleAllowMixedLocalizations</key>
 	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
 </dict>
 </plist>

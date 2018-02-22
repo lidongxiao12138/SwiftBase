@@ -33,6 +33,7 @@ class RegistViewController: UIViewController {
     
     @IBOutlet weak var ButEyes: UIButton!//小眼睛
 
+    @IBOutlet weak var ButRegist: UIButton! //注册
     //MARK: ==========创建计时器=========
     var countdownTimer: Timer!
     
@@ -145,7 +146,8 @@ class RegistViewController: UIViewController {
         
         ViewRaidusBorWidth(View: ViewArea, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         
-        
+        ViewRaidusBorWidth(View: ButRegist, Radius: 4, BorWidth: 0, Color: RLDXBackColor)
+
         
        
 

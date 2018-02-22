@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         **/
         NetworkReachManager()
         
+        UIApplication.shared.statusBarStyle = .default;
         /**
          适配iOS11
          **/

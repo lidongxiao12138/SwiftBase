@@ -65,7 +65,8 @@ class LoginViewController: BaseViewController {
         navigationItem.title = "登录"
         ViewRaidusBorWidth(View: ViewPhone, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
         ViewRaidusBorWidth(View: ViewPassword, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
-        
+        ViewRaidusBorWidth(View: ButLoginSure, Radius: 4, BorWidth: 0, Color: RLDXBackColor)
+
         //添加左侧返回
         CreatNavLeft()
         // Do any additional setup after loading the view.

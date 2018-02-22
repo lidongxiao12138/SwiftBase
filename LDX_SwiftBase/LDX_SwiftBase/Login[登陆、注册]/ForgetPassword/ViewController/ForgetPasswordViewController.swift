@@ -21,6 +21,11 @@ class ForgetPasswordViewController: UIViewController {
     @IBOutlet weak var TextAginPassword: UITextField!//确认密码
     
     @IBOutlet weak var TextPhone: UITextField!//手机号
+    @IBOutlet weak var ViewPhone: UIView!
+    @IBOutlet weak var ViewCode: UIView!
+    @IBOutlet weak var ViewPasswordA: UIView!
+    @IBOutlet weak var ViewPassword: UIView!
+    @IBOutlet weak var ButShure: UIButton!
     
     //MARK: ==========创建计时器=========
     var countdownTimer: Timer!
@@ -64,7 +69,16 @@ class ForgetPasswordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "忘记密码"
-        // Do any additional setup after loading the view.
+        
+        ViewRaidusBorWidth(View: ViewPhone, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
+        
+        ViewRaidusBorWidth(View: ViewCode, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
+        
+        ViewRaidusBorWidth(View: ViewPassword, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
+        
+        ViewRaidusBorWidth(View: ViewPasswordA, Radius: 3, BorWidth: 1, Color: RLDXBackColor)
+        
+        ViewRaidusBorWidth(View: ButShure, Radius: 4, BorWidth: 0, Color: RLDXBackColor)
     }
     
     @IBAction func ButCodeClick(_ sender: Any) {

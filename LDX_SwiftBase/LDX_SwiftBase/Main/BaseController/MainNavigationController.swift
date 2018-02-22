@@ -15,7 +15,7 @@ class MainNavigationController: UINavigationController {
 //        navigationBar.setBackgroundImage(UIImage(named:"navigationbarBackgroundWhite"), for: .default)
         navigationBar.barTintColor = LDXBaseNav
 //        navigationBar.barTintColor = UIColor(red: 37/255, green: 204/255, blue: 90/255, alpha: 1)
-        navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationBar.titleTextAttributes = [.foregroundColor: RGBColor(r: 51, g: 51, b: 51)]
         //开启手势
         setUpPopGesTrue()
         // Do any additional setup after loading the view.
