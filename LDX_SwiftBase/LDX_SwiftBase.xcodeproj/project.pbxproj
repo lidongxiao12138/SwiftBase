@@ -37,6 +37,33 @@
 		006C465720246A0100D78DCB /* PayNowBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006C465620246A0100D78DCB /* PayNowBottomView.xib */; };
 		006C465C20246BD000D78DCB /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C465A20246BD000D78DCB /* PayViewController.swift */; };
 		006C465D20246BD000D78DCB /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006C465B20246BD000D78DCB /* PayViewController.xib */; };
+		0088310B2040108800A9553E /* AfterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088310A2040108800A9553E /* AfterListViewController.swift */; };
+		0088310E204010D200A9553E /* AfterListLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088310C204010D200A9553E /* AfterListLTableViewCell.swift */; };
+		0088310F204010D200A9553E /* AfterListLTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0088310D204010D200A9553E /* AfterListLTableViewCell.xib */; };
+		008831112040351400A9553E /* AfterSeationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008831102040351400A9553E /* AfterSeationView.swift */; };
+		008831132040351E00A9553E /* AfterSeationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008831122040351E00A9553E /* AfterSeationView.xib */; };
+		00883119204068EE00A9553E /* MyExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00883118204068EE00A9553E /* MyExchangeViewController.swift */; };
+		0088311D2040698E00A9553E /* MyExchangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088311B2040698E00A9553E /* MyExchangeTableViewCell.swift */; };
+		0088311E2040698E00A9553E /* MyExchangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0088311C2040698E00A9553E /* MyExchangeTableViewCell.xib */; };
+		008831242040724500A9553E /* MyRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008831232040724500A9553E /* MyRecViewController.swift */; };
+		008831272040725C00A9553E /* MyRecTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008831252040725C00A9553E /* MyRecTableViewCell.swift */; };
+		008831282040725C00A9553E /* MyRecTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008831262040725C00A9553E /* MyRecTableViewCell.xib */; };
+		0088312A2040727D00A9553E /* RecomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008831292040727D00A9553E /* RecomView.swift */; };
+		0088312C2040728800A9553E /* RecomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0088312B2040728800A9553E /* RecomView.xib */; };
+		0088313220407F1E00A9553E /* MyComsionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088313120407F1E00A9553E /* MyComsionViewController.swift */; };
+		0088313420407F3800A9553E /* MyComsionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088313320407F3800A9553E /* MyComsionHeadView.swift */; };
+		0088313620407F9400A9553E /* MyComsionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0088313520407F9300A9553E /* MyComsionHeadView.xib */; };
+		008831392040842D00A9553E /* MyTeamMoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008831372040842D00A9553E /* MyTeamMoneyTableViewCell.swift */; };
+		0088313A2040842D00A9553E /* MyTeamMoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008831382040842D00A9553E /* MyTeamMoneyTableViewCell.xib */; };
+		0088313D2040844F00A9553E /* MyRecMoneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088313B2040844F00A9553E /* MyRecMoneyTableViewCell.swift */; };
+		0088313E2040844F00A9553E /* MyRecMoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0088313C2040844F00A9553E /* MyRecMoneyTableViewCell.xib */; };
+		00883140204087E000A9553E /* TeamHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088313F204087E000A9553E /* TeamHeadView.swift */; };
+		00883142204087F500A9553E /* TeamHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00883141204087F500A9553E /* TeamHeadView.xib */; };
+		008831442040898000A9553E /* MyRecMoneyHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008831432040898000A9553E /* MyRecMoneyHeadView.swift */; };
+		008831462040899900A9553E /* MyRecMoneyHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008831452040899900A9553E /* MyRecMoneyHeadView.xib */; };
+		00AD1883202AEF2F00D275BD /* GoodAfterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD1882202AEF2F00D275BD /* GoodAfterViewController.swift */; };
+		00AD1886202AEF6700D275BD /* GoodAfterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD1884202AEF6700D275BD /* GoodAfterTableViewCell.swift */; };
+		00AD1887202AEF6700D275BD /* GoodAfterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00AD1885202AEF6700D275BD /* GoodAfterTableViewCell.xib */; };
 		00B3B4252022EDDE00531A09 /* BuyShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3B4242022EDDE00531A09 /* BuyShowView.swift */; };
 		00B3B4272022EDEC00531A09 /* BuyShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B3B4262022EDEC00531A09 /* BuyShowView.xib */; };
 		00B3B42A2022FC7900531A09 /* FillOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3B4292022FC7900531A09 /* FillOrderViewController.swift */; };
@@ -48,6 +75,22 @@
 		00B8AA92202983BB00A58D28 /* CouponsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA91202983BB00A58D28 /* CouponsView.xib */; };
 		00B8AA952029854000A58D28 /* CouponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA932029854000A58D28 /* CouponsTableViewCell.swift */; };
 		00B8AA962029854000A58D28 /* CouponsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA942029854000A58D28 /* CouponsTableViewCell.xib */; };
+		00B8AA992029A2C600A58D28 /* NoShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA982029A2C600A58D28 /* NoShopView.swift */; };
+		00B8AA9B2029A2D100A58D28 /* NoShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA9A2029A2D100A58D28 /* NoShopView.xib */; };
+		00B8AA9D2029A34900A58D28 /* NoShopHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AA9C2029A34900A58D28 /* NoShopHeadView.swift */; };
+		00B8AA9F2029A35500A58D28 /* NoShopHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AA9E2029A35500A58D28 /* NoShopHeadView.xib */; };
+		00B8AAA52029AAEE00A58D28 /* ReturnMerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAA42029AAEE00A58D28 /* ReturnMerViewController.swift */; };
+		00B8AAA92029BA5E00A58D28 /* ReturnHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B8AAA82029BA5E00A58D28 /* ReturnHeadView.xib */; };
+		00B8AAB72029D3CD00A58D28 /* LLActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAAC2029D3CD00A58D28 /* LLActionSheetView.m */; };
+		00B8AAB82029D3CD00A58D28 /* NSString+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAAE2029D3CD00A58D28 /* NSString+LLExtension.m */; };
+		00B8AAB92029D3CD00A58D28 /* UIImage+LLGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAB02029D3CD00A58D28 /* UIImage+LLGif.m */; };
+		00B8AABA2029D3CD00A58D28 /* UIImageView+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAB22029D3CD00A58D28 /* UIImageView+LLExtension.m */; };
+		00B8AABB2029D3CD00A58D28 /* UIView+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAB42029D3CD00A58D28 /* UIView+LLExtension.m */; };
+		00B8AABC2029D3CD00A58D28 /* UIViewController+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAB62029D3CD00A58D28 /* UIViewController+LLExtension.m */; };
+		00B8AAC72029D3E900A58D28 /* LLImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AABF2029D3E900A58D28 /* LLImagePickerCell.m */; };
+		00B8AAC82029D3E900A58D28 /* LLImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAC22029D3E900A58D28 /* LLImagePickerManager.m */; };
+		00B8AAC92029D3E900A58D28 /* LLImagePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAC42029D3E900A58D28 /* LLImagePickerModel.m */; };
+		00B8AACA2029D3E900A58D28 /* LLImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B8AAC62029D3E900A58D28 /* LLImagePickerView.m */; };
 		00BE6E782028024D0077198D /* payView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E772028024D0077198D /* payView.swift */; };
 		00BE6E7A202802580077198D /* payView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00BE6E79202802580077198D /* payView.xib */; };
 		00BE6E7D202827F10077198D /* GoStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E7C202827F10077198D /* GoStoreViewController.swift */; };
@@ -58,6 +101,14 @@
 		00BE6E9220283C520077198D /* MSSAutoresizeLabelFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E8E20283C510077198D /* MSSAutoresizeLabelFlow.m */; };
 		00BE6E9320283C520077198D /* MSSAutoresizeLabelFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E8F20283C510077198D /* MSSAutoresizeLabelFlowCell.m */; };
 		00BE6E9520283D300077198D /* SearchItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6E9420283D300077198D /* SearchItemsViewController.swift */; };
+		00C605AE202AD943009792F6 /* ReturnHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C605AD202AD943009792F6 /* ReturnHeadView.m */; };
+		00C605B1202ADBD0009792F6 /* LLImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00C605B0202ADBD0009792F6 /* LLImagePicker.bundle */; };
+		00C605B7202AE2C3009792F6 /* ReturnWhyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C605B6202AE2C3009792F6 /* ReturnWhyView.swift */; };
+		00C605B9202AE2CF009792F6 /* ReturnWhyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C605B8202AE2CF009792F6 /* ReturnWhyView.xib */; };
+		00C605BC202AE49A009792F6 /* ReturnWhyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C605BA202AE49A009792F6 /* ReturnWhyTableViewCell.swift */; };
+		00C605BD202AE49A009792F6 /* ReturnWhyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C605BB202AE49A009792F6 /* ReturnWhyTableViewCell.xib */; };
+		00C605C0202AEBC6009792F6 /* ButSureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C605BF202AEBC6009792F6 /* ButSureView.swift */; };
+		00C605C2202AEBD1009792F6 /* ButSureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C605C1202AEBD1009792F6 /* ButSureView.xib */; };
 		00D91B63201C482B004B93D0 /* MeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D91B61201C482B004B93D0 /* MeCollectionViewCell.swift */; };
 		00D91B64201C482B004B93D0 /* MeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D91B62201C482B004B93D0 /* MeCollectionViewCell.xib */; };
 		00D91B6B201C68F1004B93D0 /* BroDisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D91B69201C68F1004B93D0 /* BroDisViewController.swift */; };
@@ -200,6 +251,33 @@
 		006C465620246A0100D78DCB /* PayNowBottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayNowBottomView.xib; sourceTree = "<group>"; };
 		006C465A20246BD000D78DCB /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 		006C465B20246BD000D78DCB /* PayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
+		0088310A2040108800A9553E /* AfterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterListViewController.swift; sourceTree = "<group>"; };
+		0088310C204010D200A9553E /* AfterListLTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterListLTableViewCell.swift; sourceTree = "<group>"; };
+		0088310D204010D200A9553E /* AfterListLTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfterListLTableViewCell.xib; sourceTree = "<group>"; };
+		008831102040351400A9553E /* AfterSeationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterSeationView.swift; sourceTree = "<group>"; };
+		008831122040351E00A9553E /* AfterSeationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfterSeationView.xib; sourceTree = "<group>"; };
+		00883118204068EE00A9553E /* MyExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExchangeViewController.swift; sourceTree = "<group>"; };
+		0088311B2040698E00A9553E /* MyExchangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExchangeTableViewCell.swift; sourceTree = "<group>"; };
+		0088311C2040698E00A9553E /* MyExchangeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyExchangeTableViewCell.xib; sourceTree = "<group>"; };
+		008831232040724500A9553E /* MyRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecViewController.swift; sourceTree = "<group>"; };
+		008831252040725C00A9553E /* MyRecTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecTableViewCell.swift; sourceTree = "<group>"; };
+		008831262040725C00A9553E /* MyRecTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyRecTableViewCell.xib; sourceTree = "<group>"; };
+		008831292040727D00A9553E /* RecomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomView.swift; sourceTree = "<group>"; };
+		0088312B2040728800A9553E /* RecomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecomView.xib; sourceTree = "<group>"; };
+		0088313120407F1E00A9553E /* MyComsionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComsionViewController.swift; sourceTree = "<group>"; };
+		0088313320407F3800A9553E /* MyComsionHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyComsionHeadView.swift; sourceTree = "<group>"; };
+		0088313520407F9300A9553E /* MyComsionHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyComsionHeadView.xib; sourceTree = "<group>"; };
+		008831372040842D00A9553E /* MyTeamMoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamMoneyTableViewCell.swift; sourceTree = "<group>"; };
+		008831382040842D00A9553E /* MyTeamMoneyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTeamMoneyTableViewCell.xib; sourceTree = "<group>"; };
+		0088313B2040844F00A9553E /* MyRecMoneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecMoneyTableViewCell.swift; sourceTree = "<group>"; };
+		0088313C2040844F00A9553E /* MyRecMoneyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyRecMoneyTableViewCell.xib; sourceTree = "<group>"; };
+		0088313F204087E000A9553E /* TeamHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamHeadView.swift; sourceTree = "<group>"; };
+		00883141204087F500A9553E /* TeamHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamHeadView.xib; sourceTree = "<group>"; };
+		008831432040898000A9553E /* MyRecMoneyHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecMoneyHeadView.swift; sourceTree = "<group>"; };
+		008831452040899900A9553E /* MyRecMoneyHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyRecMoneyHeadView.xib; sourceTree = "<group>"; };
+		00AD1882202AEF2F00D275BD /* GoodAfterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAfterViewController.swift; sourceTree = "<group>"; };
+		00AD1884202AEF6700D275BD /* GoodAfterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAfterTableViewCell.swift; sourceTree = "<group>"; };
+		00AD1885202AEF6700D275BD /* GoodAfterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodAfterTableViewCell.xib; sourceTree = "<group>"; };
 		00B3B4242022EDDE00531A09 /* BuyShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyShowView.swift; sourceTree = "<group>"; };
 		00B3B4262022EDEC00531A09 /* BuyShowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyShowView.xib; sourceTree = "<group>"; };
 		00B3B4292022FC7900531A09 /* FillOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillOrderViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +289,33 @@
 		00B8AA91202983BB00A58D28 /* CouponsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsView.xib; sourceTree = "<group>"; };
 		00B8AA932029854000A58D28 /* CouponsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsTableViewCell.swift; sourceTree = "<group>"; };
 		00B8AA942029854000A58D28 /* CouponsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsTableViewCell.xib; sourceTree = "<group>"; };
+		00B8AA982029A2C600A58D28 /* NoShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoShopView.swift; sourceTree = "<group>"; };
+		00B8AA9A2029A2D100A58D28 /* NoShopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoShopView.xib; sourceTree = "<group>"; };
+		00B8AA9C2029A34900A58D28 /* NoShopHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoShopHeadView.swift; sourceTree = "<group>"; };
+		00B8AA9E2029A35500A58D28 /* NoShopHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoShopHeadView.xib; sourceTree = "<group>"; };
+		00B8AAA42029AAEE00A58D28 /* ReturnMerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnMerViewController.swift; sourceTree = "<group>"; };
+		00B8AAA82029BA5E00A58D28 /* ReturnHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReturnHeadView.xib; sourceTree = "<group>"; };
+		00B8AAAB2029D3CD00A58D28 /* LLActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLActionSheetView.h; sourceTree = "<group>"; };
+		00B8AAAC2029D3CD00A58D28 /* LLActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLActionSheetView.m; sourceTree = "<group>"; };
+		00B8AAAD2029D3CD00A58D28 /* NSString+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LLExtension.h"; sourceTree = "<group>"; };
+		00B8AAAE2029D3CD00A58D28 /* NSString+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LLExtension.m"; sourceTree = "<group>"; };
+		00B8AAAF2029D3CD00A58D28 /* UIImage+LLGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LLGif.h"; sourceTree = "<group>"; };
+		00B8AAB02029D3CD00A58D28 /* UIImage+LLGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LLGif.m"; sourceTree = "<group>"; };
+		00B8AAB12029D3CD00A58D28 /* UIImageView+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LLExtension.h"; sourceTree = "<group>"; };
+		00B8AAB22029D3CD00A58D28 /* UIImageView+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LLExtension.m"; sourceTree = "<group>"; };
+		00B8AAB32029D3CD00A58D28 /* UIView+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLExtension.h"; sourceTree = "<group>"; };
+		00B8AAB42029D3CD00A58D28 /* UIView+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLExtension.m"; sourceTree = "<group>"; };
+		00B8AAB52029D3CD00A58D28 /* UIViewController+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LLExtension.h"; sourceTree = "<group>"; };
+		00B8AAB62029D3CD00A58D28 /* UIViewController+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LLExtension.m"; sourceTree = "<group>"; };
+		00B8AABE2029D3E900A58D28 /* LLImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerCell.h; sourceTree = "<group>"; };
+		00B8AABF2029D3E900A58D28 /* LLImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerCell.m; sourceTree = "<group>"; };
+		00B8AAC02029D3E900A58D28 /* LLImagePickerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerConst.h; sourceTree = "<group>"; };
+		00B8AAC12029D3E900A58D28 /* LLImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerManager.h; sourceTree = "<group>"; };
+		00B8AAC22029D3E900A58D28 /* LLImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerManager.m; sourceTree = "<group>"; };
+		00B8AAC32029D3E900A58D28 /* LLImagePickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerModel.h; sourceTree = "<group>"; };
+		00B8AAC42029D3E900A58D28 /* LLImagePickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerModel.m; sourceTree = "<group>"; };
+		00B8AAC52029D3E900A58D28 /* LLImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImagePickerView.h; sourceTree = "<group>"; };
+		00B8AAC62029D3E900A58D28 /* LLImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImagePickerView.m; sourceTree = "<group>"; };
 		00BE6E772028024D0077198D /* payView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payView.swift; sourceTree = "<group>"; };
 		00BE6E79202802580077198D /* payView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = payView.xib; sourceTree = "<group>"; };
 		00BE6E7C202827F10077198D /* GoStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoStoreViewController.swift; sourceTree = "<group>"; };
@@ -225,6 +330,15 @@
 		00BE6E8E20283C510077198D /* MSSAutoresizeLabelFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSAutoresizeLabelFlow.m; sourceTree = "<group>"; };
 		00BE6E8F20283C510077198D /* MSSAutoresizeLabelFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSAutoresizeLabelFlowCell.m; sourceTree = "<group>"; };
 		00BE6E9420283D300077198D /* SearchItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemsViewController.swift; sourceTree = "<group>"; };
+		00C605AC202AD943009792F6 /* ReturnHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnHeadView.h; sourceTree = "<group>"; };
+		00C605AD202AD943009792F6 /* ReturnHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnHeadView.m; sourceTree = "<group>"; };
+		00C605B0202ADBD0009792F6 /* LLImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLImagePicker.bundle; sourceTree = "<group>"; };
+		00C605B6202AE2C3009792F6 /* ReturnWhyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnWhyView.swift; sourceTree = "<group>"; };
+		00C605B8202AE2CF009792F6 /* ReturnWhyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReturnWhyView.xib; sourceTree = "<group>"; };
+		00C605BA202AE49A009792F6 /* ReturnWhyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnWhyTableViewCell.swift; sourceTree = "<group>"; };
+		00C605BB202AE49A009792F6 /* ReturnWhyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReturnWhyTableViewCell.xib; sourceTree = "<group>"; };
+		00C605BF202AEBC6009792F6 /* ButSureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButSureView.swift; sourceTree = "<group>"; };
+		00C605C1202AEBD1009792F6 /* ButSureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButSureView.xib; sourceTree = "<group>"; };
 		00D91B61201C482B004B93D0 /* MeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeCollectionViewCell.swift; sourceTree = "<group>"; };
 		00D91B62201C482B004B93D0 /* MeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeCollectionViewCell.xib; sourceTree = "<group>"; };
 		00D91B69201C68F1004B93D0 /* BroDisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroDisViewController.swift; sourceTree = "<group>"; };
@@ -524,6 +638,189 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		008831062040101D00A9553E /* AfterList[退货／售后列表] */ = {
+			isa = PBXGroup;
+			children = (
+				008831092040106E00A9553E /* Model */,
+				008831082040105700A9553E /* View */,
+				008831072040104700A9553E /* ViewConroller */,
+			);
+			path = "AfterList[退货／售后列表]";
+			sourceTree = "<group>";
+		};
+		008831072040104700A9553E /* ViewConroller */ = {
+			isa = PBXGroup;
+			children = (
+				0088310A2040108800A9553E /* AfterListViewController.swift */,
+			);
+			path = ViewConroller;
+			sourceTree = "<group>";
+		};
+		008831082040105700A9553E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0088310C204010D200A9553E /* AfterListLTableViewCell.swift */,
+				0088310D204010D200A9553E /* AfterListLTableViewCell.xib */,
+				008831102040351400A9553E /* AfterSeationView.swift */,
+				008831122040351E00A9553E /* AfterSeationView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		008831092040106E00A9553E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00883114204067FC00A9553E /* MyExchange[我的兑换] */ = {
+			isa = PBXGroup;
+			children = (
+				008831172040689500A9553E /* Model */,
+				008831162040689000A9553E /* View */,
+				008831152040688900A9553E /* ViewController */,
+			);
+			path = "MyExchange[我的兑换]";
+			sourceTree = "<group>";
+		};
+		008831152040688900A9553E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00883118204068EE00A9553E /* MyExchangeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		008831162040689000A9553E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0088311B2040698E00A9553E /* MyExchangeTableViewCell.swift */,
+				0088311C2040698E00A9553E /* MyExchangeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		008831172040689500A9553E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0088311F204071EA00A9553E /* MyRec[我的推荐] */ = {
+			isa = PBXGroup;
+			children = (
+				008831222040721B00A9553E /* View */,
+				008831212040721700A9553E /* Model */,
+				008831202040721000A9553E /* ViewController */,
+			);
+			path = "MyRec[我的推荐]";
+			sourceTree = "<group>";
+		};
+		008831202040721000A9553E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				008831232040724500A9553E /* MyRecViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		008831212040721700A9553E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		008831222040721B00A9553E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				008831252040725C00A9553E /* MyRecTableViewCell.swift */,
+				008831262040725C00A9553E /* MyRecTableViewCell.xib */,
+				008831292040727D00A9553E /* RecomView.swift */,
+				0088312B2040728800A9553E /* RecomView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0088312D20407EB700A9553E /* MyComsion[我的佣金] */ = {
+			isa = PBXGroup;
+			children = (
+				0088313020407F0000A9553E /* Model */,
+				0088312F20407EFD00A9553E /* View */,
+				0088312E20407EF100A9553E /* ViewController */,
+			);
+			path = "MyComsion[我的佣金]";
+			sourceTree = "<group>";
+		};
+		0088312E20407EF100A9553E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0088313120407F1E00A9553E /* MyComsionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0088312F20407EFD00A9553E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0088313320407F3800A9553E /* MyComsionHeadView.swift */,
+				0088313520407F9300A9553E /* MyComsionHeadView.xib */,
+				008831372040842D00A9553E /* MyTeamMoneyTableViewCell.swift */,
+				008831382040842D00A9553E /* MyTeamMoneyTableViewCell.xib */,
+				0088313B2040844F00A9553E /* MyRecMoneyTableViewCell.swift */,
+				0088313C2040844F00A9553E /* MyRecMoneyTableViewCell.xib */,
+				0088313F204087E000A9553E /* TeamHeadView.swift */,
+				00883141204087F500A9553E /* TeamHeadView.xib */,
+				008831432040898000A9553E /* MyRecMoneyHeadView.swift */,
+				008831452040899900A9553E /* MyRecMoneyHeadView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0088313020407F0000A9553E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00AD187E202AEEB400D275BD /* GoodAfterVC[退货／售后] */ = {
+			isa = PBXGroup;
+			children = (
+				008831062040101D00A9553E /* AfterList[退货／售后列表] */,
+				00AD1881202AEF1700D275BD /* Model */,
+				00AD1880202AEF1300D275BD /* View */,
+				00AD187F202AEF0B00D275BD /* ViewController */,
+			);
+			path = "GoodAfterVC[退货／售后]";
+			sourceTree = "<group>";
+		};
+		00AD187F202AEF0B00D275BD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00AD1882202AEF2F00D275BD /* GoodAfterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00AD1880202AEF1300D275BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00AD1884202AEF6700D275BD /* GoodAfterTableViewCell.swift */,
+				00AD1885202AEF6700D275BD /* GoodAfterTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00AD1881202AEF1700D275BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		00B3B4232022ED6900531A09 /* BuyView购买[详情] */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,6 +867,91 @@
 				00B8AA942029854000A58D28 /* CouponsTableViewCell.xib */,
 			);
 			path = "CouponView[优惠券]";
+			sourceTree = "<group>";
+		};
+		00B8AA972029A25700A58D28 /* NoShopView[无商品页面] */ = {
+			isa = PBXGroup;
+			children = (
+				00B8AA982029A2C600A58D28 /* NoShopView.swift */,
+				00B8AA9A2029A2D100A58D28 /* NoShopView.xib */,
+				00B8AA9C2029A34900A58D28 /* NoShopHeadView.swift */,
+				00B8AA9E2029A35500A58D28 /* NoShopHeadView.xib */,
+			);
+			path = "NoShopView[无商品页面]";
+			sourceTree = "<group>";
+		};
+		00B8AAA02029AA8D00A58D28 /* ReturnMer[退货申请] */ = {
+			isa = PBXGroup;
+			children = (
+				00AD187E202AEEB400D275BD /* GoodAfterVC[退货／售后] */,
+				00B8AAA32029AACE00A58D28 /* Model */,
+				00B8AAA22029AACA00A58D28 /* View */,
+				00B8AAA12029AAC500A58D28 /* ViewController */,
+			);
+			path = "ReturnMer[退货申请]";
+			sourceTree = "<group>";
+		};
+		00B8AAA12029AAC500A58D28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00B8AAA42029AAEE00A58D28 /* ReturnMerViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		00B8AAA22029AACA00A58D28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00C605B2202AE246009792F6 /* ReturnWhyView[退货原因] */,
+				00B8AAA82029BA5E00A58D28 /* ReturnHeadView.xib */,
+				00C605AC202AD943009792F6 /* ReturnHeadView.h */,
+				00C605AD202AD943009792F6 /* ReturnHeadView.m */,
+				00C605BF202AEBC6009792F6 /* ButSureView.swift */,
+				00C605C1202AEBD1009792F6 /* ButSureView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00B8AAA32029AACE00A58D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00B8AAAA2029D3CD00A58D28 /* Libraies */ = {
+			isa = PBXGroup;
+			children = (
+				00B8AAAB2029D3CD00A58D28 /* LLActionSheetView.h */,
+				00B8AAAC2029D3CD00A58D28 /* LLActionSheetView.m */,
+				00B8AAAD2029D3CD00A58D28 /* NSString+LLExtension.h */,
+				00B8AAAE2029D3CD00A58D28 /* NSString+LLExtension.m */,
+				00B8AAAF2029D3CD00A58D28 /* UIImage+LLGif.h */,
+				00B8AAB02029D3CD00A58D28 /* UIImage+LLGif.m */,
+				00B8AAB12029D3CD00A58D28 /* UIImageView+LLExtension.h */,
+				00B8AAB22029D3CD00A58D28 /* UIImageView+LLExtension.m */,
+				00B8AAB32029D3CD00A58D28 /* UIView+LLExtension.h */,
+				00B8AAB42029D3CD00A58D28 /* UIView+LLExtension.m */,
+				00B8AAB52029D3CD00A58D28 /* UIViewController+LLExtension.h */,
+				00B8AAB62029D3CD00A58D28 /* UIViewController+LLExtension.m */,
+			);
+			path = Libraies;
+			sourceTree = "<group>";
+		};
+		00B8AABD2029D3E900A58D28 /* LLImagePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				00B8AABE2029D3E900A58D28 /* LLImagePickerCell.h */,
+				00B8AABF2029D3E900A58D28 /* LLImagePickerCell.m */,
+				00B8AAC02029D3E900A58D28 /* LLImagePickerConst.h */,
+				00B8AAC12029D3E900A58D28 /* LLImagePickerManager.h */,
+				00B8AAC22029D3E900A58D28 /* LLImagePickerManager.m */,
+				00B8AAC32029D3E900A58D28 /* LLImagePickerModel.h */,
+				00B8AAC42029D3E900A58D28 /* LLImagePickerModel.m */,
+				00B8AAC52029D3E900A58D28 /* LLImagePickerView.h */,
+				00B8AAC62029D3E900A58D28 /* LLImagePickerView.m */,
+			);
+			path = LLImagePickerView;
 			sourceTree = "<group>";
 		};
 		00BE6E7B202827C00077198D /* GoStoreVC[进入店铺] */ = {
@@ -631,6 +1013,25 @@
 				00BE6E8A20283C4E0077198D /* MSSAutoresizeLabelFlowLayout.m */,
 			);
 			path = "MSSAutoresize[横向collection布局]";
+			sourceTree = "<group>";
+		};
+		00C605AF202ADBD0009792F6 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				00C605B0202ADBD0009792F6 /* LLImagePicker.bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		00C605B2202AE246009792F6 /* ReturnWhyView[退货原因] */ = {
+			isa = PBXGroup;
+			children = (
+				00C605B6202AE2C3009792F6 /* ReturnWhyView.swift */,
+				00C605B8202AE2CF009792F6 /* ReturnWhyView.xib */,
+				00C605BA202AE49A009792F6 /* ReturnWhyTableViewCell.swift */,
+				00C605BB202AE49A009792F6 /* ReturnWhyTableViewCell.xib */,
+			);
+			path = "ReturnWhyView[退货原因]";
 			sourceTree = "<group>";
 		};
 		00D91B65201C6807004B93D0 /* BorDisVC[领卷优惠] */ = {
@@ -716,6 +1117,7 @@
 		00FB53AC2028846D00B18D9D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00B8AA972029A25700A58D28 /* NoShopView[无商品页面] */,
 				00B8AA8E2029836F00A58D28 /* CouponView[优惠券] */,
 				00FB53AF202884EE00B18D9D /* ShoppSectionView.swift */,
 				00FB53B1202884F600B18D9D /* ShoppSectionView.xib */,
@@ -859,6 +1261,9 @@
 		041430001FF117A000E72DDD /* Other[第三方] */ = {
 			isa = PBXGroup;
 			children = (
+				00C605AF202ADBD0009792F6 /* resource */,
+				00B8AABD2029D3E900A58D28 /* LLImagePickerView */,
+				00B8AAAA2029D3CD00A58D28 /* Libraies */,
 				00BE6E8720283C020077198D /* MSSAutoresize[横向collection布局] */,
 				002E9A5F2021CEB30044F712 /* SmileActionView[底部弹出视图] */,
 				001220FF201F0DD600DB4588 /* ShinePie[扇形图] */,
@@ -997,6 +1402,10 @@
 		042DF8301FECFC8F00F5E021 /* MeVC[我的] */ = {
 			isa = PBXGroup;
 			children = (
+				0088312D20407EB700A9553E /* MyComsion[我的佣金] */,
+				0088311F204071EA00A9553E /* MyRec[我的推荐] */,
+				00883114204067FC00A9553E /* MyExchange[我的兑换] */,
+				00B8AAA02029AA8D00A58D28 /* ReturnMer[退货申请] */,
 				00FB5516201B358800646485 /* Model */,
 				00FB5515201B358200646485 /* View */,
 				00FB5514201B357500646485 /* ViewController */,
@@ -1265,14 +1674,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DF8021FECF7BE00F5E021 /* LaunchScreen.storyboard in Resources */,
+				0088312C2040728800A9553E /* RecomView.xib in Resources */,
 				00BE6E7A202802580077198D /* payView.xib in Resources */,
+				00AD1887202AEF6700D275BD /* GoodAfterTableViewCell.xib in Resources */,
+				00B8AA9F2029A35500A58D28 /* NoShopHeadView.xib in Resources */,
+				008831132040351E00A9553E /* AfterSeationView.xib in Resources */,
 				00B8AA92202983BB00A58D28 /* CouponsView.xib in Resources */,
 				00B3B4272022EDEC00531A09 /* BuyShowView.xib in Resources */,
+				00C605C2202AEBD1009792F6 /* ButSureView.xib in Resources */,
 				002E9A43202165700044F712 /* SortingCollectionViewCell.xib in Resources */,
 				00B8AA8D20297EFD00A58D28 /* EditorView.xib in Resources */,
 				00FB53612028525500B18D9D /* SearchTextView.xib in Resources */,
+				00B8AA9B2029A2D100A58D28 /* NoShopView.xib in Resources */,
 				00FB53B62028873F00B18D9D /* ShoppingTableViewCell.xib in Resources */,
 				435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */,
+				0088313620407F9400A9553E /* MyComsionHeadView.xib in Resources */,
 				00F5500320198EB000CD1FDF /* LoginViewController.xib in Resources */,
 				99746C1C20171D2100B02DBB /* EvaCenViewController.xib in Resources */,
 				002E9A4720216FF50044F712 /* HeadSectionView.xib in Resources */,
@@ -1283,26 +1699,37 @@
 				00B8AA8820295B1500A58D28 /* ShoppingBottomView.xib in Resources */,
 				002E9A572021B3E10044F712 /* SepRulesViewController.xib in Resources */,
 				001220FE201EFD4100DB4588 /* BorDisTableViewCell.xib in Resources */,
+				008831462040899900A9553E /* MyRecMoneyHeadView.xib in Resources */,
 				002E9A512021A5DA0044F712 /* SepllComViewController.xib in Resources */,
+				0088313E2040844F00A9553E /* MyRecMoneyTableViewCell.xib in Resources */,
 				042DF7FF1FECF7BE00F5E021 /* Assets.xcassets in Resources */,
 				0012210E201F27C700DB4588 /* SepllGroupTableViewCell.xib in Resources */,
+				0088313A2040842D00A9553E /* MyTeamMoneyTableViewCell.xib in Resources */,
 				006C465D20246BD000D78DCB /* PayViewController.xib in Resources */,
 				00BE6E83202828280077198D /* GoStoreHeadView.xib in Resources */,
 				00FB5513201B2A5400646485 /* ForgetPasswordViewController.xib in Resources */,
 				04142FFF1FF0E37900E72DDD /* HomeTableViewCell.xib in Resources */,
+				00B8AAA92029BA5E00A58D28 /* ReturnHeadView.xib in Resources */,
 				00FB535C2028481200B18D9D /* SearchListView.xib in Resources */,
 				00D91B64201C482B004B93D0 /* MeCollectionViewCell.xib in Resources */,
+				00C605B1202ADBD0009792F6 /* LLImagePicker.bundle in Resources */,
 				99746C22201725C000B02DBB /* TabDetailView.xib in Resources */,
+				00C605B9202AE2CF009792F6 /* ReturnWhyView.xib in Resources */,
 				002E9A3F202155360044F712 /* SortingTableViewCell.xib in Resources */,
 				00D91B70201C697F004B93D0 /* HeadTextView.xib in Resources */,
 				04FE56691FFCC34400A59434 /* HomeHeadView.xib in Resources */,
+				0088311E2040698E00A9553E /* MyExchangeTableViewCell.xib in Resources */,
+				00C605BD202AE49A009792F6 /* ReturnWhyTableViewCell.xib in Resources */,
 				00FB550B201AD1D900646485 /* RegistViewController.xib in Resources */,
+				008831282040725C00A9553E /* MyRecTableViewCell.xib in Resources */,
 				0012210A201F248D00DB4588 /* SepllGroupHeadView.xib in Resources */,
+				00883142204087F500A9553E /* TeamHeadView.xib in Resources */,
 				00FF71D620244ECF00744A7F /* fillorderView.xib in Resources */,
 				00FB551E201B472000646485 /* MeHeadView.xib in Resources */,
 				00FB53B2202884F600B18D9D /* ShoppSectionView.xib in Resources */,
 				006C465720246A0100D78DCB /* PayNowBottomView.xib in Resources */,
 				00FF71DA20244FF600744A7F /* OrderBottomView.xib in Resources */,
+				0088310F204010D200A9553E /* AfterListLTableViewCell.xib in Resources */,
 				042DF7FD1FECF7BE00F5E021 /* Main.storyboard in Resources */,
 				00158D012020062400B16C7A /* NavCenterView.xib in Resources */,
 			);
@@ -1366,13 +1793,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/GrowingTextView/GrowingTextView.framework",
 				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JQProgressHUD/JQProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/KYCircularProgress/KYCircularProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
@@ -1383,18 +1813,22 @@
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrowingTextView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JQProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYCircularProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
@@ -1405,6 +1839,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1419,23 +1854,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0088311D2040698E00A9553E /* MyExchangeTableViewCell.swift in Sources */,
 				04FE56671FFCC33600A59434 /* HomeHeadView.swift in Sources */,
 				00BE6E9520283D300077198D /* SearchItemsViewController.swift in Sources */,
+				0088312A2040727D00A9553E /* RecomView.swift in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				00FB550D201B152100646485 /* Regular.swift in Sources */,
 				00158CFF2020061600B16C7A /* NavCenterView.swift in Sources */,
+				00B8AAC82029D3E900A58D28 /* LLImagePickerManager.m in Sources */,
+				00B8AAB82029D3CD00A58D28 /* NSString+LLExtension.m in Sources */,
+				00B8AABC2029D3CD00A58D28 /* UIViewController+LLExtension.m in Sources */,
 				00BE6E9320283C520077198D /* MSSAutoresizeLabelFlowCell.m in Sources */,
 				0012210D201F27C700DB4588 /* SepllGroupTableViewCell.swift in Sources */,
 				002E9A4D20219F960044F712 /* SepllDetailViewController.swift in Sources */,
 				042DF8381FECFD0500F5E021 /* MeViewController.swift in Sources */,
 				00FB5512201B2A5400646485 /* ForgetPasswordViewController.swift in Sources */,
+				00B8AAB92029D3CD00A58D28 /* UIImage+LLGif.m in Sources */,
 				00122101201F0DE300DB4588 /* ShinePieChart.swift in Sources */,
 				00B8AA8B20297EF200A58D28 /* EditorView.swift in Sources */,
+				00B8AABB2029D3CD00A58D28 /* UIView+LLExtension.m in Sources */,
 				042DF8281FECF88500F5E021 /* MainTabBarViewController.swift in Sources */,
 				00FB535B2028481200B18D9D /* SearchListView.m in Sources */,
 				00FB535F2028524A00B18D9D /* SearchTextView.swift in Sources */,
+				00B8AA992029A2C600A58D28 /* NoShopView.swift in Sources */,
 				048F24F62003745900097209 /* Extension+String.swift in Sources */,
 				042DF7FA1FECF7BE00F5E021 /* ViewController.swift in Sources */,
+				008831442040898000A9553E /* MyRecMoneyHeadView.swift in Sources */,
 				00FF71D420244EC500744A7F /* fillorderView.swift in Sources */,
 				00D91B6B201C68F1004B93D0 /* BroDisViewController.swift in Sources */,
 				99746C2420172D9F00B02DBB /* DetDownViewController.swift in Sources */,
@@ -1444,8 +1888,11 @@
 				042DF82A1FECF8BA00F5E021 /* MainNavigationController.swift in Sources */,
 				048F24F42003745900097209 /* Extension+UIBarButtonItem.swift in Sources */,
 				002E9A3E202155360044F712 /* SortingTableViewCell.swift in Sources */,
+				00883119204068EE00A9553E /* MyExchangeViewController.swift in Sources */,
 				00BE6E812028281D0077198D /* GoStoreHeadView.swift in Sources */,
+				00B8AA9D2029A34900A58D28 /* NoShopHeadView.swift in Sources */,
 				00BE6E7D202827F10077198D /* GoStoreViewController.swift in Sources */,
+				00C605BC202AE49A009792F6 /* ReturnWhyTableViewCell.swift in Sources */,
 				00FB550A201AD1D900646485 /* RegistViewController.swift in Sources */,
 				0452EA911FF49BE6008230EB /* NetworkTool.swift in Sources */,
 				002E9A612021CEDC0044F712 /* SmileActionSheet.swift in Sources */,
@@ -1454,25 +1901,38 @@
 				042DF8361FECFCFB00F5E021 /* TabBarThirViewController.swift in Sources */,
 				048F24F52003745900097209 /* Extension+UIView.swift in Sources */,
 				041E48BE1FF37A87008248D5 /* SwiftNotice.swift in Sources */,
+				0088313D2040844F00A9553E /* MyRecMoneyTableViewCell.swift in Sources */,
 				048F24F92003747100097209 /* WebViewController.m in Sources */,
 				04142FFE1FF0E37900E72DDD /* HomeTableViewCell.swift in Sources */,
 				002E9A4520216FE90044F712 /* HeadSectionView.swift in Sources */,
+				00B8AAC92029D3E900A58D28 /* LLImagePickerModel.m in Sources */,
 				00B3B42A2022FC7900531A09 /* FillOrderViewController.swift in Sources */,
+				008831392040842D00A9553E /* MyTeamMoneyTableViewCell.swift in Sources */,
 				048F24F02003738600097209 /* SQAutoScrollView.swift in Sources */,
 				00122106201F245500DB4588 /* SpellGroupViewController.swift in Sources */,
 				00FF71D820244FE600744A7F /* OrderBottomView.swift in Sources */,
 				048F24EE2003738600097209 /* SQPageControl.swift in Sources */,
 				43C0DFA5200C9DE800A8C3C0 /* UBaseTableViewHeaderFooterView.swift in Sources */,
+				0088310B2040108800A9553E /* AfterListViewController.swift in Sources */,
+				00C605AE202AD943009792F6 /* ReturnHeadView.m in Sources */,
+				00B8AAC72029D3E900A58D28 /* LLImagePickerCell.m in Sources */,
+				00B8AABA2029D3CD00A58D28 /* UIImageView+LLExtension.m in Sources */,
+				008831242040724500A9553E /* MyRecViewController.swift in Sources */,
+				00B8AACA2029D3E900A58D28 /* LLImagePickerView.m in Sources */,
 				001220FD201EFD4100DB4588 /* BorDisTableViewCell.swift in Sources */,
 				04EC91D71FF4EF5D00902F0F /* HomeModel.swift in Sources */,
+				00B8AAA52029AAEE00A58D28 /* ReturnMerViewController.swift in Sources */,
 				435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */,
+				0088310E204010D200A9553E /* AfterListLTableViewCell.swift in Sources */,
 				00B8AA952029854000A58D28 /* CouponsTableViewCell.swift in Sources */,
 				00B3B4252022EDDE00531A09 /* BuyShowView.swift in Sources */,
 				00F550052019BC0B00CD1FDF /* BaseViewController.swift in Sources */,
 				00122108201F248500DB4588 /* SepllGroupHeadView.swift in Sources */,
+				00883140204087E000A9553E /* TeamHeadView.swift in Sources */,
 				002E9A562021B3E10044F712 /* SepRulesViewController.swift in Sources */,
 				99746C082016D2D800B02DBB /* LPBannerView.swift in Sources */,
 				00BE6E9120283C520077198D /* MSSAutoresizeLabelFlowLayout.m in Sources */,
+				00C605C0202AEBC6009792F6 /* ButSureView.swift in Sources */,
 				006C464F20245F1700D78DCB /* PayOrderViewController.swift in Sources */,
 				00BE6E9220283C520077198D /* MSSAutoresizeLabelFlow.m in Sources */,
 				00B8AA90202983B200A58D28 /* CouponsView.swift in Sources */,
@@ -1482,24 +1942,32 @@
 				00F5500220198EB000CD1FDF /* LoginViewController.swift in Sources */,
 				044BE59B2005F8E300427691 /* HomeCollectionViewCell.swift in Sources */,
 				002E9A42202165700044F712 /* SortingCollectionViewCell.swift in Sources */,
+				00C605B7202AE2C3009792F6 /* ReturnWhyView.swift in Sources */,
 				002E9A502021A5DA0044F712 /* SepllComViewController.swift in Sources */,
+				00AD1883202AEF2F00D275BD /* GoodAfterViewController.swift in Sources */,
 				00158D0620201BEF00B16C7A /* SortingViewController.swift in Sources */,
 				00FB551C201B471500646485 /* MeHeadView.swift in Sources */,
 				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
 				00B8AA8620295B0800A58D28 /* ShoppingBottomView.swift in Sources */,
+				00B8AAB72029D3CD00A58D28 /* LLActionSheetView.m in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
 				00FB53B52028873F00B18D9D /* ShoppingTableViewCell.swift in Sources */,
+				00AD1886202AEF6700D275BD /* GoodAfterTableViewCell.swift in Sources */,
 				048F24EF2003738600097209 /* SQDotView.swift in Sources */,
 				042DF8341FECFCE800F5E021 /* TabBarSecViewController.swift in Sources */,
+				008831112040351400A9553E /* AfterSeationView.swift in Sources */,
 				99746C112016DE6F00B02DBB /* MerUPView.swift in Sources */,
 				00BE6E9020283C520077198D /* MSSAutoresizeLabelFlowConfig.m in Sources */,
 				00D91B6E201C696E004B93D0 /* HeadTextView.swift in Sources */,
+				0088313220407F1E00A9553E /* MyComsionViewController.swift in Sources */,
 				044BE5932005E8F600427691 /* UNoticeBar.swift in Sources */,
 				99746C1B20171D2100B02DBB /* EvaCenViewController.swift in Sources */,
+				008831272040725C00A9553E /* MyRecTableViewCell.swift in Sources */,
 				00D91B63201C482B004B93D0 /* MeCollectionViewCell.swift in Sources */,
 				435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */,
 				00BE6E782028024D0077198D /* payView.swift in Sources */,
 				99746C1E201725A900B02DBB /* TabDetailView.swift in Sources */,
+				0088313420407F3800A9553E /* MyComsionHeadView.swift in Sources */,
 				43C0DFA4200C9DE800A8C3C0 /* UBaseCollectionViewCell.swift in Sources */,
 				99746C092016D2D800B02DBB /* LPBannerCell.swift in Sources */,
 				00FB5505201ACB6B00646485 /* LaunchIntroductionView.m in Sources */,

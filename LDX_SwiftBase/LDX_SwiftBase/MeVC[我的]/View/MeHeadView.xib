@@ -179,6 +179,9 @@
                                 <constraint firstAttribute="height" constant="24" id="TxN-Rg-KeK"/>
                             </constraints>
                             <state key="normal" image="Me_4_0-th"/>
+                            <connections>
+                                <action selector="ButReturnClick:" destination="5xJ-WM-6w2" eventType="touchUpInside" id="TEo-9e-qsE"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待付款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuY-MN-HRe">
                             <rect key="frame" x="30.5" y="48" width="37" height="14.5"/>
@@ -256,6 +259,9 @@
                 <constraint firstAttribute="trailing" secondItem="CZi-yh-P93" secondAttribute="trailing" id="wrx-7T-noK"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ButReturn" destination="qdl-Ed-3bl" id="xK8-Uz-Gme"/>
+            </connections>
             <point key="canvasLocation" x="2.5" y="-108.5"/>
         </view>
     </objects>

@@ -24,6 +24,7 @@ pod 'Reusable'
 pod 'IQKeyboardManagerSwift'
 pod 'SDWebImage'
 pod 'Spring'
-
+pod 'TZImagePickerController' , '~> 1.7.9'
+pod 'MWPhotoBrowser' , '~> 2.1.2'
 
 end

@@ -74,18 +74,28 @@ class TabBarThirViewController: BaseViewController,UITableViewDataSource,UITable
         return nibView as! EditorView
     }()
 
+    //购物车无内容
+    fileprivate lazy var noShopView: NoShopView = {
+        let nibView = Bundle.main.loadNibNamed("NoShopView", owner: nil, options: nil)?.first
+        return nibView as! NoShopView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //编辑View
-        editorView.frame = CGRect(x: 0, y: 64, width: SCREEN_WIDTH, height: 44)
-        self.view.addSubview(editorView)
-        //tabView创建
-        ShoppingTabView.register(ShoppSectionView.self, forHeaderFooterViewReuseIdentifier: SectionCellId)
-        self.view.addSubview(self.ShoppingTabView)
-        //添加购物车
-        shoppBottomView.frame = CGRect(x: 0, y: SCREEN_HEIGHT-49-50, width: SCREEN_WIDTH, height: 50)
-        self.view.addSubview(shoppBottomView)
+        
+        //MARK: ==========购物车无商品时显示=========
+        noShopView.frame = CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT)
+        self.view.addSubview(noShopView)
+        //MARK: ==========购物车有商品时=========
+//        //编辑View
+//        editorView.frame = CGRect(x: 0, y: 64, width: SCREEN_WIDTH, height: 44)
+//        self.view.addSubview(editorView)
+//        //tabView创建
+//        ShoppingTabView.register(ShoppSectionView.self, forHeaderFooterViewReuseIdentifier: SectionCellId)
+//        self.view.addSubview(self.ShoppingTabView)
+//        //添加购物车
+//        shoppBottomView.frame = CGRect(x: 0, y: SCREEN_HEIGHT-49-50, width: SCREEN_WIDTH, height: 50)
+//        self.view.addSubview(shoppBottomView)
         
         
         

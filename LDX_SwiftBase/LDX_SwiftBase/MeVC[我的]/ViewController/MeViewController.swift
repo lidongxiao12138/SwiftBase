@@ -58,9 +58,19 @@ class MeViewController: BaseViewController,UICollectionViewDelegate,UICollection
     }
     //点击事件
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        let merDetail = MerDetailViewController()
-        self.navigationController?.pushViewController(merDetail, animated: true)
+        if indexPath.row == 4 {
+            let myexchange = MyExchangeViewController()
+            navigationController?.pushViewController(myexchange, animated: true)
+        }
+        if indexPath.row == 5 {
+            let myrecomVC = MyRecViewController()
+            navigationController?.pushViewController(myrecomVC, animated: true)
+        }
+        if indexPath.row == 6 {
+            let myMoney = MyComsionViewController()
+            navigationController?.pushViewController(myMoney, animated: true)
+        }
+
         
         print(indexPath)
     }

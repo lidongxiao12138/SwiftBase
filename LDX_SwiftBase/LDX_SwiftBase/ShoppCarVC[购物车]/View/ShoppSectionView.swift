@@ -18,18 +18,19 @@ class ShoppSectionView: UBaseTableViewHeaderFooterView {
         couponsView.frame = CGRect(x: 0, y:0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - 100 - 64)
         self.window?.addSubview(couponsView)
     }
-    /*
+    
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
+        
+        
         // Drawing code
     }
-    */
+ 
     
     //显示优惠券
     fileprivate lazy var couponsView: CouponsView = {
         let nibView = Bundle.main.loadNibNamed("CouponsView", owner: nil, options: nil)?.first
         return nibView as! CouponsView
     }()
-
 }

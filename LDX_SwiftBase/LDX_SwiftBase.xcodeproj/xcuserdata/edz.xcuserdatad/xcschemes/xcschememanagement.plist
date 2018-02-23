@@ -7,7 +7,25 @@
 		<key>LDX_SwiftBase.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>25</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>042DF7F31FECF7BE00F5E021</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>042DF8071FECF7BE00F5E021</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>042DF8121FECF7BE00F5E021</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nFV-6c-3Yq" customClass="AfterSeationView" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQn-hO-rgs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleLogo" translatesAutoresizingMaskIntoConstraints="NO" id="SMP-DH-u6q">
+                    <rect key="frame" x="12" y="10.5" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="DJe-no-uLr"/>
+                        <constraint firstAttribute="width" constant="22" id="IBJ-7R-4s3"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="苹果官方旗舰店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5u-Qx-Prx">
+                    <rect key="frame" x="46" y="13" width="100" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWc-cV-j4H">
+                    <rect key="frame" x="309" y="7" width="54" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="拼团订单">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aQn-hO-rgs" firstAttribute="top" secondItem="nFV-6c-3Yq" secondAttribute="top" id="119-Pe-6cU"/>
+                <constraint firstAttribute="trailing" secondItem="wWc-cV-j4H" secondAttribute="trailing" constant="12" id="Bqc-rI-ugk"/>
+                <constraint firstAttribute="trailing" secondItem="aQn-hO-rgs" secondAttribute="trailing" id="FUe-Mu-G7x"/>
+                <constraint firstItem="SMP-DH-u6q" firstAttribute="leading" secondItem="nFV-6c-3Yq" secondAttribute="leading" constant="12" id="I3s-Nf-PKV"/>
+                <constraint firstItem="W5u-Qx-Prx" firstAttribute="leading" secondItem="SMP-DH-u6q" secondAttribute="trailing" constant="12" id="ch2-Ob-yRJ"/>
+                <constraint firstItem="wWc-cV-j4H" firstAttribute="centerY" secondItem="W5u-Qx-Prx" secondAttribute="centerY" id="e6t-X7-Ld2"/>
+                <constraint firstItem="aQn-hO-rgs" firstAttribute="leading" secondItem="nFV-6c-3Yq" secondAttribute="leading" id="oS7-If-GbW"/>
+                <constraint firstItem="SMP-DH-u6q" firstAttribute="centerY" secondItem="aQn-hO-rgs" secondAttribute="centerY" id="rm8-TP-b9p"/>
+                <constraint firstItem="W5u-Qx-Prx" firstAttribute="centerY" secondItem="SMP-DH-u6q" secondAttribute="centerY" id="vWQ-vN-Aak"/>
+                <constraint firstAttribute="bottom" secondItem="aQn-hO-rgs" secondAttribute="bottom" id="yGw-6S-Dre"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-116.5" y="274"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="appleLogo" width="49" height="49"/>
+    </resources>
+</document>

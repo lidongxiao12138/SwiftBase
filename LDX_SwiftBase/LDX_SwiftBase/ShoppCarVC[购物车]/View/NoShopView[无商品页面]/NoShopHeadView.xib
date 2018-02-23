@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aUB-Uz-LrD" customClass="NoShopHeadView" customModule="LDX_SwiftBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="310"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAY-Oe-l7S">
+                    <rect key="frame" x="0.0" y="260" width="375" height="49"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热卖单品 精挑细选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oe-c3-aP3">
+                            <rect key="frame" x="124" y="16" width="126.5" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="4vK-bu-Cgq"/>
+                        <constraint firstItem="5oe-c3-aP3" firstAttribute="centerY" secondItem="TAY-Oe-l7S" secondAttribute="centerY" id="ebS-Ny-wbb"/>
+                        <constraint firstItem="5oe-c3-aP3" firstAttribute="centerX" secondItem="TAY-Oe-l7S" secondAttribute="centerX" id="vCm-Ci-kSs"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShopCar_image_03_1" translatesAutoresizingMaskIntoConstraints="NO" id="dSt-Af-YJR">
+                    <rect key="frame" x="88.5" y="44" width="198" height="130"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购物车空空如也，赶紧去逛逛吧~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVM-ai-REh">
+                    <rect key="frame" x="83" y="203" width="209" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="sVM-ai-REh" firstAttribute="top" secondItem="dSt-Af-YJR" secondAttribute="bottom" constant="29" id="7AR-Ob-LeM"/>
+                <constraint firstItem="sVM-ai-REh" firstAttribute="centerX" secondItem="dSt-Af-YJR" secondAttribute="centerX" id="J6m-sn-Znd"/>
+                <constraint firstItem="TAY-Oe-l7S" firstAttribute="top" secondItem="aUB-Uz-LrD" secondAttribute="top" constant="260" id="ZVa-0Q-FT4"/>
+                <constraint firstItem="TAY-Oe-l7S" firstAttribute="leading" secondItem="aUB-Uz-LrD" secondAttribute="leading" id="hGa-hf-CgI"/>
+                <constraint firstItem="dSt-Af-YJR" firstAttribute="centerX" secondItem="aUB-Uz-LrD" secondAttribute="centerX" id="hdb-n0-zJd"/>
+                <constraint firstAttribute="trailing" secondItem="TAY-Oe-l7S" secondAttribute="trailing" id="m5u-tE-LG0"/>
+                <constraint firstItem="dSt-Af-YJR" firstAttribute="top" secondItem="aUB-Uz-LrD" secondAttribute="top" constant="44" id="xgi-nn-3AV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="61" y="61"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ShopCar_image_03_1" width="198" height="130"/>
+    </resources>
+</document>

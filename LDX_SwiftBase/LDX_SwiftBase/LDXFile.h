@@ -14,6 +14,9 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "MSSAutoresizeLabelFlow.h"
 #import "SearchListView.h"
+#import "LLImagePickerView.h"
+#import "LLImagePickerModel.h"
+#import "ReturnHeadView.h"
 #define KScreenWidth [UIScreen mainScreen].bounds.size.width
 #define KScreenHeight [UIScreen mainScreen].bounds.size.height
 #define BaseLDXColor       [UIColor colorWithRed:245.0f/255.0 green:245.0f/255.0 blue:245.0f/255.0 alpha:1.0f]

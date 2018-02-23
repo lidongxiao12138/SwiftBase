@@ -10,12 +10,20 @@ import UIKit
 
 class MeHeadView: UBaseCollectionReusableView {
 
-    /*
+    @IBOutlet weak var ButReturn: UIButton!
+    
+    @IBAction func ButReturnClick(_ sender: UIButton) {
+        let returnView = ReturnMerViewController()
+        self.viewController()?.navigationController?.pushViewController(returnView, animated: true)
+        
+    }
+    
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
+        
         // Drawing code
     }
-    */
+ 
 
 }
