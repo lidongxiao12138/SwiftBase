@@ -25,6 +25,8 @@ pod 'IQKeyboardManagerSwift'
 pod 'SDWebImage'
 pod 'Spring'
 pod 'UITableView+FDTemplateLayoutCell'
+pod 'MJExtension'
+pod 'AFNetworking'
 
 
 end

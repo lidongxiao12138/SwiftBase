@@ -133,6 +133,9 @@
 		38602481202C559500325E87 /* LDXSendForumTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38602480202C559500325E87 /* LDXSendForumTypeView.swift */; };
 		38843CDF202D40B8007F10C5 /* LDXSendForumSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */; };
 		38843CE1202D6844007F10C5 /* LDXSendExhibitionImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38843CE0202D6844007F10C5 /* LDXSendExhibitionImageView.swift */; };
+		3885A0D8203FB3F70097C1B6 /* LDXHttpRequestPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885A0D7203FB3F70097C1B6 /* LDXHttpRequestPath.swift */; };
+		3885A0DB203FB57C0097C1B6 /* LDXHTTPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885A0DA203FB57C0097C1B6 /* LDXHTTPTool.swift */; };
+		3885A0E1203FBC6C0097C1B6 /* LDXHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885A0E0203FBC6C0097C1B6 /* LDXHTTPResponse.m */; };
 		435E408C200DAB36003B1044 /* MerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E408B200DAB36003B1044 /* MerDetailViewController.swift */; };
 		435E4091200DF1AC003B1044 /* DetailSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E4090200DF1AC003B1044 /* DetailSegmentView.swift */; };
 		435E4093200DF1B5003B1044 /* DetailSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435E4092200DF1B5003B1044 /* DetailSegmentView.xib */; };
@@ -329,6 +332,10 @@
 		38602480202C559500325E87 /* LDXSendForumTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumTypeView.swift; sourceTree = "<group>"; };
 		38843CDE202D40B8007F10C5 /* LDXSendForumSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendForumSearchView.swift; sourceTree = "<group>"; };
 		38843CE0202D6844007F10C5 /* LDXSendExhibitionImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXSendExhibitionImageView.swift; sourceTree = "<group>"; };
+		3885A0D7203FB3F70097C1B6 /* LDXHttpRequestPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXHttpRequestPath.swift; sourceTree = "<group>"; };
+		3885A0DA203FB57C0097C1B6 /* LDXHTTPTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDXHTTPTool.swift; sourceTree = "<group>"; };
+		3885A0DF203FBC6C0097C1B6 /* LDXHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXHTTPResponse.h; sourceTree = "<group>"; };
+		3885A0E0203FBC6C0097C1B6 /* LDXHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDXHTTPResponse.m; sourceTree = "<group>"; };
 		3BEBD4F83217B5D5652AC255 /* Pods-LDX_SwiftBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDX_SwiftBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDX_SwiftBase/Pods-LDX_SwiftBase.release.xcconfig"; sourceTree = "<group>"; };
 		435E408B200DAB36003B1044 /* MerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerDetailViewController.swift; sourceTree = "<group>"; };
 		435E4090200DF1AC003B1044 /* DetailSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSegmentView.swift; sourceTree = "<group>"; };
@@ -985,6 +992,9 @@
 		042DF8251FECF7EE00F5E021 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3885A0DC203FB9160097C1B6 /* Model */,
+				3885A0D9203FB5570097C1B6 /* Util */,
+				3885A0D2203FB2E80097C1B6 /* Other */,
 				43C0DF9F200C9DD300A8C3C0 /* BaseView */,
 				042DF8261FECF81B00F5E021 /* BaseController */,
 			);
@@ -1094,6 +1104,31 @@
 				3860247B202C42E300325E87 /* LDXSendForumViewController.swift */,
 			);
 			path = VIewController;
+			sourceTree = "<group>";
+		};
+		3885A0D2203FB2E80097C1B6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3885A0D7203FB3F70097C1B6 /* LDXHttpRequestPath.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3885A0D9203FB5570097C1B6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3885A0DA203FB57C0097C1B6 /* LDXHTTPTool.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3885A0DC203FB9160097C1B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3885A0DF203FBC6C0097C1B6 /* LDXHTTPResponse.h */,
+				3885A0E0203FBC6C0097C1B6 /* LDXHTTPResponse.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3BF8D250AE6B0F50858E0299 /* Frameworks */ = {
@@ -1492,6 +1527,7 @@
 				38602464202AA22F00325E87 /* UIFont+LayoutFit.m in Sources */,
 				0413C57A1FFE22C5007E19BD /* TYCyclePagerViewCell.swift in Sources */,
 				00FB550D201B152100646485 /* Regular.swift in Sources */,
+				3885A0DB203FB57C0097C1B6 /* LDXHTTPTool.swift in Sources */,
 				00158CFF2020061600B16C7A /* NavCenterView.swift in Sources */,
 				00BE6E9320283C520077198D /* MSSAutoresizeLabelFlowCell.m in Sources */,
 				0012210D201F27C700DB4588 /* SepllGroupTableViewCell.swift in Sources */,
@@ -1505,6 +1541,7 @@
 				3860245F202A93A800325E87 /* LDXForumTopView.swift in Sources */,
 				00FB535B2028481200B18D9D /* SearchListView.m in Sources */,
 				38602465202AA22F00325E87 /* UIView+LayoutFit.m in Sources */,
+				3885A0D8203FB3F70097C1B6 /* LDXHttpRequestPath.swift in Sources */,
 				00FB535F2028524A00B18D9D /* SearchTextView.swift in Sources */,
 				38602467202AD6CB00325E87 /* LDXForumTableViewCell.swift in Sources */,
 				048F24F62003745900097209 /* Extension+String.swift in Sources */,
@@ -1566,6 +1603,7 @@
 				00FB551C201B471500646485 /* MeHeadView.swift in Sources */,
 				43C0DFA6200C9DE800A8C3C0 /* UBaseCollectionReusableView.swift in Sources */,
 				38602481202C559500325E87 /* LDXSendForumTypeView.swift in Sources */,
+				3885A0E1203FBC6C0097C1B6 /* LDXHTTPResponse.m in Sources */,
 				00B8AA8620295B0800A58D28 /* ShoppingBottomView.swift in Sources */,
 				38602469202ADA6C00325E87 /* LDXForumImageContentView.swift in Sources */,
 				042DF7F81FECF7BE00F5E021 /* AppDelegate.swift in Sources */,
